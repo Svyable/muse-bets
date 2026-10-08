@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MUSE BETS — the ledger</title>
+<meta name="description" content="Every sports bet logged before the event, graded on CLV, calibration and ROI. The loop's job is to find what works.">
+<style>
+:root{--bg:#0a0e14;--card:#131a24;--card2:#0f141d;--line:#1f2937;--txt:#e6edf3;--dim:#8b949e;--grn:#3fb950;--red:#f85149;--amber:#d29922;--blu:#58a6ff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;line-height:1.5;padding:24px 16px 64px}
+.wrap{max-width:1080px;margin:0 auto}
+header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+h1{font-size:34px;letter-spacing:2px;font-weight:800}
+h1 .muse{color:var(--blu)}
+.sub{color:var(--dim);font-size:14px;margin-bottom:20px}
+.sub a{color:var(--blu);text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.card .k{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--dim);margin-bottom:6px}
+.card .v{font-size:30px;font-weight:800;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.card .d{font-size:13px;color:var(--dim);margin-top:4px}
+.grn{color:var(--grn)}.red{color:var(--red)}.amber{color:var(--amber)}
+.hero-note{background:linear-gradient(135deg,#14261a,#0f141d);border:1px solid #1d3a26;border-radius:10px;padding:16px 18px;margin-bottom:16px;font-size:15px}
+.hero-note b{color:var(--grn)}
+h2{font-size:18px;margin:26px 0 12px;letter-spacing:.5px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;margin-bottom:16px}
+.bar-row{display:grid;grid-template-columns:170px 1fr 90px;gap:10px;align-items:center;margin:7px 0;font-size:14px}
+.bar-row .lbl{color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-track{background:var(--card2);border-radius:5px;height:20px;position:relative;overflow:hidden}
+.bar-fill{height:100%;border-radius:5px;background:var(--blu)}
+.bar-fill.hot{background:var(--grn)}.bar-fill.cold{background:var(--red)}
+.bar-row .pct{font-family:ui-monospace,Menlo,monospace;text-align:right}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;color:var(--dim);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.5px;padding:8px;border-bottom:1px solid var(--line)}
+td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:none}
+.badge{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.4px}
+.b-staked{background:#12331c;color:var(--grn);border:1px solid #1d5c2e}
+.b-paper{background:#1c1a12;color:var(--amber);border:1px solid #5c4a1d}
+.b-qual{background:#12283d;color:var(--blu);border:1px solid #1d4a5c}
+.b-bb{background:#241316;color:var(--dim);border:1px solid #3a2426}
+.odds{font-family:ui-monospace,Menlo,monospace;white-space:nowrap}
+.reason{color:var(--dim);font-size:12.5px}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.rules .card p{font-size:13.5px;color:#c9d1d9}
+.rules .card b{color:var(--txt)}
+footer{margin-top:36px;color:var(--dim);font-size:13px}
+footer a{color:var(--blu);text-decoration:none}
+#equity{width:100%;height:220px}
+.axis{font-size:10px;fill:var(--dim)}
+@media(max-width:640px){.bar-row{grid-template-columns:110px 1fr 70px}h1{font-size:26px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1><span class="muse">MUSE</span> BETS</h1>
+<div class="sub">the ledger · updated <span id="updated"></span> · <a href="https://github.com/Svyable/muse-bets">github.com/Svyable/muse-bets</a></div>
+</header>
+<p class="sub" style="margin-top:-8px">Every pick logged <b>before</b> the event. Graded on hit rate, ROI, closing-line value, and calibration. The loop's job is to find what works — not defend a method.</p>
+
+<div class="hero-note">🎯 <b>The north star:</b> Sven's own 7-leg NFL player-prop parlay — $50 staked, <b>$12,328.17</b> won (Sept 17, 2026). That wasn't a model pick; it was his. The props discovery lane exists to hunt <b>repeatable</b> versions of that kind of mispriced action.</div>
+
+<div class="grid" id="statcards"></div>
+
+<h2>Equity curve (units, 1u flat)</h2>
+<div class="panel"><svg id="equity" viewBox="0 0 1000 220" preserveAspectRatio="none"></svg></div>
+
+<h2>Hit rate by sport</h2>
+<div class="panel" id="bySport"></div>
+
+<h2>Hit rate by market</h2>
+<div class="panel" id="byMarket"></div>
+
+<h2>Hit rate by approach</h2>
+<div class="panel" id="byApproach"></div>
+
+<h2>Calibration — stated confidence vs actual</h2>
+<div class="panel"><table><thead><tr><th>Bucket</th><th>n</th><th>Stated</th><th>Actual</th><th>Gap</th></tr></thead><tbody id="calBody"></tbody></table></div>
+
+<h2>Latest card — <span id="cardDate"></span> <span style="color:var(--dim);font-size:13px">(ranks 1–5 staked · 6–20 paper)</span></h2>
+<div class="panel" style="overflow-x:auto"><table><thead><tr><th>#</th><th>Game</th><th>Pick</th><th>Odds</th><th>Conf</th><th>Edge</th><th>Tier</th></tr></thead><tbody id="cardBody"></tbody></table></div>
+
+<h2>The rules</h2>
+<div class="rules">
+<div class="card"><p><b>Edge bar.</b> A leg only qualifies if model probability beats market implied probability by ≥4% — ≥6% for marquee public brands and home sides.</p></div>
+<div class="card"><p><b>Concentration.</b> Volume goes to the best slice. NFL (16-10) leads, so NFL slates build NFL-first; no-NFL slates run discovery mode across all sports.</p></div>
+<div class="card"><p><b>Dogfood.</b> 20 stack-ranked legs daily. Ranks 1–5 are staked and graded against an 80% hit-rate goal. Ranks 6–20 are paper — zero risk, pure data.</p></div>
+<div class="card"><p><b>Props lane.</b> Player props and alt lines are hunted separately for repeatably mispriced DraftKings action — never mixed into core evidence.</p></div>
+<div class="card"><p><b>CLV is the scoreboard.</b> Did we beat the closing line? Process over results, ruthlessly.</p></div>
+<div class="card"><p><b>Silver thresholds.</b> Under 50 legs = preliminary. 50+ = real rule changes. Approaches that don't earn their keep get cut.</p></div>
+</div>
+
+<footer>
+Raw data: <a href="data/pick-ledger.jsonl">pick-ledger.jsonl</a> · <a href="data/prop-ledger.jsonl">prop-ledger.jsonl</a> · <a href="data/legs.csv">legs.csv</a> · <a href="data/bet-matrix.xlsx">bet-matrix.xlsx</a> · <a href="docs/strategy.md">strategy</a> · weekly reviews: <a href="docs/weekly-review-2026-09-21.md">9/21</a> <a href="docs/weekly-review-2026-09-28.md">9/28</a> <a href="docs/weekly-review-2026-10-05.md">10/5</a><br>
+Stakes tracked in units, not dollars. Nothing here is financial advice.
+</footer>
+</div>
+<script>
+fetch('site-data.json').then(r=>r.json()).then(d=>{
+document.getElementById('updated').textContent=d.updated;
+document.getElementById('cardDate').textContent=d.latest_date;
+const t=d.tickets,l=d.legs,lastEq=d.equity.length?d.equity[d.equity.length-1].units:0;
+const sc=document.getElementById('statcards');
+sc.innerHTML=`
+<div class="card"><div class="k">Tickets</div><div class="v">${t.w}-${t.l}</div><div class="d">${(100*t.w/(t.w+t.l)).toFixed(1)}% hit</div></div>
+<div class="card"><div class="k">Legs</div><div class="v">${l.w}-${l.l}</div><div class="d">${l.pct}% · n=${l.n}</div></div>
+<div class="card"><div class="k">Units (1u flat)</div><div class="v ${lastEq>=0?'grn':'red'}">${lastEq>=0?'+':''}${lastEq}u</div><div class="d">cumulative, settled tickets</div></div>
+<div class="card"><div class="k">Best slice</div><div class="v grn">NFL</div><div class="d">16-10 (61.5%) · concentration target</div></div>`;
+// equity curve
+const svg=document.getElementById('equity'),W=1000,H=220,P=30;
+const pts=d.equity; if(pts.length){
+const min=Math.min(...pts.map(p=>p.units),0),max=Math.max(...pts.map(p=>p.units),0),rg=(max-min)||1;
+const X=i=>P+i*(W-2*P)/Math.max(pts.length-1,1), Y=v=>H-P-(v-min)/rg*(H-2*P);
+let path=pts.map((p,i)=>(i?'L':'M')+X(i).toFixed(1)+','+Y(p.units).toFixed(1)).join(' ');
+const zeroY=Y(0);
+svg.innerHTML=`<line x1="${P}" y1="${zeroY}" x2="${W-P}" y2="${zeroY}" stroke="#1f2937"/>
+<path d="${path}" fill="none" stroke="${lastEq>=0?'#3fb950':'#f85149'}" stroke-width="2.5"/>
+<text x="${W-P}" y="${Y(pts[pts.length-1].units)-8}" text-anchor="end" class="axis">${pts[pts.length-1].units>=0?'+':''}${pts[pts.length-1].units}u</text>
+<text x="${P}" y="${H-8}" class="axis">${pts[0].date}</text>
+<text x="${W-P}" y="${H-8}" text-anchor="end" class="axis">${pts[pts.length-1].date}</text>`;}
+function bars(el,rows){
+const e=document.getElementById(el);
+e.innerHTML=rows.map(r=>{const cls=r.pct>=55?'hot':r.pct<45?'cold':'';
+return `<div class="bar-row"><div class="lbl">${r.k}</div><div class="bar-track"><div class="bar-fill ${cls}" style="width:${r.pct}%"></div></div><div class="pct">${r.pct}% <span style="color:var(--dim)">n=${r.n}</span></div></div>`}).join('');}
+bars('bySport',d.by_sport);bars('byMarket',d.by_market);bars('byApproach',d.by_approach.slice(0,8));
+document.getElementById('calBody').innerHTML=d.calibration.map(c=>{const gap=(c.actual-c.stated).toFixed(1);
+return `<tr><td>${c.bucket}%</td><td>${c.n}</td><td>${c.stated}%</td><td>${c.actual}%</td><td class="${gap>=0?'grn':'red'}">${gap>0?'+':''}${gap}pp</td></tr>`}).join('');
+document.getElementById('cardBody').innerHTML=d.card.map(c=>{
+const odds=c.odds==null?'—':(c.odds>0?'+'+c.odds:c.odds);
+const line=c.line==null?'':(' '+c.line);
+return `<tr><td class="odds">${c.rank}</td><td><b>${c.pick}${line}</b><br><span class="reason">${c.sport} · ${c.matchup}</span></td>
+<td class="odds">${odds}</td><td>${c.conf}%</td><td>${c.edge||'—'}</td>
+<td><span class="badge ${c.staked?'b-staked':'b-paper'}">${c.staked?'STAKED':'PAPER'}</span> <span class="badge ${c.qualified?'b-qual':'b-bb'}">${c.qualified?'QUAL':'BELOW-BAR'}</span></td></tr>
+<tr><td></td><td colspan="5" class="reason">${c.reason||''}</td></tr>`}).join('');
+});
+</script>
+</body>
+</html>

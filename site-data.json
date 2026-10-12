@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "tickets": {
-    "w": 31,
+    "w": 32,
     "l": 53
   },
   "legs": {
-    "w": 70,
-    "l": 72,
-    "n": 142,
-    "pct": 49.3
+    "w": 82,
+    "l": 79,
+    "n": 161,
+    "pct": 50.9
   },
   "equity": [
     {
@@ -82,6 +82,12 @@
   ],
   "by_sport": [
     {
+      "k": "NFL",
+      "n": 48,
+      "w": 30,
+      "pct": 62.5
+    },
+    {
       "k": "MLB",
       "n": 38,
       "w": 16,
@@ -92,12 +98,6 @@
       "n": 35,
       "w": 17,
       "pct": 48.6
-    },
-    {
-      "k": "NFL",
-      "n": 29,
-      "w": 18,
-      "pct": 62.1
     },
     {
       "k": "NHL",
@@ -114,30 +114,30 @@
   ],
   "by_market": [
     {
-      "k": "moneyline",
-      "n": 56,
-      "w": 29,
-      "pct": 51.8
+      "k": "spread",
+      "n": 59,
+      "w": 33,
+      "pct": 55.9
     },
     {
-      "k": "spread",
-      "n": 51,
+      "k": "moneyline",
+      "n": 57,
       "w": 29,
-      "pct": 56.9
+      "pct": 50.9
     },
     {
       "k": "total",
-      "n": 35,
-      "w": 12,
-      "pct": 34.3
+      "n": 45,
+      "w": 20,
+      "pct": 44.4
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 48,
-      "w": 27,
-      "pct": 56.2
+      "n": 62,
+      "w": 36,
+      "pct": 58.1
     },
     {
       "k": "model-value (total)",
@@ -146,16 +146,16 @@
       "pct": 40.0
     },
     {
-      "k": "model-edge (SP mismatch)",
+      "k": "line-movement",
       "n": 10,
       "w": 4,
       "pct": 40.0
     },
     {
-      "k": "line-movement",
-      "n": 7,
-      "w": 2,
-      "pct": 28.6
+      "k": "model-edge (SP mismatch)",
+      "n": 10,
+      "w": 4,
+      "pct": 40.0
     },
     {
       "k": "fpi-value",
@@ -189,6 +189,12 @@
     },
     {
       "k": "model-value (total estimate)",
+      "n": 3,
+      "w": 1,
+      "pct": 33.3
+    },
+    {
+      "k": "situational",
       "n": 3,
       "w": 1,
       "pct": 33.3
@@ -270,12 +276,6 @@
       "n": 1,
       "w": 1,
       "pct": 100.0
-    },
-    {
-      "k": "situational",
-      "n": 1,
-      "w": 0,
-      "pct": 0.0
     },
     {
       "k": "situational (QB mismatch)",
@@ -389,9 +389,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 95,
+      "n": 114,
       "stated": 54.8,
-      "actual": 48.4
+      "actual": 50.9
     },
     {
       "bucket": "<50",
@@ -400,267 +400,189 @@
       "actual": 50.0
     }
   ],
-  "latest_date": "2026-10-11",
+  "latest_date": "2026-10-12",
   "card": [
     {
       "rank": 1,
-      "sport": "NFL",
-      "matchup": "CLE @ NYJ",
-      "pick": "Browns +2.5",
-      "line": 2.5,
-      "odds": -110,
-      "conf": 59,
-      "edge": "+6.4pp",
-      "staked": true,
-      "qualified": true,
-      "reason": "3-1 CLE (Watson 69.6% comp) vs 1-3 NYJ minus Breece Hall (out); fair ~CLE -0.5, number 3 pts off."
+      "sport": "MLB",
+      "matchup": "CLE @ TB (ALCS G1)",
+      "pick": "Rays -1.5",
+      "line": -1.5,
+      "odds": 130,
+      "conf": 49,
+      "edge": "+5.8pp vs 6% bar - NEAR-MISS",
+      "staked": false,
+      "qualified": false,
+      "reason": "Rasmussen (2.67 ERA, no-no into 8th in ALDS G1) vs Griffin (3.60, threw in relief G3); TB 98 wins, 5-1 H2H, rested; CLE .213 playoff BA. Fair TB win ~65% -> -1.5 cover ~49%."
     },
     {
       "rank": 2,
-      "sport": "NFL",
-      "matchup": "MIN @ NO",
-      "pick": "Vikings -2.5",
-      "line": -2.5,
-      "odds": 100,
-      "conf": 56,
-      "edge": "+5.9pp",
-      "staked": true,
-      "qualified": true,
-      "reason": "4-0 MIN (league-best 12.8 PPG allowed, Murray now at QB) vs 1-3 NO (32nd, 32.0 PPG allowed); fair ~MIN -4.5."
+      "sport": "NHL",
+      "matchup": "VGK @ MIN",
+      "pick": "Golden Knights ML",
+      "line": null,
+      "odds": -102,
+      "conf": 53,
+      "edge": "+2.5pp - BELOW-BAR",
+      "staked": false,
+      "qualified": false,
+      "reason": "5-1 VGK (4 straight wins) vs 3-1-1 MIN minus Faber (D) and Gustavsson (G); line flipped too far from VGK-favored open."
     },
     {
       "rank": 3,
       "sport": "NFL",
-      "matchup": "CHI @ GB",
-      "pick": "Under 46.5",
-      "line": 46.5,
+      "matchup": "BUF @ LAR (MNF)",
+      "pick": "Bills +3.5",
+      "line": 3.5,
       "odds": -118,
-      "conf": 59,
-      "edge": "+4.9pp",
-      "staked": true,
-      "qualified": true,
-      "reason": "Bagent dink-and-dunk + GB OL/WR injuries; last-4 game totals avg 37; fair ~43.5."
+      "conf": 56,
+      "edge": "+1.8pp - BELOW-BAR",
+      "staked": false,
+      "qualified": false,
+      "reason": "Steam LAR -2.5 -> -3.5 on Bills bad news looks full; fair ~LAR -1.5. Allen indoor splits elite; public on marquee-ish Rams."
     },
     {
       "rank": 4,
       "sport": "NFL",
-      "matchup": "CLE @ NYJ",
-      "pick": "Browns ML",
-      "line": null,
-      "odds": 114,
-      "conf": 51,
-      "edge": "+4.3pp",
-      "staked": true,
-      "qualified": true,
-      "reason": "Fair ~51% win prob (CLE -0.5) vs 46.7% implied; same game as rank 1 - correlated."
+      "matchup": "BUF @ LAR (MNF)",
+      "pick": "Under 54.5",
+      "line": 54.5,
+      "odds": -110,
+      "conf": 55,
+      "edge": "+2.2pp - BELOW-BAR",
+      "staked": false,
+      "qualified": false,
+      "reason": "Tallest total on the board; Rams D allows 4.0 yds/play (elite), Rams score just 21.3/g. Fair ~53-54."
     },
     {
       "rank": 5,
-      "sport": "NFL",
-      "matchup": "IND @ PIT",
-      "pick": "Over 43.5",
-      "line": 43.5,
-      "odds": -108,
-      "conf": 56,
-      "edge": "+4.2pp",
-      "staked": true,
-      "qualified": true,
-      "reason": "PIT games averaging 54 total, IND 39.5; fair ~45.5."
+      "sport": "MLB",
+      "matchup": "CLE @ TB (ALCS G1)",
+      "pick": "Rays ML",
+      "line": null,
+      "odds": -172,
+      "conf": 50,
+      "edge": "+1.5pp - BELOW-BAR",
+      "staked": false,
+      "qualified": false,
+      "reason": "Same game as rank 1: pitching + rest + home edge; fair ~65% win vs 63.2% implied. Conf haircut (raw>=60)."
     },
     {
       "rank": 6,
-      "sport": "NFL",
-      "matchup": "PHI @ JAX (London)",
-      "pick": "Eagles +7.5",
-      "line": 7.5,
-      "odds": 100,
-      "conf": 56,
-      "edge": "+5.9pp vs 6% marquee bar - NEAR-MISS",
+      "sport": "NHL",
+      "matchup": "OTT @ NJD",
+      "pick": "Senators ML",
+      "line": null,
+      "odds": 114,
+      "conf": 48,
+      "edge": "+1.3pp - BELOW-BAR",
       "staked": false,
       "qualified": false,
-      "reason": "4-pt steam on PHI injury news (Barkley/WRs/OL out) looks overdone; fair ~JAX -5.5. Backing marquee PHI needs 6% - 5.9% just misses."
+      "reason": "OTT 4-1, Ullmark 4-0/1.34/.942 vs 2-2 NJD at -135. Sanderson day-to-day tempers it."
     },
     {
       "rank": 7,
-      "sport": "NFL",
-      "matchup": "CIN @ MIA",
-      "pick": "Dolphins +7",
-      "line": 7,
-      "odds": -110,
-      "conf": 58,
-      "edge": "+4.9pp vs 6% home bar - NEAR-MISS",
+      "sport": "MLB",
+      "matchup": "LAD @ MIL (NLCS G2)",
+      "pick": "Brewers ML",
+      "line": null,
+      "odds": 115,
+      "conf": 48,
+      "edge": "+1.0pp - BELOW-BAR",
       "staked": false,
       "qualified": false,
-      "reason": "Willis-led MIA getting a full TD at home; Burrow back but Chase/Higgins Q; fair ~CIN -4.5."
+      "reason": "103-win home team in a coin-flip aces duel (Yamamoto vs Henderson, both sub-2.55 ERA). Best price +115."
     },
     {
       "rank": 8,
-      "sport": "NFL",
-      "matchup": "NYG @ WSH",
-      "pick": "Giants +3.5",
-      "line": 3.5,
-      "odds": -108,
-      "conf": 55,
-      "edge": "+2.5pp - NEAR-MISS",
+      "sport": "NHL",
+      "matchup": "FLA @ BUF",
+      "pick": "Under 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "conf": 53,
+      "edge": "+1pp - BELOW-BAR",
       "staked": false,
       "qualified": false,
-      "reason": "Winston chaos (Dart out for season) vs Daniels brace return; fair ~WSH -2."
+      "reason": "FLA games trending under; both sides inconsistent offensively early."
     },
     {
       "rank": 9,
-      "sport": "NFL",
-      "matchup": "HOU @ TEN",
-      "pick": "Titans +7",
-      "line": 7,
-      "odds": -112,
-      "conf": 57,
-      "edge": "+4.4pp vs 6% home bar - NEAR-MISS",
+      "sport": "NHL",
+      "matchup": "VGK @ MIN",
+      "pick": "Under 6",
+      "line": 6,
+      "odds": -110,
+      "conf": 53,
+      "edge": "+1pp - BELOW-BAR",
       "staked": false,
       "qualified": false,
-      "reason": "Fade the 3.5-pt steam (opened -3.5); both 0-4, HOU's wins were close; fair ~HOU -4.5."
+      "reason": "MIN 5/5 games under the total; VGK just won 2-1."
     },
     {
       "rank": 10,
-      "sport": "NFL",
-      "matchup": "NYG @ WSH",
-      "pick": "Over 41.5",
-      "line": 41.5,
-      "odds": -105,
-      "conf": 55,
-      "edge": "+3.4pp - NEAR-MISS",
+      "sport": "NHL",
+      "matchup": "OTT @ NJD",
+      "pick": "Under 5.5",
+      "line": 5.5,
+      "odds": -110,
+      "conf": 52,
+      "edge": "+1pp - BELOW-BAR",
       "staked": false,
       "qualified": false,
-      "reason": "Total crashed 49 -> 41.5 on QB news; Winston pushes pace, both recent games high; fair ~43."
+      "reason": "Ullmark wall (1.34 GAA); NJD not an offensive juggernaut early."
     },
     {
       "rank": 11,
-      "sport": "NFL",
-      "matchup": "DET @ ARI",
-      "pick": "Over 54.5",
-      "line": 54.5,
-      "odds": -105,
-      "conf": 55,
-      "edge": "+3.4pp - NEAR-MISS",
+      "sport": "MLB",
+      "matchup": "LAD @ MIL (NLCS G2)",
+      "pick": "Brewers +1.5",
+      "line": 1.5,
+      "odds": -161,
+      "conf": 47,
+      "edge": "+0.7pp - BELOW-BAR",
       "staked": false,
       "qualified": false,
-      "reason": "DET/ARI recent games all 55+; Goff 9 TD/0 INT vs Brissett (MHJ deactivated); fair ~56."
+      "reason": "Home dog +1.5 in ~coin flip: fair cover ~62% vs 61.7% implied. Conf haircut (raw>=60)."
     },
     {
       "rank": 12,
       "sport": "NFL",
-      "matchup": "PHI @ JAX (London)",
-      "pick": "Under 41.5",
-      "line": 41.5,
-      "odds": -108,
-      "conf": 54,
-      "edge": "+2.7pp - BELOW-BAR",
+      "matchup": "BUF @ LAR (MNF)",
+      "pick": "Bills ML",
+      "line": null,
+      "odds": 148,
+      "conf": 41,
+      "edge": "+0.7pp - BELOW-BAR",
       "staked": false,
       "qualified": false,
-      "reason": "PHI offense in ruins (Barkley/WRs/OL out, Johnson retired); JAX elite RZ D; fair ~40."
+      "reason": "Correlated with rank 3; fair win ~41% vs 40.3% implied."
     },
     {
       "rank": 13,
-      "sport": "NFL",
-      "matchup": "CIN @ MIA",
-      "pick": "Under 43.5",
-      "line": 43.5,
-      "odds": -112,
-      "conf": 54,
-      "edge": "+2.5pp - BELOW-BAR",
+      "sport": "MLB",
+      "matchup": "LAD @ MIL (NLCS G2)",
+      "pick": "Under 7",
+      "line": 7,
+      "odds": -122,
+      "conf": 55,
+      "edge": "~0pp - BELOW-BAR",
       "staked": false,
       "qualified": false,
-      "reason": "Willis-led MIA averaging 10 PPG; total already fell 5 pts on the news; fair ~42."
+      "reason": "Two aces (2.53/2.47 ERA), Game 1 finished 2-1, both pens lights-out. Market already prices it."
     },
     {
       "rank": 14,
-      "sport": "NFL",
-      "matchup": "SF @ SEA",
-      "pick": "Over 45.5",
-      "line": 45.5,
-      "odds": -115,
-      "conf": 55,
-      "edge": "+2.4pp - BELOW-BAR",
+      "sport": "MLB",
+      "matchup": "CLE @ TB (ALCS G1)",
+      "pick": "Under 6.5",
+      "line": 6.5,
+      "odds": 101,
+      "conf": 50,
+      "edge": "~0pp - BELOW-BAR",
       "staked": false,
       "qualified": false,
-      "reason": "Both averaging 50+ in recent games (SF 52, SEA 58.5); fair ~47."
-    },
-    {
-      "rank": 15,
-      "sport": "NFL",
-      "matchup": "BAL @ ATL",
-      "pick": "Under 43.5",
-      "line": 43.5,
-      "odds": -110,
-      "conf": 54,
-      "edge": "+2.2pp - BELOW-BAR",
-      "staked": false,
-      "qualified": false,
-      "reason": "Huntley starts for BAL (Lamar out, ankle); backup-QB under angle."
-    },
-    {
-      "rank": 16,
-      "sport": "NFL",
-      "matchup": "LV @ NE",
-      "pick": "Over 45.5",
-      "line": 45.5,
-      "odds": -105,
-      "conf": 53,
-      "edge": "+1.9pp - BELOW-BAR",
-      "staked": false,
-      "qualified": false,
-      "reason": "LV games averaging 59.5 total, NE 48; Cousins vs Maye; fair ~46.5."
-    },
-    {
-      "rank": 17,
-      "sport": "NFL",
-      "matchup": "SF @ SEA",
-      "pick": "49ers +3",
-      "line": 3,
-      "odds": -105,
-      "conf": 53,
-      "edge": "+1.8pp - BELOW-BAR",
-      "staked": false,
-      "qualified": false,
-      "reason": "4-0 SF (Purdy 126.2 rating) getting a FG vs 3-1 SEA down its RBs; fair ~SEA -2."
-    },
-    {
-      "rank": 18,
-      "sport": "NFL",
-      "matchup": "DEN @ LAC",
-      "pick": "Chargers +3.5",
-      "line": 3.5,
-      "odds": -112,
-      "conf": 56,
-      "edge": "+3.0pp vs 6% home bar - BELOW-BAR",
-      "staked": false,
-      "qualified": false,
-      "reason": "Herbert at home getting 3.5 despite both OTs out; fair ~DEN -1.5."
-    },
-    {
-      "rank": 19,
-      "sport": "NFL",
-      "matchup": "DEN @ LAC",
-      "pick": "Under 41.5",
-      "line": 41.5,
-      "odds": -115,
-      "conf": 53,
-      "edge": "+1.1pp - BELOW-BAR",
-      "staked": false,
-      "qualified": false,
-      "reason": "LAC down both starting OTs vs DEN pass rush; Herbert pass-yds prop just 200.5."
-    },
-    {
-      "rank": 20,
-      "sport": "NFL",
-      "matchup": "IND @ PIT",
-      "pick": "Colts +2.5",
-      "line": 2.5,
-      "odds": 100,
-      "conf": 51,
-      "edge": "+0.5pp - BELOW-BAR",
-      "staked": false,
-      "qualified": false,
-      "reason": "Jones-led IND competitive in 2 straight; fair ~PIT -2.5 - essentially a coin flip."
+      "reason": "Rasmussen vs Griffin + TB 1.67 playoff ERA pen vs .213 CLE bats. Fair ~coin flip."
     }
   ]
 }

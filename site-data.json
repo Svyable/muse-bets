@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "tickets": {
-    "w": 33,
+    "w": 34,
     "l": 53
   },
   "legs": {
-    "w": 89,
-    "l": 85,
-    "n": 174,
-    "pct": 51.1
+    "w": 100,
+    "l": 94,
+    "n": 194,
+    "pct": 51.5
   },
   "equity": [
     {
@@ -88,10 +88,16 @@
       "pct": 64.7
     },
     {
+      "k": "NHL",
+      "n": 48,
+      "w": 26,
+      "pct": 54.2
+    },
+    {
       "k": "MLB",
-      "n": 44,
+      "n": 45,
       "w": 18,
-      "pct": 40.9
+      "pct": 40.0
     },
     {
       "k": "CFB",
@@ -100,24 +106,24 @@
       "pct": 48.6
     },
     {
-      "k": "NHL",
-      "n": 30,
-      "w": 15,
-      "pct": 50.0
-    },
-    {
       "k": "WNBA",
       "n": 14,
       "w": 6,
       "pct": 42.9
+    },
+    {
+      "k": "NCAAF",
+      "n": 1,
+      "w": 0,
+      "pct": 0.0
     }
   ],
   "by_market": [
     {
       "k": "moneyline",
-      "n": 62,
-      "w": 32,
-      "pct": 51.6
+      "n": 77,
+      "w": 41,
+      "pct": 53.2
     },
     {
       "k": "spread",
@@ -127,17 +133,17 @@
     },
     {
       "k": "total",
-      "n": 50,
-      "w": 22,
-      "pct": 44.0
+      "n": 55,
+      "w": 24,
+      "pct": 43.6
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 69,
-      "w": 40,
-      "pct": 58.0
+      "n": 83,
+      "w": 49,
+      "pct": 59.0
     },
     {
       "k": "model-value (total)",
@@ -156,6 +162,12 @@
       "n": 10,
       "w": 4,
       "pct": 40.0
+    },
+    {
+      "k": "situational",
+      "n": 8,
+      "w": 3,
+      "pct": 37.5
     },
     {
       "k": "fpi-value",
@@ -182,6 +194,12 @@
       "pct": 0.0
     },
     {
+      "k": "model-edge",
+      "n": 3,
+      "w": 2,
+      "pct": 66.7
+    },
+    {
       "k": "model-value (numberFire)",
       "n": 3,
       "w": 2,
@@ -189,12 +207,6 @@
     },
     {
       "k": "model-value (total estimate)",
-      "n": 3,
-      "w": 1,
-      "pct": 33.3
-    },
-    {
-      "k": "situational",
       "n": 3,
       "w": 1,
       "pct": 33.3
@@ -216,12 +228,6 @@
       "n": 2,
       "w": 1,
       "pct": 50.0
-    },
-    {
-      "k": "model-edge",
-      "n": 2,
-      "w": 2,
-      "pct": 100.0
     },
     {
       "k": "brand-tax fade + model-value (numberFire)",
@@ -389,284 +395,154 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 11,
-      "stated": 62.8,
-      "actual": 54.5
-    },
-    {
-      "bucket": "50-59",
-      "n": 122,
-      "stated": 54.7,
+      "n": 16,
+      "stated": 63.4,
       "actual": 50.0
     },
     {
+      "bucket": "50-59",
+      "n": 134,
+      "stated": 54.7,
+      "actual": 50.7
+    },
+    {
       "bucket": "<50",
-      "n": 41,
-      "stated": 43.9,
-      "actual": 53.7
+      "n": 44,
+      "stated": 44.6,
+      "actual": 54.5
     }
   ],
-  "latest_date": "2026-10-13",
+  "latest_date": "2026-10-14",
   "card": [
     {
       "rank": 1,
-      "sport": "NHL",
-      "matchup": "SEA @ PHI",
-      "pick": "Kraken ML",
-      "line": null,
-      "odds": 101,
-      "conf": 55,
-      "edge": 5.3,
+      "sport": "NCAAF",
+      "matchup": "WKU @ SHSU",
+      "pick": "Sam Houston +1.5",
+      "line": 1.5,
+      "odds": -105,
+      "conf": 62,
+      "edge": 10.8,
       "staked": true,
       "qualified": true,
-      "reason": "PHI 0-5-2, Konecny out, Vladar .857/5.1 GAA; Daccord .913; 8c steam to SEA"
+      "reason": "Makinen ratings make SHSU -12.6 vs market WKU -1.5 (14.1-pt gap, 56.9% ATS); numberFire SHSU 63.1%; WKU rush D 129th (204 yds/g)"
     },
     {
       "rank": 2,
-      "sport": "NHL",
-      "matchup": "VAN @ NYI",
-      "pick": "Islanders ML",
+      "sport": "NCAAF",
+      "matchup": "WKU @ SHSU",
+      "pick": "Bearkats ML",
       "line": null,
-      "odds": -218,
-      "conf": 70,
-      "edge": 5.2,
+      "odds": 105,
+      "conf": 56,
+      "edge": 7.2,
       "staked": false,
-      "qualified": false,
-      "reason": "VAN 2-5 losers of 4; numberFire 73.8% NYI; heavy juice, below 6% home bar"
+      "qualified": true,
+      "reason": "Same ensemble as rank 1 (Makinen/numberFire/iHeart all on SHSU); held to paper on same-game correlation with rank 1"
     },
     {
       "rank": 3,
-      "sport": "NHL",
-      "matchup": "WSH @ CAR",
-      "pick": "Hurricanes ML",
-      "line": null,
-      "odds": -158,
-      "conf": 65,
-      "edge": 3.8,
+      "sport": "NCAAF",
+      "matchup": "KSU @ MOST",
+      "pick": "Kennesaw State -3",
+      "line": -3,
+      "odds": -112,
+      "conf": 55,
+      "edge": 3.4,
       "staked": false,
       "qualified": false,
-      "reason": "CAR 5-1-1, +10 GD best in league, 5 straight wins; 20c steam; below 6% home bar"
+      "reason": "KSU 4-1 ATS, allows 23.4 ppg (68th); MOST allowed 30+ in 4 of 5; KSU rush improving (157/g last 2)"
     },
     {
       "rank": 4,
       "sport": "NHL",
-      "matchup": "MIN @ WPG",
-      "pick": "Jets ML",
-      "line": null,
-      "odds": -111,
-      "conf": 56,
-      "edge": 3.4,
+      "matchup": "MTL @ WSH",
+      "pick": "Under 6.5",
+      "line": 6.5,
+      "odds": -105,
+      "conf": 54,
+      "edge": 2.8,
       "staked": false,
       "qualified": false,
-      "reason": "MIN on B2B road leg after 4-2 win vs VGK; WPG 3-1-1 rested; below 6% home/situational bar"
+      "reason": "Both on B2B; MTL 6 straight road unders after SO win; 9 of WSH last 10 home vs B2B foes under; Dobes off 1-0 SO win"
     },
     {
       "rank": 5,
       "sport": "NHL",
-      "matchup": "TBL @ NYR",
-      "pick": "Rangers ML",
-      "line": null,
-      "odds": 140,
-      "conf": 45,
-      "edge": 3.3,
+      "matchup": "DAL @ COL",
+      "pick": "Under 5.5",
+      "line": 5.5,
+      "odds": 110,
+      "conf": 50,
+      "edge": 2.4,
       "staked": false,
       "qualified": false,
-      "reason": "NYR 5-2, 4-0 at home, Garand .945 confirmed; TBL streak priced in; below 6% home bar"
+      "reason": "Both on 2nd night of home-and-home B2B; DAL elite D (7 GA in 5) + Oettinger .963; tired legs suppress chances"
     },
     {
       "rank": 6,
       "sport": "NHL",
-      "matchup": "VGK @ NSH",
-      "pick": "Predators ML",
+      "matchup": "DAL @ COL",
+      "pick": "Stars ML",
       "line": null,
-      "odds": 109,
-      "conf": 51,
-      "edge": 3.2,
+      "odds": 120,
+      "conf": 47,
+      "edge": 1.5,
       "staked": false,
       "qualified": false,
-      "reason": "VGK on B2B road leg after 4-2 loss @MIN, Hart shaky; below 6% home/situational bar"
+      "reason": "Oettinger .963/0.74 GAA vs Blackwood .867/3.30; COL -142 steamed from -142 to -156 elsewhere - goalie gap not fully priced"
     },
     {
       "rank": 7,
-      "sport": "NHL",
-      "matchup": "BOS @ SJS",
-      "pick": "Bruins ML",
+      "sport": "MLB",
+      "matchup": "MIL @ LAD (NLCS G3)",
+      "pick": "Brewers ML",
       "line": null,
-      "odds": -104,
-      "conf": 54,
-      "edge": 3.0,
+      "odds": 162,
+      "conf": 40,
+      "edge": 1.8,
       "staked": false,
       "qualified": false,
-      "reason": "Swayman .932 vs Askarov unknown; BOS 4-2; near-miss vs 4% bar"
+      "reason": "LAD steamed -174 to -190 on public money (marquee brand tax); MIL 103-59, 5-1 in playoffs, staff 1.70 ERA/1.06 WHIP, up 2-0"
     },
     {
       "rank": 8,
-      "sport": "NHL",
-      "matchup": "BUF @ MTL",
-      "pick": "Canadiens ML",
-      "line": null,
-      "odds": -157,
-      "conf": 64,
-      "edge": 2.9,
+      "sport": "NCAAF",
+      "matchup": "KSU @ MOST",
+      "pick": "Under 52.5",
+      "line": 52.5,
+      "odds": -105,
+      "conf": 52,
+      "edge": 1.0,
       "staked": false,
       "qualified": false,
-      "reason": "BUF B2B, Dahlin OUT (did not travel), goalie carousel; MTL 2 days rest; below 6% home bar"
+      "reason": "KSU games: 1 over in 5 (defense-led); total steamed 50.5 to 52.5 on air - value on under"
     },
     {
       "rank": 9,
-      "sport": "NHL",
-      "matchup": "FLA @ CBJ",
-      "pick": "Blue Jackets ML",
-      "line": null,
-      "odds": -123,
-      "conf": 58,
-      "edge": 2.8,
+      "sport": "NCAAF",
+      "matchup": "WKU @ SHSU",
+      "pick": "Under 52.5",
+      "line": 52.5,
+      "odds": -110,
+      "conf": 51,
+      "edge": 0.5,
       "staked": false,
       "qualified": false,
-      "reason": "FLA B2B road leg, Markstrom mid-game exit Sun, missing Barkov/Marchand; CBJ rested; below 6% bar"
+      "reason": "SHSU 2 overs in 5; WKU 22.2 ppg (101st); slight lean under the 52.5"
     },
     {
       "rank": 10,
-      "sport": "NCAAF",
-      "matchup": "DEL @ MTSU",
-      "pick": "Under 47.5",
-      "line": 47.5,
-      "odds": -110,
-      "conf": 55,
-      "edge": 2.6,
-      "staked": false,
-      "qualified": false,
-      "reason": "Both 1 of 5 to over; DEL 18.7 pts/g on road; MTSU shut out 55-0 last wk; DEL QB uncertain"
-    },
-    {
-      "rank": 11,
-      "sport": "NHL",
-      "matchup": "PIT @ CHI",
-      "pick": "Penguins ML",
-      "line": null,
-      "odds": -141,
-      "conf": 61,
-      "edge": 2.5,
-      "staked": false,
-      "qualified": false,
-      "reason": "PIT 3-2-1 balanced vs CHI 1-5 leaky D; near-miss vs 4% bar"
-    },
-    {
-      "rank": 12,
       "sport": "MLB",
-      "matchup": "CLE @ TB (ALCS G2)",
-      "pick": "Guardians ML",
-      "line": null,
-      "odds": 119,
-      "conf": 48,
-      "edge": 2.4,
-      "staked": false,
-      "qualified": false,
-      "reason": "Messick 2.56 ERA, 15K/13.1IP vs TB this yr; Peralta short leash, TB pen taxed; near-miss vs 4% bar"
-    },
-    {
-      "rank": 13,
-      "sport": "NHL",
-      "matchup": "TBL @ NYR",
-      "pick": "Lightning ML",
-      "line": null,
-      "odds": -162,
-      "conf": 64,
-      "edge": 2.2,
-      "staked": false,
-      "qualified": false,
-      "reason": "TBL 4 straight wins, Hagel/Kucherov hot; near-miss vs 4% away bar"
-    },
-    {
-      "rank": 14,
-      "sport": "NHL",
-      "matchup": "SEA @ PHI",
-      "pick": "Under 6",
-      "line": 6,
-      "odds": -110,
-      "conf": 54,
-      "edge": 2.1,
-      "staked": false,
-      "qualified": false,
-      "reason": "PHI 1-2 GF/g, 5 of 7 under; Vladar bad but PHI can't score either; near-miss"
-    },
-    {
-      "rank": 15,
-      "sport": "NHL",
-      "matchup": "STL @ OTT",
-      "pick": "Under 5.5",
-      "line": 5.5,
-      "odds": 100,
-      "conf": 52,
-      "edge": 2.0,
-      "staked": false,
-      "qualified": false,
-      "reason": "OTT unders 4 of 5; STL low-event; Ersson .886 is the risk; near-miss"
-    },
-    {
-      "rank": 16,
-      "sport": "NHL",
-      "matchup": "PIT @ CHI",
-      "pick": "Over 6.5",
-      "line": 6.5,
-      "odds": -105,
+      "matchup": "MIL @ LAD (NLCS G3)",
+      "pick": "Under 7.5",
+      "line": 7.5,
+      "odds": -112,
       "conf": 53,
-      "edge": 1.8,
+      "edge": 0.2,
       "staked": false,
       "qualified": false,
-      "reason": "CHI can't keep pucks out; PIT transition offense; below-bar"
-    },
-    {
-      "rank": 17,
-      "sport": "NHL",
-      "matchup": "CGY @ ANA",
-      "pick": "Ducks ML",
-      "line": null,
-      "odds": -205,
-      "conf": 69,
-      "edge": 1.8,
-      "staked": false,
-      "qualified": false,
-      "reason": "CGY 0-5 vs ANA 4-1; heavy juice, below 6% home bar"
-    },
-    {
-      "rank": 18,
-      "sport": "NHL",
-      "matchup": "COL @ DAL",
-      "pick": "Avalanche ML",
-      "line": null,
-      "odds": -114,
-      "conf": 55,
-      "edge": 1.7,
-      "staked": false,
-      "qualified": false,
-      "reason": "COL +9 GD, 5.2 GPG, Blackwood confirmed; DAL elite D keeps it below bar"
-    },
-    {
-      "rank": 19,
-      "sport": "NHL",
-      "matchup": "NJD @ DET",
-      "pick": "Under 6",
-      "line": 6,
-      "odds": -110,
-      "conf": 54,
-      "edge": 1.6,
-      "staked": false,
-      "qualified": false,
-      "reason": "NJD B2B road leg, 2.5 GF/g; DET shut out twice; below-bar"
-    },
-    {
-      "rank": 20,
-      "sport": "NHL",
-      "matchup": "EDM @ LAK",
-      "pick": "Oilers ML",
-      "line": null,
-      "odds": -125,
-      "conf": 57,
-      "edge": 1.4,
-      "staked": false,
-      "qualified": false,
-      "reason": "EDM 4-0 vs LAK 0-2; small samples shrink it below the 4% bar"
+      "reason": "Snell (1.90 ERA) vs Gasser + MIL pen 9.2 scoreless IP in series; LAD batting .193/.263 OBP in playoffs - thin margin"
     }
   ]
 }

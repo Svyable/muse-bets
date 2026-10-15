@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "tickets": {
     "w": 34,
-    "l": 53
+    "l": 54
   },
   "legs": {
-    "w": 100,
-    "l": 94,
-    "n": 194,
+    "w": 105,
+    "l": 99,
+    "n": 204,
     "pct": 51.5
   },
   "equity": [
@@ -78,6 +78,10 @@
     {
       "date": "2026-10-10",
       "units": -49.02
+    },
+    {
+      "date": "2026-10-15",
+      "units": -50.02
     }
   ],
   "by_sport": [
@@ -89,15 +93,15 @@
     },
     {
       "k": "NHL",
-      "n": 48,
-      "w": 26,
-      "pct": 54.2
+      "n": 51,
+      "w": 28,
+      "pct": 54.9
     },
     {
       "k": "MLB",
-      "n": 45,
-      "w": 18,
-      "pct": 40.0
+      "n": 47,
+      "w": 19,
+      "pct": 40.4
     },
     {
       "k": "CFB",
@@ -113,37 +117,37 @@
     },
     {
       "k": "NCAAF",
-      "n": 1,
-      "w": 0,
-      "pct": 0.0
+      "n": 6,
+      "w": 2,
+      "pct": 33.3
     }
   ],
   "by_market": [
     {
       "k": "moneyline",
-      "n": 77,
-      "w": 41,
-      "pct": 53.2
+      "n": 80,
+      "w": 43,
+      "pct": 53.8
     },
     {
       "k": "spread",
-      "n": 62,
+      "n": 64,
       "w": 35,
-      "pct": 56.5
+      "pct": 54.7
     },
     {
       "k": "total",
-      "n": 55,
-      "w": 24,
-      "pct": 43.6
+      "n": 60,
+      "w": 27,
+      "pct": 45.0
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 83,
-      "w": 49,
-      "pct": 59.0
+      "n": 90,
+      "w": 52,
+      "pct": 57.8
     },
     {
       "k": "model-value (total)",
@@ -165,9 +169,15 @@
     },
     {
       "k": "situational",
-      "n": 8,
-      "w": 3,
-      "pct": 37.5
+      "n": 10,
+      "w": 4,
+      "pct": 40.0
+    },
+    {
+      "k": "brand-tax fade",
+      "n": 6,
+      "w": 4,
+      "pct": 66.7
     },
     {
       "k": "fpi-value",
@@ -180,12 +190,6 @@
       "n": 6,
       "w": 2,
       "pct": 33.3
-    },
-    {
-      "k": "brand-tax fade",
-      "n": 5,
-      "w": 3,
-      "pct": 60.0
     },
     {
       "k": "fpi-chalk",
@@ -395,154 +399,63 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 16,
-      "stated": 63.4,
-      "actual": 50.0
+      "n": 17,
+      "stated": 63.3,
+      "actual": 47.1
     },
     {
       "bucket": "50-59",
-      "n": 134,
-      "stated": 54.7,
-      "actual": 50.7
+      "n": 141,
+      "stated": 54.6,
+      "actual": 50.4
     },
     {
       "bucket": "<50",
-      "n": 44,
+      "n": 46,
       "stated": 44.6,
-      "actual": 54.5
+      "actual": 56.5
     }
   ],
-  "latest_date": "2026-10-14",
+  "latest_date": "2026-10-15",
   "card": [
     {
       "rank": 1,
-      "sport": "NCAAF",
-      "matchup": "WKU @ SHSU",
-      "pick": "Sam Houston +1.5",
-      "line": 1.5,
-      "odds": -105,
-      "conf": 62,
-      "edge": 10.8,
+      "sport": "NHL",
+      "matchup": "NYR @ NJ",
+      "pick": "Rangers ML",
+      "line": null,
+      "odds": 124,
+      "conf": 56,
+      "edge": 11.4,
       "staked": true,
       "qualified": true,
-      "reason": "Makinen ratings make SHSU -12.6 vs market WKU -1.5 (14.1-pt gap, 56.9% ATS); numberFire SHSU 63.1%; WKU rush D 129th (204 yds/g)"
+      "reason": "Garand .951/1.00 (3-1-0) vs Allen .885/3.00; AccuScore sim 72% NYR; NYR beat TB 4-1 Oct 13; multiple outlets on Rangers"
     },
     {
       "rank": 2,
       "sport": "NCAAF",
-      "matchup": "WKU @ SHSU",
-      "pick": "Bearkats ML",
-      "line": null,
-      "odds": 105,
-      "conf": 56,
-      "edge": 7.2,
-      "staked": false,
+      "matchup": "ECU @ UAB",
+      "pick": "East Carolina -4.5",
+      "line": -4.5,
+      "odds": -110,
+      "conf": 60,
+      "edge": 7.6,
+      "staked": true,
       "qualified": true,
-      "reason": "Same ensemble as rank 1 (Makinen/numberFire/iHeart all on SHSU); held to paper on same-game correlation with rank 1"
+      "reason": "numberFire 76.3% ECU, gamepicker ECU by 7.87 vs -4.5; ECU #2 TFLs (10.2/g) vs UAB 16 sacks allowed + starting C very questionable; ECU off bye, UAB 7th straight week"
     },
     {
       "rank": 3,
-      "sport": "NCAAF",
-      "matchup": "KSU @ MOST",
-      "pick": "Kennesaw State -3",
-      "line": -3,
-      "odds": -112,
-      "conf": 55,
-      "edge": 3.4,
-      "staked": false,
-      "qualified": false,
-      "reason": "KSU 4-1 ATS, allows 23.4 ppg (68th); MOST allowed 30+ in 4 of 5; KSU rush improving (157/g last 2)"
-    },
-    {
-      "rank": 4,
-      "sport": "NHL",
-      "matchup": "MTL @ WSH",
+      "sport": "MLB",
+      "matchup": "TB @ CLE (ALCS G3)",
       "pick": "Under 6.5",
       "line": 6.5,
-      "odds": -105,
-      "conf": 54,
-      "edge": 2.8,
-      "staked": false,
-      "qualified": false,
-      "reason": "Both on B2B; MTL 6 straight road unders after SO win; 9 of WSH last 10 home vs B2B foes under; Dobes off 1-0 SO win"
-    },
-    {
-      "rank": 5,
-      "sport": "NHL",
-      "matchup": "DAL @ COL",
-      "pick": "Under 5.5",
-      "line": 5.5,
-      "odds": 110,
-      "conf": 50,
-      "edge": 2.4,
-      "staked": false,
-      "qualified": false,
-      "reason": "Both on 2nd night of home-and-home B2B; DAL elite D (7 GA in 5) + Oettinger .963; tired legs suppress chances"
-    },
-    {
-      "rank": 6,
-      "sport": "NHL",
-      "matchup": "DAL @ COL",
-      "pick": "Stars ML",
-      "line": null,
-      "odds": 120,
-      "conf": 47,
-      "edge": 1.5,
-      "staked": false,
-      "qualified": false,
-      "reason": "Oettinger .963/0.74 GAA vs Blackwood .867/3.30; COL -142 steamed from -142 to -156 elsewhere - goalie gap not fully priced"
-    },
-    {
-      "rank": 7,
-      "sport": "MLB",
-      "matchup": "MIL @ LAD (NLCS G3)",
-      "pick": "Brewers ML",
-      "line": null,
-      "odds": 162,
-      "conf": 40,
-      "edge": 1.8,
-      "staked": false,
-      "qualified": false,
-      "reason": "LAD steamed -174 to -190 on public money (marquee brand tax); MIL 103-59, 5-1 in playoffs, staff 1.70 ERA/1.06 WHIP, up 2-0"
-    },
-    {
-      "rank": 8,
-      "sport": "NCAAF",
-      "matchup": "KSU @ MOST",
-      "pick": "Under 52.5",
-      "line": 52.5,
-      "odds": -105,
-      "conf": 52,
-      "edge": 1.0,
-      "staked": false,
-      "qualified": false,
-      "reason": "KSU games: 1 over in 5 (defense-led); total steamed 50.5 to 52.5 on air - value on under"
-    },
-    {
-      "rank": 9,
-      "sport": "NCAAF",
-      "matchup": "WKU @ SHSU",
-      "pick": "Under 52.5",
-      "line": 52.5,
-      "odds": -110,
-      "conf": 51,
-      "edge": 0.5,
-      "staked": false,
-      "qualified": false,
-      "reason": "SHSU 2 overs in 5; WKU 22.2 ppg (101st); slight lean under the 52.5"
-    },
-    {
-      "rank": 10,
-      "sport": "MLB",
-      "matchup": "MIL @ LAD (NLCS G3)",
-      "pick": "Under 7.5",
-      "line": 7.5,
-      "odds": -112,
-      "conf": 53,
-      "edge": 0.2,
-      "staked": false,
-      "qualified": false,
-      "reason": "Snell (1.90 ERA) vs Gasser + MIL pen 9.2 scoreless IP in series; LAD batting .193/.263 OBP in playoffs - thin margin"
+      "odds": 100,
+      "conf": 57,
+      "edge": 7.0,
+      "staked": true,
+      "qualified": true,
+      "reason": "G. Williams 12.1 K/9, 24 K in 11.2 postseason IP; Jax 13 scoreless IP last 3; both pens fully rested; TB 4-1 to under this postseason; 12 runs in 3 CLE playoff home games; 1:05pm ET start in cool/damp air"
     }
   ]
 }

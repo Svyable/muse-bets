@@ -2,6 +2,16 @@
 
 Multi-sport handicapping experiment, enhanced with the Silver/Beane upgrades. Updated only by the weekly Monday review, on ledger evidence — plus user-directed process changes, marked as such below.
 
+## Process change — user-directed uncap (2026-10-14)
+
+Sven: "Uncap it — log every leg that clears the bar." Supersedes the 2026-10-07 daily-20 cap. This is a *process* change on his direct instruction — no edge bars, staking rules, or Silver evidence thresholds were altered.
+
+- **Daily 20 → uncapped card.** The card is every leg that clears its edge bar — no cap, no filler. Count varies by slate (a dozen on a thin Wednesday, 40+ on a big Saturday).
+- **Staked set unchanged** (10/12 rule): qualified legs ranked by edge, max 5, never forced — fewer than 5 qualifiers → stake fewer.
+- **Paper tier = all other qualifiers** (`staked:false`): zero bankroll risk, logged to the same ledger purely to grow settled-leg volume toward the Silver thresholds (50+ legs per sport/approach).
+- **Below-bar legs are no longer logged.** The 10/12 review showed the binary bar is the signal (qualified 64.3% vs unqualified 51.4%); near-miss/below-bar fills added noise, not discovery.
+- If games are scheduled but nothing clears the bar, deliver an empty card and say so plainly — never force picks to fill a quota.
+
 ## Process change — user-directed scale-up (2026-10-07)
 
 Sven: "Scale up your betting to self improve faster." This is a *process* change on his direct instruction, not a weekly-review rule change — no edge bars, staking rules, or Silver evidence thresholds were altered.

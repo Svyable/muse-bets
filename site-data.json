@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "tickets": {
     "w": 34,
-    "l": 54
+    "l": 55
   },
   "legs": {
-    "w": 105,
-    "l": 99,
-    "n": 204,
-    "pct": 51.5
+    "w": 106,
+    "l": 101,
+    "n": 207,
+    "pct": 51.2
   },
   "equity": [
     {
@@ -82,9 +82,19 @@
     {
       "date": "2026-10-15",
       "units": -50.02
+    },
+    {
+      "date": "2026-10-16",
+      "units": -51.02
     }
   ],
   "by_sport": [
+    {
+      "k": "NHL",
+      "n": 52,
+      "w": 28,
+      "pct": 53.8
+    },
     {
       "k": "NFL",
       "n": 51,
@@ -92,16 +102,10 @@
       "pct": 64.7
     },
     {
-      "k": "NHL",
-      "n": 51,
-      "w": 28,
-      "pct": 54.9
-    },
-    {
       "k": "MLB",
-      "n": 47,
-      "w": 19,
-      "pct": 40.4
+      "n": 48,
+      "w": 20,
+      "pct": 41.7
     },
     {
       "k": "CFB",
@@ -117,37 +121,37 @@
     },
     {
       "k": "NCAAF",
-      "n": 6,
+      "n": 7,
       "w": 2,
-      "pct": 33.3
+      "pct": 28.6
     }
   ],
   "by_market": [
     {
       "k": "moneyline",
-      "n": 80,
+      "n": 81,
       "w": 43,
-      "pct": 53.8
+      "pct": 53.1
     },
     {
       "k": "spread",
-      "n": 64,
+      "n": 65,
       "w": 35,
-      "pct": 54.7
+      "pct": 53.8
     },
     {
       "k": "total",
-      "n": 60,
-      "w": 27,
-      "pct": 45.0
+      "n": 61,
+      "w": 28,
+      "pct": 45.9
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 90,
-      "w": 52,
-      "pct": 57.8
+      "n": 93,
+      "w": 53,
+      "pct": 57.0
     },
     {
       "k": "model-value (total)",
@@ -399,15 +403,15 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 17,
-      "stated": 63.3,
-      "actual": 47.1
+      "n": 18,
+      "stated": 63.1,
+      "actual": 44.4
     },
     {
       "bucket": "50-59",
-      "n": 141,
+      "n": 143,
       "stated": 54.6,
-      "actual": 50.4
+      "actual": 50.3
     },
     {
       "bucket": "<50",
@@ -416,46 +420,33 @@
       "actual": 56.5
     }
   ],
-  "latest_date": "2026-10-15",
+  "latest_date": "2026-10-16",
   "card": [
     {
       "rank": 1,
-      "sport": "NHL",
-      "matchup": "NYR @ NJ",
-      "pick": "Rangers ML",
-      "line": null,
-      "odds": 124,
-      "conf": 56,
-      "edge": 11.4,
-      "staked": true,
-      "qualified": true,
-      "reason": "Garand .951/1.00 (3-1-0) vs Allen .885/3.00; AccuScore sim 72% NYR; NYR beat TB 4-1 Oct 13; multiple outlets on Rangers"
-    },
-    {
-      "rank": 2,
       "sport": "NCAAF",
-      "matchup": "ECU @ UAB",
-      "pick": "East Carolina -4.5",
-      "line": -4.5,
+      "matchup": "MEM @ TUL",
+      "pick": "Memphis -7",
+      "line": -7,
       "odds": -110,
       "conf": 60,
       "edge": 7.6,
       "staked": true,
       "qualified": true,
-      "reason": "numberFire 76.3% ECU, gamepicker ECU by 7.87 vs -4.5; ECU #2 TFLs (10.2/g) vs UAB 16 sacks allowed + starting C very questionable; ECU off bye, UAB 7th straight week"
+      "reason": "Tulane weak run D vs Carter (132 yds/2 TD last wk) + Stokes; Semonza inefficient under new coach Hall; MEM pass rush/TFL vs Tulane's sack-prone line; bounce-back spot after CFP-dent loss. Counter: Tulane run game (Turner/Lucas) keeps backdoor risk live."
     },
     {
-      "rank": 3,
+      "rank": 2,
       "sport": "MLB",
-      "matchup": "TB @ CLE (ALCS G3)",
+      "matchup": "TB @ CLE (ALCS G4)",
       "pick": "Under 6.5",
       "line": 6.5,
-      "odds": 100,
+      "odds": -110,
       "conf": 57,
-      "edge": 7.0,
+      "edge": 4.6,
       "staked": true,
       "qualified": true,
-      "reason": "G. Williams 12.1 K/9, 24 K in 11.2 postseason IP; Jax 13 scoreless IP last 3; both pens fully rested; TB 4-1 to under this postseason; 12 runs in 3 CLE playoff home games; 1:05pm ET start in cool/damp air"
+      "reason": "Martinez 0.00 ERA in 13 IP vs CLE in 2026; CLE bullpen game (4 scoreless frames won G3); TB bats .197 this postseason; G3 went under (5 runs); cool/damp air. RISK: 91% rain, possible ppd to Sun 10/18 (Rasmussen then eligible for TB - strengthens under case, changes starters)."
     }
   ]
 }

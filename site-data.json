@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "tickets": {
     "w": 34,
     "l": 55
   },
   "legs": {
     "w": 106,
-    "l": 101,
-    "n": 207,
-    "pct": 51.2
+    "l": 102,
+    "n": 208,
+    "pct": 51.0
   },
   "equity": [
     {
@@ -121,9 +121,9 @@
     },
     {
       "k": "NCAAF",
-      "n": 7,
+      "n": 8,
       "w": 2,
-      "pct": 28.6
+      "pct": 25.0
     }
   ],
   "by_market": [
@@ -135,9 +135,9 @@
     },
     {
       "k": "spread",
-      "n": 65,
+      "n": 66,
       "w": 35,
-      "pct": 53.8
+      "pct": 53.0
     },
     {
       "k": "total",
@@ -149,9 +149,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 93,
+      "n": 94,
       "w": 53,
-      "pct": 57.0
+      "pct": 56.4
     },
     {
       "k": "model-value (total)",
@@ -403,9 +403,9 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 18,
-      "stated": 63.1,
-      "actual": 44.4
+      "n": 19,
+      "stated": 62.9,
+      "actual": 42.1
     },
     {
       "bucket": "50-59",
@@ -420,33 +420,20 @@
       "actual": 56.5
     }
   ],
-  "latest_date": "2026-10-16",
+  "latest_date": "2026-10-17",
   "card": [
     {
       "rank": 1,
-      "sport": "NCAAF",
-      "matchup": "MEM @ TUL",
-      "pick": "Memphis -7",
-      "line": -7,
-      "odds": -110,
-      "conf": 60,
-      "edge": 7.6,
+      "sport": "NHL",
+      "matchup": "BOS @ LAK",
+      "pick": "Bruins ML",
+      "line": null,
+      "odds": 112,
+      "conf": 54,
+      "edge": 6.8,
       "staked": true,
       "qualified": true,
-      "reason": "Tulane weak run D vs Carter (132 yds/2 TD last wk) + Stokes; Semonza inefficient under new coach Hall; MEM pass rush/TFL vs Tulane's sack-prone line; bounce-back spot after CFP-dent loss. Counter: Tulane run game (Turner/Lucas) keeps backdoor risk live."
-    },
-    {
-      "rank": 2,
-      "sport": "MLB",
-      "matchup": "TB @ CLE (ALCS G4)",
-      "pick": "Under 6.5",
-      "line": 6.5,
-      "odds": -110,
-      "conf": 57,
-      "edge": 4.6,
-      "staked": true,
-      "qualified": true,
-      "reason": "Martinez 0.00 ERA in 13 IP vs CLE in 2026; CLE bullpen game (4 scoreless frames won G3); TB bats .197 this postseason; G3 went under (5 runs); cool/damp air. RISK: 91% rain, possible ppd to Sun 10/18 (Rasmussen then eligible for TB - strengthens under case, changes starters)."
+      "reason": "Bruins 6-2 (+12 diff, 4 straight wins) vs winless Kings 0-3-2 (-10); LAK missing Fiala/Zuccarello/Dvorak, Kuemper pulled last start, goalie unconfirmed; Swayman (.930) expected for BOS. B2B fatigue (Friday @ ANA) is real but the talent/form gap is wider than +112 (47.2% impl) suggests; fair ~54%."
     }
   ]
 }

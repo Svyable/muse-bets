@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "tickets": {
-    "w": 34,
-    "l": 55
+    "w": 35,
+    "l": 56
   },
   "legs": {
-    "w": 106,
-    "l": 102,
-    "n": 208,
+    "w": 107,
+    "l": 103,
+    "n": 210,
     "pct": 51.0
   },
   "equity": [
@@ -86,14 +86,18 @@
     {
       "date": "2026-10-16",
       "units": -51.02
+    },
+    {
+      "date": "2026-10-17",
+      "units": -52.02
     }
   ],
   "by_sport": [
     {
       "k": "NHL",
-      "n": 52,
-      "w": 28,
-      "pct": 53.8
+      "n": 53,
+      "w": 29,
+      "pct": 54.7
     },
     {
       "k": "NFL",
@@ -103,9 +107,9 @@
     },
     {
       "k": "MLB",
-      "n": 48,
+      "n": 49,
       "w": 20,
-      "pct": 41.7
+      "pct": 40.8
     },
     {
       "k": "CFB",
@@ -129,9 +133,9 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 81,
-      "w": 43,
-      "pct": 53.1
+      "n": 82,
+      "w": 44,
+      "pct": 53.7
     },
     {
       "k": "spread",
@@ -141,17 +145,17 @@
     },
     {
       "k": "total",
-      "n": 61,
+      "n": 62,
       "w": 28,
-      "pct": 45.9
+      "pct": 45.2
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 94,
-      "w": 53,
-      "pct": 56.4
+      "n": 96,
+      "w": 54,
+      "pct": 56.2
     },
     {
       "k": "model-value (total)",
@@ -409,7 +413,7 @@
     },
     {
       "bucket": "50-59",
-      "n": 143,
+      "n": 145,
       "stated": 54.6,
       "actual": 50.3
     },
@@ -420,20 +424,33 @@
       "actual": 56.5
     }
   ],
-  "latest_date": "2026-10-17",
+  "latest_date": "2026-10-18",
   "card": [
     {
       "rank": 1,
-      "sport": "NHL",
-      "matchup": "BOS @ LAK",
-      "pick": "Bruins ML",
-      "line": null,
-      "odds": 112,
-      "conf": 54,
-      "edge": 6.8,
+      "sport": "NFL",
+      "matchup": "LAC @ KC",
+      "pick": "Under 41.5",
+      "line": 41.5,
+      "odds": -110,
+      "conf": 59,
+      "edge": 6.6,
       "staked": true,
       "qualified": true,
-      "reason": "Bruins 6-2 (+12 diff, 4 straight wins) vs winless Kings 0-3-2 (-10); LAK missing Fiala/Zuccarello/Dvorak, Kuemper pulled last start, goalie unconfirmed; Swayman (.930) expected for BOS. B2B fatigue (Friday @ ANA) is real but the talent/form gap is wider than +112 (47.2% impl) suggests; fair ~54%."
+      "reason": "Herbert behind wrecked O-line (Alt, Awosika out; 17 sacks, 7 INTs) vs KC off bye with decimated WR room (Rice, Thornton out) and 3 sacks in 4 games; LAC games 4-1 to under; 4 of last 5 H2H stayed under 40. Chiefs marquee brand but backing an under, not the brand."
+    },
+    {
+      "rank": 2,
+      "sport": "NFL",
+      "matchup": "BAL @ CLE",
+      "pick": "Under 39.5",
+      "line": 39.5,
+      "odds": -110,
+      "conf": 57,
+      "edge": 4.6,
+      "staked": true,
+      "qualified": true,
+      "reason": "Lamar (ankle) out; Huntley run-heavy script (2nd start) vs CLE interior; Browns outscored 34-6 in 1Q (league worst), 20+ points once all year, 17-12 last week; Ravens elite vs the run. Total fell 5 pts (44.5->39.5) but the QB-driven drop still leaves a 4.6pp gap."
     }
   ]
 }

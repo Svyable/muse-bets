@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "tickets": {
-    "w": 35,
-    "l": 56
+    "w": 36,
+    "l": 57
   },
   "legs": {
-    "w": 107,
-    "l": 103,
-    "n": 210,
-    "pct": 51.0
+    "w": 109,
+    "l": 104,
+    "n": 213,
+    "pct": 51.2
   },
   "equity": [
     {
@@ -90,20 +90,24 @@
     {
       "date": "2026-10-17",
       "units": -52.02
+    },
+    {
+      "date": "2026-10-18",
+      "units": -53.02
     }
   ],
   "by_sport": [
+    {
+      "k": "NFL",
+      "n": 54,
+      "w": 35,
+      "pct": 64.8
+    },
     {
       "k": "NHL",
       "n": 53,
       "w": 29,
       "pct": 54.7
-    },
-    {
-      "k": "NFL",
-      "n": 51,
-      "w": 33,
-      "pct": 64.7
     },
     {
       "k": "MLB",
@@ -145,17 +149,17 @@
     },
     {
       "k": "total",
-      "n": 62,
-      "w": 28,
-      "pct": 45.2
+      "n": 65,
+      "w": 30,
+      "pct": 46.2
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 96,
-      "w": 54,
-      "pct": 56.2
+      "n": 99,
+      "w": 56,
+      "pct": 56.6
     },
     {
       "k": "model-value (total)",
@@ -413,9 +417,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 145,
-      "stated": 54.6,
-      "actual": 50.3
+      "n": 148,
+      "stated": 54.7,
+      "actual": 50.7
     },
     {
       "bucket": "<50",
@@ -451,6 +455,19 @@
       "staked": true,
       "qualified": true,
       "reason": "Lamar (ankle) out; Huntley run-heavy script (2nd start) vs CLE interior; Browns outscored 34-6 in 1Q (league worst), 20+ points once all year, 17-12 last week; Ravens elite vs the run. Total fell 5 pts (44.5->39.5) but the QB-driven drop still leaves a 4.6pp gap."
+    },
+    {
+      "rank": 1,
+      "sport": "NFL",
+      "matchup": "DAL @ GB",
+      "pick": "Over 53.5",
+      "line": 53.5,
+      "odds": -110,
+      "conf": 56,
+      "edge": 4.0,
+      "staked": true,
+      "qualified": true,
+      "reason": "Defenses rank 24th/32nd in opponent success rate; Dallas 32nd in EPA/play, league-worst 6.4 YPP and 120.5 passer rating allowed. Both passing games at full strength (Love 367 yds last week; Lamb/Pickens/Watson/Golden healthy), perfect Lambeau weather, Dallas can't run (50 yds last game) forcing pass-heavy script. 80 points in each of last two meetings. Total steamed 51.5->53.5 (sharp over money); fair ~55."
     }
   ]
 }

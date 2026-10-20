@@ -146,3 +146,26 @@ Headline: classic-tier tickets -22.43u over 33 (no classic tickets since 10/06 �
 - WNBA (6-8) and NHL (13-13) stay as watched newcomers; dip-buy n=1, no verdict.
 - Props: no graduations, no kills — no pattern at 3+ instances. Keep hunting; 'struggling-QB passing under vs elite pass D' (0-2) is one loss from the kill line.
 - The 9/28 close-capture rule is violated for the third straight review (75/164 missing). Not rewritten — it needs enforcing: the morning settle pass must backfill every close or flag the leg.
+
+---
+
+## Weekly review 2026-10-19 (217 unique settled legs; full numbers in hidden_files/weekly-review-2026-10-19.md)
+
+Headline: first week under the 10/15 uncap. Staked legs went 5-6 (45.5%), -1.05u @1u this week; full uncapped run 15-11 (57.7%), +4.19u. The damage is where the ledger said it would be: non-NFL legs at 4-6% claimed edge are a coin flip (4.0-5.9% band: 21-20, 51.2%), while NFL keeps validating its 4% bar (35-19, 64.8%, trailing-20 68.4%). Two pre-committed triggers fired: dogfood trailing-20 top-5 at 10-10 (50.0%) is under the 60% structural-change line, and the qualified trailing-20 (10-10, 50.0%) is under the 65% guardrail from the 10/12 rule-2 re-audit. Both point to the same fix: a tighter edge bar for the staked set. CLV 54.2% excl pushes (down from 55.1%), still positive; 104 of 217 legs (48%) have no closing data — fourth straight flag on the capture rule. By sport: NFL best (64.8%, n=56, eligible); NHL crossed 50 (29-24, 54.7%) — eligible and positive; MLB 20-29 (40.8%, n=49) is ONE leg short of its 50-leg cut trigger; CFB/NCAAF combined 19-24 (44.2%, n=44). Home 28-34 (45.2%) vs away 51-35 (59.3%) — split persists. Calibration: 50-59 bucket +4.0pp at n=151 (haircut stays lifted); 60-69 bucket +20.8pp at n=19 — ugly, one leg short of the guardrail bar. By approach (eligible): model-value 69-59 (53.9%), +4.66u — the workhorse; situational 16-19 (45.7%), CLV 60% — failing results, passing process, dual trigger not met (trailing-20 CLV 75%). line-movement 5-7 with 0b/5l CLV is failing both but n=12 — preliminary. Brand-tax fade 13-4 on marquee fades (preliminary, n=17) and 6-3 (+6.40u) as an approach — best ROI in the ledger. Props: KILL 'struggling-QB passing under vs elite pass D' (1-3, 25%, n=4); no graduations (pattern list diffused to 30+ one-off labels).
+
+### Rule changes (effective immediately)
+1. **Staked-set edge bar → 6% for all non-NFL legs, every day.** This fires the dogfood <60% structural-change trigger AND the 10/12 rule-2 guardrail (qualified trailing-20 under 65% → staked bar rises to 6%). It extends the NFL-first 6% rule (previously only on NFL slates) to no-NFL days. NFL keeps its 4% bar by explicit exception — 35-19 (64.8%, n=56) is the evidence that the lower bar works there. The MLB-specific cut trigger (50 legs under 45% → 6% bar) is subsumed by this rule and retired. No below-bar filler (uncap rule) — legs under 6% are simply not logged, same as today.
+2. **NBA formal entry rule (season opens 10/20).** NBA enters as a watched newcomer: 6% edge bar to make the card, conservative priors, never a forced staked leg; logged and tracked separately. It graduates to standard treatment only at n≥20 settled with trailing-20 hit rate ≥55% AND positive CLV excl pushes.
+3. **Props: kill 'struggling-QB passing under vs elite pass D'** (1-3, 25% at n=4 — under the 40% kill line at 3+ instances; no legs with this pattern are logged). No graduations. **Pattern consolidation:** the props lane has diffused into 30+ one-off labels; new legs must reuse an existing repeatable_pattern or be logged without one — a fresh pattern label may only be coined when the leg is the second known instance of that angle. The 3-instance bar is unreachable otherwise.
+4. **Calibration guardrail re-armed.** The 60-69 logged bucket (raw model post-lift) sits at +20.8pp over n=19 — one leg short of the n=20 bar. When it crosses 20 settled legs with a gap over 5pp, reinstate a 10pt haircut for raw≥60 legs. (Not a change today — pre-committed trigger, same shape as the 9/21 rule.)
+
+### Explicitly NOT changed (preliminary or too small — re-audit 10/26)
+- NFL concentration stays (trailing-20 68.4% vs 55% re-open); NFL away 15-5 (n=21) stays the preliminary sub-slice.
+- Situational: 6% bar stays, dual trigger re-armed (trailing-20 hit 47.4% ≤50% met, CLV 75% not <50% — no demotion).
+- line-movement stays (n=12 <20, failing both metrics — at n=20 still failing both → demoted).
+- model-edge 6% bar stays (7-8, 71% CLV — mixed, preliminary); fpi-chalk stays demoted (0-3); dip-buy n=1, no verdict (dormant).
+- Home-side 6% bar stays (home 45.2% vs away 59.3% — split persists, the bar is doing its job).
+- Haircut stays lifted (50-59 bucket +4.0pp, n=151); <50 dogs stay logged raw (conservative-or-better at -11.5pp).
+- Totals watch resolved: 46.2% at n=66 is above the 45% line, and rule 1 gives non-NFL totals the 6% bar anyway.
+- NHL stays in the card (54.7% at n=54); WNBA stays watched newcomer under the universal 6% bar.
+- The 9/28 close-capture rule is violated for the fourth straight review (104/217 missing). Not rewritten — it needs enforcing on the pregame side, not rewriting. DATA-HYGIENE ADDENDUM: normalize the sport label to "CFB" (this week split "CFB"/"NCAAF"); the morning job must use one label per sport.

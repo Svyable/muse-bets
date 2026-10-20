@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "tickets": {
     "w": 36,
-    "l": 57
+    "l": 58
   },
   "legs": {
     "w": 109,
-    "l": 104,
-    "n": 213,
-    "pct": 51.2
+    "l": 105,
+    "n": 214,
+    "pct": 50.9
   },
   "equity": [
     {
@@ -94,14 +94,18 @@
     {
       "date": "2026-10-18",
       "units": -53.02
+    },
+    {
+      "date": "2026-10-20",
+      "units": -54.02
     }
   ],
   "by_sport": [
     {
       "k": "NFL",
-      "n": 54,
+      "n": 55,
       "w": 35,
-      "pct": 64.8
+      "pct": 63.6
     },
     {
       "k": "NHL",
@@ -143,9 +147,9 @@
     },
     {
       "k": "spread",
-      "n": 66,
+      "n": 67,
       "w": 35,
-      "pct": 53.0
+      "pct": 52.2
     },
     {
       "k": "total",
@@ -157,9 +161,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 99,
+      "n": 100,
       "w": 56,
-      "pct": 56.6
+      "pct": 56.0
     },
     {
       "k": "model-value (total)",
@@ -417,9 +421,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 148,
+      "n": 149,
       "stated": 54.7,
-      "actual": 50.7
+      "actual": 50.3
     },
     {
       "bucket": "<50",
@@ -428,46 +432,33 @@
       "actual": 56.5
     }
   ],
-  "latest_date": "2026-10-18",
+  "latest_date": "2026-10-20",
   "card": [
     {
       "rank": 1,
-      "sport": "NFL",
-      "matchup": "LAC @ KC",
-      "pick": "Under 41.5",
-      "line": 41.5,
+      "sport": "CFB",
+      "matchup": "MTSU @ FIU",
+      "pick": "Under 45.5",
+      "line": 45.5,
       "odds": -110,
-      "conf": 59,
-      "edge": 6.6,
-      "staked": true,
+      "conf": 58,
+      "edge": 5.2,
+      "staked": false,
       "qualified": true,
-      "reason": "Herbert behind wrecked O-line (Alt, Awosika out; 17 sacks, 7 INTs) vs KC off bye with decimated WR room (Rice, Thornton out) and 3 sacks in 4 games; LAC games 4-1 to under; 4 of last 5 H2H stayed under 40. Chiefs marquee brand but backing an under, not the brand."
+      "reason": "Opponent-adjusted EPA model (Tony's Picks) projects 43 total vs market 45.5 \u2014 2.5 pts of value. FIU defense elite (allowed <=20 vs everyone but Jax St; 10th nationally in 3rd-down stops; leads CUSA vs run) vs MTSU 2nd-worst 3rd-down offense in America. FIU finishing issues keep it from covering spreads but favor the under."
     },
     {
       "rank": 2,
-      "sport": "NFL",
-      "matchup": "BAL @ CLE",
-      "pick": "Under 39.5",
-      "line": 39.5,
-      "odds": -110,
+      "sport": "CFB",
+      "matchup": "USA @ MARSH",
+      "pick": "South Alabama -3",
+      "line": -3,
+      "odds": -112,
       "conf": 57,
-      "edge": 4.6,
-      "staked": true,
+      "edge": 4.1,
+      "staked": false,
       "qualified": true,
-      "reason": "Lamar (ankle) out; Huntley run-heavy script (2nd start) vs CLE interior; Browns outscored 34-6 in 1Q (league worst), 20+ points once all year, 17-12 last week; Ravens elite vs the run. Total fell 5 pts (44.5->39.5) but the QB-driven drop still leaves a 4.6pp gap."
-    },
-    {
-      "rank": 1,
-      "sport": "NFL",
-      "matchup": "DAL @ GB",
-      "pick": "Over 53.5",
-      "line": 53.5,
-      "odds": -110,
-      "conf": 56,
-      "edge": 4.0,
-      "staked": true,
-      "qualified": true,
-      "reason": "Defenses rank 24th/32nd in opponent success rate; Dallas 32nd in EPA/play, league-worst 6.4 YPP and 120.5 passer rating allowed. Both passing games at full strength (Love 367 yds last week; Lamb/Pickens/Watson/Golden healthy), perfect Lambeau weather, Dallas can't run (50 yds last game) forcing pass-heavy script. 80 points in each of last two meetings. Total steamed 51.5->53.5 (sharp over money); fair ~55."
+      "reason": "USA offense 38.8 ppg / 220 rush ypg (16th nationally) vs Marshall run D allowing 193.8 ypg; Marshall -9 turnover margin (6 TOs last game vs Coastal); Dimers model 56.2% outright. USA 2-0 in Sun Belt by 52/56-point explosions. CFN dissents (Marshall 34-31) so no staked slot."
     }
   ]
 }

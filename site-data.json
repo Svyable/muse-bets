@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "tickets": {
     "w": 36,
-    "l": 59
+    "l": 60
   },
   "legs": {
-    "w": 109,
-    "l": 107,
-    "n": 216,
-    "pct": 50.5
+    "w": 110,
+    "l": 110,
+    "n": 220,
+    "pct": 50.0
   },
   "equity": [
     {
@@ -102,6 +102,10 @@
     {
       "date": "2026-10-21",
       "units": -55.02
+    },
+    {
+      "date": "2026-10-22",
+      "units": -56.02
     }
   ],
   "by_sport": [
@@ -113,9 +117,9 @@
     },
     {
       "k": "NHL",
-      "n": 53,
-      "w": 29,
-      "pct": 54.7
+      "n": 54,
+      "w": 30,
+      "pct": 55.6
     },
     {
       "k": "MLB",
@@ -125,9 +129,9 @@
     },
     {
       "k": "CFB",
-      "n": 37,
+      "n": 38,
       "w": 17,
-      "pct": 45.9
+      "pct": 44.7
     },
     {
       "k": "WNBA",
@@ -140,20 +144,26 @@
       "n": 8,
       "w": 2,
       "pct": 25.0
+    },
+    {
+      "k": "NBA",
+      "n": 2,
+      "w": 0,
+      "pct": 0.0
     }
   ],
   "by_market": [
     {
       "k": "moneyline",
-      "n": 82,
-      "w": 44,
-      "pct": 53.7
+      "n": 85,
+      "w": 45,
+      "pct": 52.9
     },
     {
       "k": "spread",
-      "n": 68,
+      "n": 69,
       "w": 35,
-      "pct": 51.5
+      "pct": 50.7
     },
     {
       "k": "total",
@@ -165,9 +175,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 102,
-      "w": 56,
-      "pct": 54.9
+      "n": 105,
+      "w": 57,
+      "pct": 54.3
     },
     {
       "k": "model-value (total)",
@@ -177,9 +187,9 @@
     },
     {
       "k": "line-movement",
-      "n": 10,
+      "n": 11,
       "w": 4,
-      "pct": 40.0
+      "pct": 36.4
     },
     {
       "k": "model-edge (SP mismatch)",
@@ -419,15 +429,15 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 19,
-      "stated": 62.9,
-      "actual": 42.1
+      "n": 20,
+      "stated": 63.0,
+      "actual": 40.0
     },
     {
       "bucket": "50-59",
-      "n": 151,
+      "n": 154,
       "stated": 54.7,
-      "actual": 49.7
+      "actual": 49.4
     },
     {
       "bucket": "<50",
@@ -436,59 +446,72 @@
       "actual": 56.5
     }
   ],
-  "latest_date": "2026-10-21",
+  "latest_date": "2026-10-22",
   "card": [
     {
       "rank": 1,
-      "sport": "CFB",
-      "matchup": "NMSU @ SHSU",
-      "pick": "Sam Houston State +2.5",
-      "line": 2.5,
-      "odds": -110,
-      "conf": 64,
-      "edge": 11.6,
+      "sport": "NHL",
+      "matchup": "SJS @ OTT",
+      "pick": "Senators ML",
+      "line": null,
+      "odds": -128,
+      "conf": 69,
+      "edge": 12.9,
       "staked": true,
       "qualified": true,
-      "reason": "numberFire has NMSU at 50.1% win vs market 57.8% implied \u2014 ~8pp model/market gap on the Aggies. Home dog +2.5 in a pick'em covers ~64%. Only CFB game tonight; NMSU off a bye, 7 turnovers in 3 road losses."
+      "reason": "numberFire 69% vs -128 implied 56.1% = +12.9pp. Ersson likely in net with Ullmark day-to-day (lower-body; Ersson career .918 vs SJS). Flag: OTT 2nd of B2B after the emotional 5-1 Tkachuk-return win; SJS rested since Tue. Goalie unconfirmed."
     },
     {
       "rank": 2,
-      "sport": "NBA",
-      "matchup": "IND @ NOP",
-      "pick": "New Orleans Pelicans ML",
+      "sport": "NHL",
+      "matchup": "FLA @ PIT",
+      "pick": "Penguins ML",
       "line": null,
-      "odds": 130,
-      "conf": 55,
-      "edge": 11.5,
-      "staked": false,
+      "odds": -115,
+      "conf": 65,
+      "edge": 11.4,
+      "staked": true,
       "qualified": true,
-      "reason": "numberFire projects Pelicans 67.16% win vs market 43.5% implied \u2014 the widest model/market split on the 11-game slate. Haliburton comeback narrative (first game in 16 months, possible managed workload) inflating Pacers price. NBA watched newcomer: paper-only."
+      "reason": "numberFire 64.9% vs -115 implied 53.5% = +11.4pp. FLA 2nd of B2B with travel off the 5-1 loss at OTT; rookie Cooper Black likely NHL debut in net. FLAG: AccuScore contradicts (54% FLA) \u2014 models disagree, edge is nF-only. PIT rested."
     },
     {
       "rank": 3,
-      "sport": "NBA",
-      "matchup": "PHX @ POR",
-      "pick": "Phoenix Suns ML",
+      "sport": "NHL",
+      "matchup": "LAK @ NYI",
+      "pick": "Islanders ML",
       "line": null,
-      "odds": 120,
-      "conf": 52,
-      "edge": 6.5,
-      "staked": false,
+      "odds": -115,
+      "conf": 64,
+      "edge": 9.1,
+      "staked": true,
       "qualified": true,
-      "reason": "2-pt steam toward Phoenix (Blazers opened -4.5, now -2.5); numberFire 50.9% POR = coin flip vs 45.5% implied. Portland's Ja/Lillard/Holiday trio has never played together; Sharpe out. NBA watched newcomer: paper-only."
+      "reason": "numberFire 63.8% vs -115 implied 54.7% = +9.1pp. Sorokin 1.72/.934 vs Kuemper; NYI 4-1 at home; LAK off first win at WSH (letdown spot)."
     },
     {
       "rank": 4,
-      "sport": "NHL",
-      "matchup": "FLA @ OTT",
-      "pick": "Ottawa Senators ML",
+      "sport": "NBA",
+      "matchup": "CLE @ PHI",
+      "pick": "Cavaliers ML",
       "line": null,
-      "odds": -108,
-      "conf": 58,
-      "edge": 6.1,
+      "odds": 124,
+      "conf": 52,
+      "edge": 7.3,
+      "staked": false,
+      "qualified": true,
+      "reason": "numberFire 51.9% has the road dog as the model favorite vs +124 implied 44.6% = +7.3pp. CLE swept the season series 4-0; PHI's new superteam (LeBron/Brown/Maxey/Embiid) getting ring-night public money, line steaming PHI-ward (-2.5 to -3.5). Flag: Allen (CLE) questionable. NBA newcomer: paper-only."
+    },
+    {
+      "rank": 5,
+      "sport": "NHL",
+      "matchup": "NSH @ BOS",
+      "pick": "Bruins ML",
+      "line": null,
+      "odds": -160,
+      "conf": 68,
+      "edge": 6.2,
       "staked": true,
       "qualified": true,
-      "reason": "Ullmark +8.1 GSAx vs Schmid -1.4 GSAx \u2014 the biggest goalie mismatch on the board; numberFire 60.4% vs 51.9% implied. Clears the 6% home-side bar. Goalies unconfirmed until warmups (task intel)."
+      "reason": "numberFire 67.7% vs -160 implied 61.5% = +6.2pp \u2014 clears the home-side 6% bar. Goalies expected (Saros vs Swayman), unconfirmed."
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "tickets": {
     "w": 36,
     "l": 60
   },
   "legs": {
-    "w": 110,
-    "l": 110,
-    "n": 220,
-    "pct": 50.0
+    "w": 112,
+    "l": 113,
+    "n": 225,
+    "pct": 49.8
   },
   "equity": [
     {
@@ -110,16 +110,16 @@
   ],
   "by_sport": [
     {
+      "k": "NHL",
+      "n": 58,
+      "w": 32,
+      "pct": 55.2
+    },
+    {
       "k": "NFL",
       "n": 55,
       "w": 35,
       "pct": 63.6
-    },
-    {
-      "k": "NHL",
-      "n": 54,
-      "w": 30,
-      "pct": 55.6
     },
     {
       "k": "MLB",
@@ -147,7 +147,7 @@
     },
     {
       "k": "NBA",
-      "n": 2,
+      "n": 3,
       "w": 0,
       "pct": 0.0
     }
@@ -155,9 +155,9 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 85,
-      "w": 45,
-      "pct": 52.9
+      "n": 90,
+      "w": 47,
+      "pct": 52.2
     },
     {
       "k": "spread",
@@ -175,9 +175,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 105,
-      "w": 57,
-      "pct": 54.3
+      "n": 109,
+      "w": 58,
+      "pct": 53.2
     },
     {
       "k": "model-value (total)",
@@ -318,6 +318,12 @@
       "pct": 100.0
     },
     {
+      "k": "model-value + situational (B2B fade)",
+      "n": 1,
+      "w": 1,
+      "pct": 100.0
+    },
+    {
       "k": "projection gap (computer model)",
       "n": 1,
       "w": 1,
@@ -429,15 +435,15 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 20,
-      "stated": 63.0,
-      "actual": 40.0
+      "n": 24,
+      "stated": 63.6,
+      "actual": 41.7
     },
     {
       "bucket": "50-59",
-      "n": 154,
+      "n": 155,
       "stated": 54.7,
-      "actual": 49.4
+      "actual": 49.0
     },
     {
       "bucket": "<50",

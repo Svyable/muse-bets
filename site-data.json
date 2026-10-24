@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "tickets": {
     "w": 36,
     "l": 60
@@ -452,72 +452,72 @@
       "actual": 56.5
     }
   ],
-  "latest_date": "2026-10-22",
+  "latest_date": "2026-10-24",
   "card": [
     {
       "rank": 1,
-      "sport": "NHL",
-      "matchup": "SJS @ OTT",
-      "pick": "Senators ML",
+      "sport": "NBA",
+      "matchup": "MIA @ CHA",
+      "pick": "Charlotte Hornets ML",
       "line": null,
-      "odds": -128,
-      "conf": 69,
-      "edge": 12.9,
-      "staked": true,
+      "odds": 130,
+      "conf": 58,
+      "edge": 14.5,
+      "staked": false,
       "qualified": true,
-      "reason": "numberFire 69% vs -128 implied 56.1% = +12.9pp. Ersson likely in net with Ullmark day-to-day (lower-body; Ersson career .918 vs SJS). Flag: OTT 2nd of B2B after the emotional 5-1 Tkachuk-return win; SJS rested since Tue. Goalie unconfirmed."
+      "reason": "Ensemble fair 57.7% (numberFire 68.4% + Covers/Polymarket pick 47% for Charlotte, averaged) vs +130 implied 43.5% = +14.5pp. Heat 0-2, on the road; Hornets 1-1 at home. DISSENT: Sports Mole and Covers both pick Miami outright, and numberFire alone (68.4%) looks inflated early-season - hence the shrunk ensemble, not the raw split. NBA watched newcomer: paper-only, never staked."
     },
     {
       "rank": 2,
-      "sport": "NHL",
-      "matchup": "FLA @ PIT",
-      "pick": "Penguins ML",
-      "line": null,
-      "odds": -115,
-      "conf": 65,
-      "edge": 11.4,
+      "sport": "CFB",
+      "matchup": "TENN @ SC",
+      "pick": "Tennessee +2.5",
+      "line": 2.5,
+      "odds": -112,
+      "conf": 62,
+      "edge": 9.2,
       "staked": true,
       "qualified": true,
-      "reason": "numberFire 64.9% vs -115 implied 53.5% = +11.4pp. FLA 2nd of B2B with travel off the 5-1 loss at OTT; rookie Cooper Black likely NHL debut in net. FLAG: AccuScore contradicts (54% FLA) \u2014 models disagree, edge is nF-only. PIT rested."
+      "reason": "ScoresAndStats margin model has Tennessee by 2.2 (4.7-pt gap vs the +2.5 spread); SportsJaw projects Tennessee 27-20 outright; FPI has Tennessee 59.9% vs 44.9% no-vig market (confirming angle only - FPI-chalk stays demoted). Vols allow 14.7 ppg, lead FBS with 30 sacks, just beat Alabama 26-10; MacIntyre expected to start (2-0). Counter: line flipped from TENN -2 open to SC -2.5, SC off a bye with Sellers' dual threat."
     },
     {
       "rank": 3,
-      "sport": "NHL",
-      "matchup": "LAK @ NYI",
-      "pick": "Islanders ML",
+      "sport": "NBA",
+      "matchup": "WAS @ CHI",
+      "pick": "Chicago Bulls ML",
       "line": null,
-      "odds": -115,
-      "conf": 64,
-      "edge": 9.1,
-      "staked": true,
+      "odds": -104,
+      "conf": 60,
+      "edge": 9.0,
+      "staked": false,
       "qualified": true,
-      "reason": "numberFire 63.8% vs -115 implied 54.7% = +9.1pp. Sorokin 1.72/.934 vs Kuemper; NYI 4-1 at home; LAK off first win at WSH (letdown spot)."
+      "reason": "Ensemble fair 60.1% (numberFire 66.22% + Covers pick 54%, averaged) vs -104 implied 51.0% = +9.0pp. Wizards favored by 1.5 on the spread yet the model has Chicago outright; both teams 1-1. DISSENT: Sports Mole picks Washington outright, and numberFire alone (66.2%) looks inflated - shrunk ensemble used. NBA watched newcomer: paper-only, never staked."
     },
     {
       "rank": 4,
-      "sport": "NBA",
-      "matchup": "CLE @ PHI",
-      "pick": "Cavaliers ML",
+      "sport": "NHL",
+      "matchup": "BUF @ WSH",
+      "pick": "Buffalo Sabres ML",
       "line": null,
-      "odds": 124,
-      "conf": 52,
-      "edge": 7.3,
-      "staked": false,
+      "odds": 106,
+      "conf": 56,
+      "edge": 7.5,
+      "staked": true,
       "qualified": true,
-      "reason": "numberFire 51.9% has the road dog as the model favorite vs +124 implied 44.6% = +7.3pp. CLE swept the season series 4-0; PHI's new superteam (LeBron/Brown/Maxey/Embiid) getting ring-night public money, line steaming PHI-ward (-2.5 to -3.5). Flag: Allen (CLE) questionable. NBA newcomer: paper-only."
+      "reason": "Ensemble fair 55.8% (numberFire 61.9% + dratings 49.6%, averaged) vs +106 implied 48.5% = +7.5pp. FLAG: models disagree by 12.3pp - dratings is essentially a coin flip, so this is the thinnest qualifier on the card; numberFire alone would overstate it. Caps 5-4, Sabres 4-4-2; road dog, no home-side bar issue."
     },
     {
       "rank": 5,
-      "sport": "NHL",
-      "matchup": "NSH @ BOS",
-      "pick": "Bruins ML",
-      "line": null,
-      "odds": -160,
-      "conf": 68,
-      "edge": 6.2,
+      "sport": "MLB",
+      "matchup": "TB @ MIL (WS G2)",
+      "pick": "Under 6.5",
+      "line": 6.5,
+      "odds": -106,
+      "conf": 58,
+      "edge": 6.5,
       "staked": true,
       "qualified": true,
-      "reason": "numberFire 67.7% vs -160 implied 61.5% = +6.2pp \u2014 clears the home-side 6% bar. Goalies expected (Saros vs Swayman), unconfirmed."
+      "reason": "Implied 51.5% vs fair ~58%: Rasmussen 1.29 ERA / 23K in 21 postseason IP, Henderson 0.77 WHIP at home (44 IP), both pens elite, Game 1 totaled 5, roof closed. Pick-consensus angle (RotoWire, PicksAndParlays, scores24 all under) rather than a projection model. Counter: Henderson's postseason control is shaky (5 BB in 9 IP) - one walk-fueled crooked inning breaks it."
     }
   ]
 }

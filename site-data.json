@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "tickets": {
     "w": 36,
     "l": 62
   },
   "legs": {
-    "w": 117,
-    "l": 123,
-    "n": 240,
+    "w": 118,
+    "l": 124,
+    "n": 242,
     "pct": 48.8
   },
   "equity": [
@@ -119,9 +119,9 @@
   "by_sport": [
     {
       "k": "NHL",
-      "n": 63,
-      "w": 33,
-      "pct": 52.4
+      "n": 65,
+      "w": 34,
+      "pct": 52.3
     },
     {
       "k": "NFL",
@@ -163,8 +163,8 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 100,
-      "w": 52,
+      "n": 102,
+      "w": 53,
       "pct": 52.0
     },
     {
@@ -183,8 +183,8 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 124,
-      "w": 63,
+      "n": 126,
+      "w": 64,
       "pct": 50.8
     },
     {
@@ -443,9 +443,9 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 33,
+      "n": 34,
       "stated": 63.5,
-      "actual": 39.4
+      "actual": 38.2
     },
     {
       "bucket": "50-59",
@@ -455,38 +455,38 @@
     },
     {
       "bucket": "<50",
-      "n": 48,
-      "stated": 44.5,
-      "actual": 56.2
+      "n": 49,
+      "stated": 44.6,
+      "actual": 57.1
     }
   ],
-  "latest_date": "2026-10-26",
+  "latest_date": "2026-10-27",
   "card": [
     {
       "rank": 1,
       "sport": "NHL",
-      "matchup": "LAK @ NYR",
-      "pick": "New York Rangers ML",
+      "matchup": "NJD @ DAL",
+      "pick": "Dallas Stars ML",
       "line": null,
-      "odds": -126,
-      "conf": 64,
+      "odds": -125,
+      "conf": 54,
       "edge": 10.7,
-      "staked": true,
+      "staked": false,
       "qualified": true,
-      "reason": "numberFire 71% NYR vs 53.3% no-vig implied (FD -126 vs LAK +105) - widest model/market gap on the board, shrunk to 64 for single-model early-season noise. Rangers 7-5-1 at home vs Kings 2-5-2 (lost 7 of last 9, 2.33 GF/g, 65.5% PK); NYR 3.15 GF/g vs 2.77 GA/g. Clears the 6% home-side bar by 4.7pp even after the shrink. BetMGM -135 / PickDawgz -135 agree FD -126 is the best price."
+      "reason": "Ensemble fair 63.8% (numberFire 67.8% + dratings 59.7%) vs 53.1% no-vig implied (DAL -125 / NJD +104 FD) = +10.7pp. Only qualifier confirmed by both models. Stars won 5 straight, 1.73 GAA, 92.3% PK; Oettinger vs Allen. Confidence 54 = raw 63.8 minus the reinstated 10-pt haircut (raw >=60). Paper-only: non-NFL, no NFL on slate."
     },
     {
       "rank": 2,
-      "sport": "NHL",
-      "matchup": "TOR @ CGY",
-      "pick": "Calgary Flames ML",
+      "sport": "NBA",
+      "matchup": "POR @ LAL",
+      "pick": "Los Angeles Lakers ML",
       "line": null,
-      "odds": 136,
-      "conf": 47,
-      "edge": 6.8,
-      "staked": true,
+      "odds": -142,
+      "conf": 54,
+      "edge": 7.5,
+      "staked": false,
       "qualified": true,
-      "reason": "numberFire 47.4% CGY vs 40.6% no-vig implied (TOR -164 / CGY +136) - thinnest qualifier on the card, clears the 6% home-side bar by 0.8pp. Single-model leg, no corroborating model found; TOR 7-4-2 is the better team on record, so this is a pure price-vs-model play on the home dog. Logged because it clears the bar; sized as paper in spirit."
+      "reason": "Ensemble fair 63.9% (numberFire 69.8% + Polymarket 58%) vs 56.4% no-vig implied (LAL -142 / POR +120 FD) = +7.5pp. Both teams unbeaten (LAL 3-0, POR 2-0); market prices it near a coin flip while nF has LAL near 70%. Caveats: Lakers are a marquee brand (brand-tax lean cuts the other way); POR rested since Fri with elite early D (101.5 ppg allowed), Sharpe out, Scoot questionable. Confidence 54 = raw 63.9 minus 10-pt haircut. NBA watched newcomer: paper-only, never staked."
     }
   ]
 }

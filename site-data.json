@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "tickets": {
     "w": 36,
-    "l": 62
+    "l": 63
   },
   "legs": {
     "w": 118,
-    "l": 124,
-    "n": 242,
-    "pct": 48.8
+    "l": 126,
+    "n": 244,
+    "pct": 48.4
   },
   "equity": [
     {
@@ -114,14 +114,18 @@
     {
       "date": "2026-10-26",
       "units": -58.02
+    },
+    {
+      "date": "2026-10-28",
+      "units": -59.02
     }
   ],
   "by_sport": [
     {
       "k": "NHL",
-      "n": 65,
+      "n": 66,
       "w": 34,
-      "pct": 52.3
+      "pct": 51.5
     },
     {
       "k": "NFL",
@@ -148,24 +152,24 @@
       "pct": 42.9
     },
     {
+      "k": "NBA",
+      "n": 8,
+      "w": 3,
+      "pct": 37.5
+    },
+    {
       "k": "NCAAF",
       "n": 8,
       "w": 2,
       "pct": 25.0
-    },
-    {
-      "k": "NBA",
-      "n": 7,
-      "w": 3,
-      "pct": 42.9
     }
   ],
   "by_market": [
     {
       "k": "moneyline",
-      "n": 102,
+      "n": 104,
       "w": 53,
-      "pct": 52.0
+      "pct": 51.0
     },
     {
       "k": "spread",
@@ -183,9 +187,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 126,
+      "n": 128,
       "w": 64,
-      "pct": 50.8
+      "pct": 50.0
     },
     {
       "k": "model-value (total)",
@@ -449,9 +453,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 159,
+      "n": 161,
       "stated": 54.8,
-      "actual": 48.4
+      "actual": 47.8
     },
     {
       "bucket": "<50",
@@ -460,33 +464,72 @@
       "actual": 57.1
     }
   ],
-  "latest_date": "2026-10-27",
+  "latest_date": "2026-10-28",
   "card": [
     {
       "rank": 1,
-      "sport": "NHL",
-      "matchup": "NJD @ DAL",
-      "pick": "Dallas Stars ML",
+      "sport": "NBA",
+      "matchup": "GSW @ MIN",
+      "pick": "Minnesota Timberwolves ML",
       "line": null,
-      "odds": -125,
-      "conf": 54,
-      "edge": 10.7,
+      "odds": -152,
+      "conf": 59,
+      "edge": 11.5,
       "staked": false,
       "qualified": true,
-      "reason": "Ensemble fair 63.8% (numberFire 67.8% + dratings 59.7%) vs 53.1% no-vig implied (DAL -125 / NJD +104 FD) = +10.7pp. Only qualifier confirmed by both models. Stars won 5 straight, 1.73 GAA, 92.3% PK; Oettinger vs Allen. Confidence 54 = raw 63.8 minus the reinstated 10-pt haircut (raw >=60). Paper-only: non-NFL, no NFL on slate."
+      "reason": "Ensemble fair 69.4% (numberFire 70.7% + Polymarket 68%) vs 57.9% no-vig implied (MIN -152 / GSW +128 FD) = +11.5pp. Market over-discounted Edwards' absence (-197 -> -152); live Polymarket corroborates ~68%. Caveat: nF page may predate the Edwards news; both models still agree >=6%. Paper-only: non-NFL, no NFL on slate."
     },
     {
       "rank": 2,
       "sport": "NBA",
-      "matchup": "POR @ LAL",
-      "pick": "Los Angeles Lakers ML",
+      "matchup": "OKC @ DAL",
+      "pick": "Oklahoma City Thunder ML",
       "line": null,
-      "odds": -142,
-      "conf": 54,
-      "edge": 7.5,
+      "odds": -225,
+      "conf": 67,
+      "edge": 10.6,
       "staked": false,
       "qualified": true,
-      "reason": "Ensemble fair 63.9% (numberFire 69.8% + Polymarket 58%) vs 56.4% no-vig implied (LAL -142 / POR +120 FD) = +7.5pp. Both teams unbeaten (LAL 3-0, POR 2-0); market prices it near a coin flip while nF has LAL near 70%. Caveats: Lakers are a marquee brand (brand-tax lean cuts the other way); POR rested since Fri with elite early D (101.5 ppg allowed), Sharpe out, Scoot questionable. Confidence 54 = raw 63.9 minus 10-pt haircut. NBA watched newcomer: paper-only, never staked."
+      "reason": "Ensemble fair 77.2% (numberFire 79.3% + Polymarket 75%) vs 66.6% no-vig implied (OKC -225 / DAL +188 FD) = +10.6pp. 4-0 OKC, league-stingiest defense; DAL with Kyrie questionable returning from knee surgery. Paper-only: non-NFL, no NFL on slate."
+    },
+    {
+      "rank": 3,
+      "sport": "NHL",
+      "matchup": "TOR @ SEA",
+      "pick": "Seattle Kraken ML",
+      "line": null,
+      "odds": 102,
+      "conf": 56,
+      "edge": 8.3,
+      "staked": false,
+      "qualified": true,
+      "reason": "Ensemble fair 55.7% (numberFire 58.3% + dratings 53.1%) vs 47.4% no-vig implied (TOR -122 / SEA +102 FD) = +8.3pp. Rested Seattle (3 days) vs travel-weary, injury-thinned Toronto on short rest; fading marquee Maple Leafs at near pick'em. Raw 55.7 <60 so no haircut. Paper-only: non-NFL, no NFL on slate."
+    },
+    {
+      "rank": 4,
+      "sport": "NHL",
+      "matchup": "NJ @ COL",
+      "pick": "Colorado Avalanche ML",
+      "line": null,
+      "odds": -178,
+      "conf": 58,
+      "edge": 7.2,
+      "staked": false,
+      "qualified": true,
+      "reason": "Ensemble fair 68.4% (numberFire 68.1% + dratings 68.6%) vs 61.2% no-vig implied (COL -178 / NJ +146 FD) = +7.2pp. Only NHL leg where both models independently clear the bar. Rested COL vs NJ on 2nd night of a back-to-back in altitude (won 5-1 at DAL Tue). PRICE-SENSITIVE: at -185 the edge falls below 6% - verify -178 or longer. Confidence 58 = raw 68.4 minus 10-pt haircut. Paper-only: non-NFL, no NFL on slate."
+    },
+    {
+      "rank": 5,
+      "sport": "NBA",
+      "matchup": "WAS @ CLE",
+      "pick": "Cleveland Cavaliers ML",
+      "line": null,
+      "odds": -375,
+      "conf": 72,
+      "edge": 6.2,
+      "staked": false,
+      "qualified": true,
+      "reason": "Ensemble fair 82.2% (numberFire 85.3% + Polymarket 79%) vs 76.0% no-vig implied (CLE -375 / WAS +300 FD) = +6.2pp - clears by 0.2pp only. Polymarket alone gives just +3.1pp, so this is marginal/disputed; ranked last. CLE has won 14 straight vs WAS. Heavy chalk, low payout. Confidence 72 = raw 82.2 minus 10-pt haircut. Paper-only: non-NFL, no NFL on slate."
     }
   ]
 }

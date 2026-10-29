@@ -2,6 +2,14 @@
 
 Multi-sport handicapping experiment, enhanced with the Silver/Beane upgrades. Updated only by the weekly Monday review, on ledger evidence — plus user-directed process changes, marked as such below.
 
+## Process change — user-directed log-everything (2026-10-28)
+
+Sven: "You should be logging everything you suggest to me betting wise that counts as your record."
+
+- **Every betting suggestion Muse makes counts as Muse's record and gets logged** — morning cards, pregame-sweep verdicts on card legs (already logged), user-requested parlays/tickets, and any ad-hoc suggestion in chat. No suggestion goes unlogged.
+- **Home:** model-scored binary legs clearing the edge bar → `pick-ledger.jsonl` (unchanged). Everything else — props, SGPs, user-requested parlay sets, binary legs that did NOT clear the bar — → `prop-ledger.jsonl`, with approach `user-requested parlay set` (or the relevant approach), confidence/edge null when not model-scored, and `staked:false` unless Sven confirms he played it. Never mix un-scored legs into binary evidence.
+- **Backfill (2026-10-28):** the three MNF parlay sets from 2026-10-26 (Chalk +328, Dak deals +533, McKee's got volume +621) were logged retroactively to `prop-ledger.jsonl` with verified box-score results — all three parlays lost; 8 new unique legs 4-4. The Lamb O78.5 leg in Set 2 duplicates the 10/26 morning-card entry and is flagged `count_in_record:false` so the record doesn't double-count it. Retroactive logging is the exception — from here on, suggestions are logged the same day they're made.
+
 ## Process change — user-directed uncap (2026-10-14)
 
 Sven: "Uncap it — log every leg that clears the bar." Supersedes the 2026-10-07 daily-20 cap. This is a *process* change on his direct instruction — no edge bars, staking rules, or Silver evidence thresholds were altered.

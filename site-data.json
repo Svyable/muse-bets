@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "tickets": {
     "w": 36,
-    "l": 64
+    "l": 65
   },
   "legs": {
     "w": 121,
-    "l": 128,
-    "n": 249,
-    "pct": 48.6
+    "l": 129,
+    "n": 250,
+    "pct": 48.4
   },
   "equity": [
     {
@@ -122,14 +122,18 @@
     {
       "date": "2026-10-29",
       "units": -60.02
+    },
+    {
+      "date": "2026-10-30",
+      "units": -61.02
     }
   ],
   "by_sport": [
     {
       "k": "NHL",
-      "n": 68,
+      "n": 69,
       "w": 36,
-      "pct": 52.9
+      "pct": 52.2
     },
     {
       "k": "NFL",
@@ -171,9 +175,9 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 109,
+      "n": 110,
       "w": 56,
-      "pct": 51.4
+      "pct": 50.9
     },
     {
       "k": "spread",
@@ -191,9 +195,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 133,
+      "n": 134,
       "w": 67,
-      "pct": 50.4
+      "pct": 50.0
     },
     {
       "k": "model-value (total)",
@@ -457,9 +461,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 164,
+      "n": 165,
       "stated": 54.8,
-      "actual": 48.2
+      "actual": 47.9
     },
     {
       "bucket": "<50",
@@ -468,20 +472,98 @@
       "actual": 58.0
     }
   ],
-  "latest_date": "2026-10-29",
+  "latest_date": "2026-10-30",
   "card": [
     {
       "rank": 1,
-      "sport": "NHL",
-      "matchup": "UTA @ PIT",
-      "pick": "Pittsburgh Penguins ML",
+      "sport": "NBA",
+      "matchup": "CHA @ WAS",
+      "pick": "Charlotte Hornets ML",
       "line": null,
-      "odds": 114,
-      "conf": 52,
-      "edge": 7.3,
+      "odds": 102,
+      "conf": 68,
+      "edge": 30.1,
       "staked": false,
       "qualified": true,
-      "reason": "Ensemble fair 52.0% (numberFire 54.2% + dratings 49.7%) vs 44.7% no-vig implied (UTA -137 / PIT +114 FD) = +7.3pp, clearing the 6% home-side bar. Both models sit above the market. 8-5 Utah road favorite over a 5-6-1 Pittsburgh side that numberFire still rates the better team tonight. Paper-only: non-NFL, NFL-only staking rule."
+      "reason": "numberFire 77.7% vs 47.6% no-vig implied (WAS -120 / CHA +102 FD) = +30.1pp. nF-only model, flagged: edge is extreme for a 3-2 road side, but every independent angle leans Charlotte too \u2014 beat Washington 110-103 on Monday, Wizards lost 121-111 at Cleveland, Charlotte's defense has been the more dependable unit. Away side, clears the 6% non-NFL bar. Paper-only: no NFL today, NFL-only staking rule."
+    },
+    {
+      "rank": 2,
+      "sport": "NBA",
+      "matchup": "DEN @ PHX",
+      "pick": "Phoenix Suns ML",
+      "line": null,
+      "odds": 154,
+      "conf": 53,
+      "edge": 15.3,
+      "staked": false,
+      "qualified": true,
+      "reason": "numberFire 53.1% vs 37.8% no-vig implied (DEN -184 / PHX +154 FD) = +15.3pp, clearing the 6% home-side bar. Market makes Denver a 4.5-pt favorite; model flips it. Suns already beat Golden State 131-122 at home; Nuggets have split their first four and are still searching for consistency. Paper-only."
+    },
+    {
+      "rank": 3,
+      "sport": "NBA",
+      "matchup": "IND @ MIA",
+      "pick": "Miami Heat ML",
+      "line": null,
+      "odds": -300,
+      "conf": 74,
+      "edge": 12.3,
+      "staked": false,
+      "qualified": true,
+      "reason": "numberFire 84.4% vs 72.1% no-vig implied (MIA -300 / IND +245 FD) = +12.3pp, clearing the 6% home-side bar. Caution flagged: Heat are 1-4 and 0-3 at home and winless as favorites this season \u2014 but Indiana is missing Halliburton, McConnell and Zubac, and Miami's offense finally clicked in the 129-117 win over Atlanta. Paper-only."
+    },
+    {
+      "rank": 4,
+      "sport": "NBA",
+      "matchup": "DET @ BKN",
+      "pick": "Detroit Pistons ML",
+      "line": null,
+      "odds": -295,
+      "conf": 72,
+      "edge": 9.9,
+      "staked": false,
+      "qualified": true,
+      "reason": "numberFire 81.7% vs 71.7% no-vig implied (DET -295 / BKN +240 FD) = +9.9pp. 4-1 Detroit has yet to allow more than 113 points and is 4-1 ATS; 0-4 Brooklyn's near-miss vs Boston flatters a winless side. Duren ruled out for Detroit tempers it, not enough to erase a ~10pp gap. Paper-only."
+    },
+    {
+      "rank": 5,
+      "sport": "NBA",
+      "matchup": "HOU @ DAL",
+      "pick": "Houston Rockets ML",
+      "line": null,
+      "odds": -215,
+      "conf": 65,
+      "edge": 9.6,
+      "staked": false,
+      "qualified": true,
+      "reason": "numberFire 75.3% vs 65.6% no-vig implied (HOU -215 / DAL +180 FD) = +9.6pp. Last unbeaten team in the league (5-0, 114+ in every game) already beat Dallas 128-110 this season; Mavericks 3-2 and alternating results. Paper-only."
+    },
+    {
+      "rank": 6,
+      "sport": "NHL",
+      "matchup": "NJ @ VGK",
+      "pick": "Vegas Golden Knights ML",
+      "line": null,
+      "odds": -113,
+      "conf": 60,
+      "edge": 8.8,
+      "staked": false,
+      "qualified": true,
+      "reason": "Ensemble fair 59.6% (numberFire 60.6% + dratings 58.5%) vs 50.8% no-vig implied (VGK -113 / NJ -106 FD) = +8.8pp, clearing the 6% home-side bar. Both models above market. 9-4-1 Vegas at home vs 8-5 New Jersey off a 5-2 loss in Colorado. Paper-only."
+    },
+    {
+      "rank": 7,
+      "sport": "CFB",
+      "matchup": "TULN @ CLT",
+      "pick": "Tulane Green Wave ML",
+      "line": null,
+      "odds": -345,
+      "conf": 73,
+      "edge": 8.6,
+      "staked": false,
+      "qualified": true,
+      "reason": "Ensemble fair 83.0% (SP+ 82%, luck-adjusted 89%, AccuScore 78%) vs 74.4% no-vig implied (TULN -345 / CLT +275 DK) = +8.6pp. SP+ projects Tulane -14.7 vs a -8.5 market line; Charlotte is 1-6, last in the American in total defense (465.1 ypg, 40.6 ppg allowed), and lost the last two meetings 61-3 combined. Paper-only."
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "tickets": {
     "w": 36,
-    "l": 66
+    "l": 67
   },
   "legs": {
-    "w": 124,
-    "l": 133,
-    "n": 257,
-    "pct": 48.2
+    "w": 136,
+    "l": 139,
+    "n": 275,
+    "pct": 49.5
   },
   "equity": [
     {
@@ -130,14 +130,18 @@
     {
       "date": "2026-10-31",
       "units": -62.02
+    },
+    {
+      "date": "2026-11-01",
+      "units": -63.02
     }
   ],
   "by_sport": [
     {
       "k": "NHL",
-      "n": 70,
-      "w": 36,
-      "pct": 51.4
+      "n": 75,
+      "w": 40,
+      "pct": 53.3
     },
     {
       "k": "NFL",
@@ -146,22 +150,22 @@
       "pct": 61.0
     },
     {
+      "k": "CFB",
+      "n": 50,
+      "w": 25,
+      "pct": 50.0
+    },
+    {
       "k": "MLB",
       "n": 50,
       "w": 20,
       "pct": 40.0
     },
     {
-      "k": "CFB",
-      "n": 40,
-      "w": 18,
-      "pct": 45.0
-    },
-    {
       "k": "NBA",
-      "n": 16,
-      "w": 6,
-      "pct": 37.5
+      "n": 19,
+      "w": 7,
+      "pct": 36.8
     },
     {
       "k": "WNBA",
@@ -179,9 +183,9 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 117,
-      "w": 59,
-      "pct": 50.4
+      "n": 135,
+      "w": 71,
+      "pct": 52.6
     },
     {
       "k": "spread",
@@ -199,9 +203,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 141,
-      "w": 70,
-      "pct": 49.6
+      "n": 159,
+      "w": 82,
+      "pct": 51.6
     },
     {
       "k": "model-value (total)",
@@ -465,252 +469,70 @@
     },
     {
       "bucket": "50-59",
-      "n": 166,
-      "stated": 54.8,
-      "actual": 47.6
+      "n": 175,
+      "stated": 54.9,
+      "actual": 49.1
     },
     {
       "bucket": "<50",
-      "n": 53,
-      "stated": 46.7,
-      "actual": 60.4
+      "n": 62,
+      "stated": 46.8,
+      "actual": 59.7
     }
   ],
-  "latest_date": "2026-10-31",
+  "latest_date": "2026-11-01",
   "card": [
     {
       "rank": 1,
-      "sport": "NBA",
-      "matchup": "OKC @ HOU",
-      "pick": "Oklahoma City Thunder ML",
+      "sport": "NFL",
+      "matchup": "MIN @ DET",
+      "pick": "Minnesota Vikings ML",
       "line": null,
-      "odds": 146,
-      "conf": 54,
-      "edge": 15.8,
-      "staked": false,
+      "odds": 165,
+      "conf": 44,
+      "edge": 7.2,
+      "staked": true,
       "qualified": true,
-      "reason": "Two models agree the dog is over 50%: numberFire 54.9%, DRatings 52.7% vs 39.0% no-vig implied (FD -174/+146; DK +136 cross-check still clears at +12-14pp). Rest favors OKC (2 days off vs HOU on a B2B after losing 116-111 at DAL). FLAG: OKC missing Holmgren, J. Williams, Wallace, Caruso \u2014 model-vs-injuries disagreement, not a clean edge. Paper-only."
+      "reason": "Ensemble fair 44.5% (DRatings 44.1% + FPI 44.8%) vs 37.2% no-vig implied = +7.2pp, clears the 4% NFL bar. 6-0 Vikings get 3.5 vs a Lions defense allowing a league-high 391 yds/game; Kyler Murray confirmed starter, Detroit weakest vs TEs/QBs. FLAG: NY Post/SportsJaw side Detroit/under; Vikings offense ranks 29th. STAKED (NFL-only rule)."
     },
     {
       "rank": 2,
-      "sport": "CFB",
-      "matchup": "WSU @ SDSU",
-      "pick": "San Diego State ML",
+      "sport": "NHL",
+      "matchup": "UTA @ PHI",
+      "pick": "Utah Mammoth ML",
       "line": null,
-      "odds": -132,
+      "odds": -162,
       "conf": 59,
-      "edge": 14.6,
+      "edge": 9.5,
       "staked": false,
       "qualified": true,
-      "reason": "SP+ 69% vs 54.4% no-vig; SP+ has SDSU -8 vs a -2.5 market line \u2014 the day's biggest spread gap among competitive games. Caution: SDSU 0-2 ATS as a 2.5+ favorite this year. Paper-only."
+      "reason": "Rudebets model 68.8% vs 59.3% no-vig implied = +9.5pp, clears the 6% non-NFL bar. 9-5 Utah vs 3-8-4 Philadelphia, losers of 3 straight allowing 4+ each; Hockeynomist also backs Mammoth ML. FLAG: single-model leg (no numberFire found), VegasOdds lists Flyers +138 as value. Paper-only."
     },
     {
       "rank": 3,
       "sport": "NHL",
-      "matchup": "CHI @ BOS",
-      "pick": "Boston Bruins ML",
+      "matchup": "EDM @ NYR",
+      "pick": "New York Rangers ML",
       "line": null,
-      "odds": -220,
-      "conf": 70,
-      "edge": 14.0,
+      "odds": -126,
+      "conf": 52,
+      "edge": 8.5,
       "staked": false,
       "qualified": true,
-      "reason": "numberFire 79.8% vs 65.8% no-vig; 9-4-1 Atlantic leaders, 4 straight home wins, Swayman +7.0 GSAx vs 4-9-0 Chicago, losers of 5 straight road games. Steep -220 juice, but the edge is stated and clears the 6% home bar. Paper-only."
+      "reason": "numberFire 61.8% vs 53.3% no-vig implied = +8.5pp, clears the 6% home-side bar. FLAG: Rangers have allowed 18 goals in their last 3 and won 1 of 6; Hockeynomist/VegasOdds lean Oilers +105. Paper-only."
     },
     {
       "rank": 4,
-      "sport": "CFB",
-      "matchup": "CSU @ USU",
-      "pick": "Colorado State ML",
-      "line": null,
-      "odds": 190,
-      "conf": 46,
-      "edge": 12.9,
-      "staked": false,
-      "qualified": true,
-      "reason": "SP+ nearly a pick'em (Utah State -1.7) but the market lays -7.5; multiple previews also pick CSU +6.5. SP+ 46% vs 33.1% no-vig. Paper-only."
-    },
-    {
-      "rank": 5,
-      "sport": "CFB",
-      "matchup": "ORST @ FRES",
-      "pick": "Fresno State ML",
-      "line": null,
-      "odds": 185,
-      "conf": 46,
-      "edge": 12.4,
-      "staked": false,
-      "qualified": true,
-      "reason": "SP+ says Oregon State -1.5, market -6; home dog far more respected by the model. Caution: Oregon State has covered all 7 games this season; light rain chance in Fresno. Paper-only."
-    },
-    {
-      "rank": 6,
-      "sport": "NBA",
-      "matchup": "SAC @ MEM",
-      "pick": "Sacramento Kings ML",
-      "line": null,
-      "odds": 370,
-      "conf": 32,
-      "edge": 11.2,
-      "staked": false,
-      "qualified": true,
-      "reason": "numberFire 31.6% vs 20.5% no-vig \u2014 market overprices the 5-0 vs 0-5 narrative. DRatings' 42.6% (+22.2pp) judged implausible for a 0-5 road dog getting 10.5-11.5 and NOT used; the +11.2pp numberFire figure is the defensible edge. Paper-only."
-    },
-    {
-      "rank": 7,
-      "sport": "CFB",
-      "matchup": "UAB @ USF",
-      "pick": "South Florida ML",
-      "line": null,
-      "odds": -310,
-      "conf": 73,
-      "edge": 10.4,
-      "staked": false,
-      "qualified": true,
-      "reason": "SP+ 83% vs 72.6% no-vig; SP+ USF -15.1 vs market -7.5, a 7.6-pt gap. USF 5-2 vs UAB 4-3. Paper-only."
-    },
-    {
-      "rank": 8,
-      "sport": "CFB",
-      "matchup": "ILL @ MD",
-      "pick": "Illinois ML",
-      "line": null,
-      "odds": -135,
-      "conf": 55,
-      "edge": 9.9,
-      "staked": false,
-      "qualified": true,
-      "reason": "SP+ 65% vs 55.1% no-vig; SP+ Illinois -6.3 vs market -2.5. Illinois 4-3 vs Maryland 2-5. Paper-only."
-    },
-    {
-      "rank": 9,
-      "sport": "CFB",
-      "matchup": "WISC @ IOWA",
-      "pick": "Iowa ML",
-      "line": null,
-      "odds": -135,
-      "conf": 55,
-      "edge": 9.9,
-      "staked": false,
-      "qualified": true,
-      "reason": "SP+ 65% vs 55.1% no-vig; SP+ Iowa -6.2 vs market -2.5 despite the line steaming toward Wisconsin all week (opened Iowa -3.5). Total just 36.5 \u2014 rock fight. Paper-only."
-    },
-    {
-      "rank": 10,
-      "sport": "CFB",
-      "matchup": "APP @ GASO",
-      "pick": "Appalachian State ML",
-      "line": null,
-      "odds": 180,
-      "conf": 44,
-      "edge": 9.8,
-      "staked": false,
-      "qualified": true,
-      "reason": "SP+ Georgia Southern -2.6 vs market -5.5; App State 5-2 vs GS 3-4, App QB Max Johnson probable on the availability report. Paper-only."
-    },
-    {
-      "rank": 11,
-      "sport": "CFB",
-      "matchup": "UVA @ WAKE",
-      "pick": "Virginia ML",
-      "line": null,
-      "odds": 390,
-      "conf": 29,
-      "edge": 9.4,
-      "staked": false,
-      "qualified": true,
-      "reason": "SP+ Wake -8.9 vs market -12.5 \u2014 fade of a hot favorite; model says the price overstates Wake by ~3.6 points. Wake 6-1 and off a bye, so this is a price fade, not a form fade. Paper-only."
-    },
-    {
-      "rank": 12,
       "sport": "NHL",
-      "matchup": "OTT @ SJS",
-      "pick": "Ottawa Senators ML",
+      "matchup": "MIN @ WSH",
+      "pick": "Minnesota Wild ML",
       "line": null,
-      "odds": -134,
-      "conf": 54,
-      "edge": 9.0,
+      "odds": -110,
+      "conf": 57,
+      "edge": 7.3,
       "staked": false,
       "qualified": true,
-      "reason": "numberFire 63.8% vs 54.8% no-vig; model still favors OTT's scoring (Stutzle 8G/19 pts). FLAG: Ullmark out on IR, SJS won the first meeting 6-2, OTT has lost 2 straight conceding 10 \u2014 most exposed to goalie-news staleness. Paper-only."
-    },
-    {
-      "rank": 13,
-      "sport": "NHL",
-      "matchup": "BUF @ LAK",
-      "pick": "Buffalo Sabres ML",
-      "line": null,
-      "odds": -122,
-      "conf": 52,
-      "edge": 8.6,
-      "staked": false,
-      "qualified": true,
-      "reason": "Two models agree (~61-62%): numberFire 61.2% (edge +8.6pp vs 52.6% no-vig) corroborated by ScoresAndStats' own 62.1% model, against a near-coin-flip price. Paper-only."
-    },
-    {
-      "rank": 14,
-      "sport": "NHL",
-      "matchup": "TBL @ NSH",
-      "pick": "Tampa Bay Lightning ML",
-      "line": null,
-      "odds": -166,
-      "conf": 58,
-      "edge": 8.3,
-      "staked": false,
-      "qualified": true,
-      "reason": "numberFire 68.1% vs 59.8% no-vig; 8-3-1 Tampa vs 4-4-5 Nashville, Vasilevskiy vs Saros, form gap drives the model well clear of the price. Paper-only."
-    },
-    {
-      "rank": 15,
-      "sport": "NHL",
-      "matchup": "PIT @ MTL",
-      "pick": "Montreal Canadiens ML",
-      "line": null,
-      "odds": -150,
-      "conf": 55,
-      "edge": 7.4,
-      "staked": false,
-      "qualified": true,
-      "reason": "numberFire 64.8% vs 57.5% no-vig; MTL 8-3-2 on a 4-game win streak (all on the road, capped by 5-2 at Dallas), Caufield team-leading 8 goals, vs 5-6-2 PIT off an OT loss to Utah \u2014 despite Suzuki/Demidov being out. Clears the 6% home bar. Paper-only."
-    },
-    {
-      "rank": 16,
-      "sport": "NBA",
-      "matchup": "PHI @ CHA",
-      "pick": "Philadelphia 76ers ML",
-      "line": null,
-      "odds": -120,
-      "conf": 59,
-      "edge": 6.9,
-      "staked": false,
-      "qualified": true,
-      "reason": "DRatings 59.3% vs 52.4% no-vig; 5-1 road favorite vs 3-3 Charlotte missing White/Williams/Knueppel, both on a B2B. FLAG: numberFire on the same page lists CHA 68.4% \u2014 contradicts the spread (PHI -1.5), the moneyline, the records, and DRatings, so treated as a stale/label error, not a second candidate. Paper-only."
-    },
-    {
-      "rank": 17,
-      "sport": "CFB",
-      "matchup": "CLEM @ FSU",
-      "pick": "Clemson ML",
-      "line": null,
-      "odds": 180,
-      "conf": 41,
-      "edge": 6.8,
-      "staked": false,
-      "qualified": true,
-      "reason": "SP+ FSU -3.6 vs market -6; Clemson's offense is dreadful (one TD in each of last two ACC games) but FSU's defense ranks near the bottom of FBS in yards allowed and FSU is down two RBs (Kromah, Singleton Jr.). Barely clears the bar. Paper-only."
-    },
-    {
-      "rank": 18,
-      "sport": "CFB",
-      "matchup": "SCAR @ OKLA",
-      "pick": "South Carolina ML",
-      "line": null,
-      "odds": 142,
-      "conf": 46,
-      "edge": 6.4,
-      "staked": false,
-      "qualified": true,
-      "reason": "SP+ Oklahoma -1.8 vs market -3.5 \u2014 a near pick'em priced like a solid favorite. Barely clears the bar. FLAG: conflicting spread reports (-3.5 vs -5) \u2014 the +142 ML aligns with -3.5; re-check live price. Oklahoma entered with a -7 turnover margin (cluster-luck regression angle). Paper-only."
+      "reason": "Ensemble fair 57.3% (numberFire 53.1% + rudebets 61.5%) vs 50.0% no-vig implied = +7.3pp, clears the 6% non-NFL bar. 9-3-3 Wild vs 8-4 Capitals; PickDawgz also backs Minnesota. FLAG: Bleacher Nation picks Washington 4-3. Paper-only."
     }
   ]
 }

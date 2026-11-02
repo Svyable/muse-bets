@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "tickets": {
     "w": 36,
-    "l": 67
+    "l": 68
   },
   "legs": {
-    "w": 136,
-    "l": 139,
-    "n": 275,
-    "pct": 49.5
+    "w": 137,
+    "l": 142,
+    "n": 279,
+    "pct": 49.1
   },
   "equity": [
     {
@@ -134,20 +134,24 @@
     {
       "date": "2026-11-01",
       "units": -63.02
+    },
+    {
+      "date": "2026-11-02",
+      "units": -64.02
     }
   ],
   "by_sport": [
     {
       "k": "NHL",
-      "n": 75,
-      "w": 40,
-      "pct": 53.3
+      "n": 78,
+      "w": 41,
+      "pct": 52.6
     },
     {
       "k": "NFL",
-      "n": 59,
+      "n": 60,
       "w": 36,
-      "pct": 61.0
+      "pct": 60.0
     },
     {
       "k": "CFB",
@@ -183,9 +187,9 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 135,
-      "w": 71,
-      "pct": 52.6
+      "n": 139,
+      "w": 72,
+      "pct": 51.8
     },
     {
       "k": "spread",
@@ -203,9 +207,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 159,
-      "w": 82,
-      "pct": 51.6
+      "n": 163,
+      "w": 83,
+      "pct": 50.9
     },
     {
       "k": "model-value (total)",
@@ -469,70 +473,109 @@
     },
     {
       "bucket": "50-59",
-      "n": 175,
+      "n": 178,
       "stated": 54.9,
-      "actual": 49.1
+      "actual": 48.9
     },
     {
       "bucket": "<50",
-      "n": 62,
+      "n": 63,
       "stated": 46.8,
-      "actual": 59.7
+      "actual": 58.7
     }
   ],
-  "latest_date": "2026-11-01",
+  "latest_date": "2026-11-02",
   "card": [
     {
       "rank": 1,
       "sport": "NFL",
-      "matchup": "MIN @ DET",
-      "pick": "Minnesota Vikings ML",
+      "matchup": "CHI @ SEA",
+      "pick": "Seattle Seahawks ML",
       "line": null,
-      "odds": 165,
-      "conf": 44,
-      "edge": 7.2,
+      "odds": -175,
+      "conf": 59,
+      "edge": 8.1,
       "staked": true,
       "qualified": true,
-      "reason": "Ensemble fair 44.5% (DRatings 44.1% + FPI 44.8%) vs 37.2% no-vig implied = +7.2pp, clears the 4% NFL bar. 6-0 Vikings get 3.5 vs a Lions defense allowing a league-high 391 yds/game; Kyler Murray confirmed starter, Detroit weakest vs TEs/QBs. FLAG: NY Post/SportsJaw side Detroit/under; Vikings offense ranks 29th. STAKED (NFL-only rule)."
+      "reason": "Agatha 69% vs 60.9% no-vig implied = +8.1pp, clears the 4% NFL bar AND the 6% home-side bar. Defending champs, NFL No.1 defense (233.9 yds/gm), 5-2 Bears off two Williams shootouts but 2-3-2 ATS Seattle at home vs a run-first Chicago attack. FLAG: single-model leg (Polymarket 62% SEA sits near market). STAKED (NFL-only rule; CLV gate clear: yesterday's staked MIN ML close backfilled, +165 vs +153 close = beat)."
     },
     {
       "rank": 2,
-      "sport": "NHL",
-      "matchup": "UTA @ PHI",
-      "pick": "Utah Mammoth ML",
+      "sport": "NBA",
+      "matchup": "WAS @ ORL",
+      "pick": "Orlando Magic ML",
       "line": null,
-      "odds": -162,
-      "conf": 59,
-      "edge": 9.5,
+      "odds": -142,
+      "conf": 63,
+      "edge": 17.0,
       "staked": false,
       "qualified": true,
-      "reason": "Rudebets model 68.8% vs 59.3% no-vig implied = +9.5pp, clears the 6% non-NFL bar. 9-5 Utah vs 3-8-4 Philadelphia, losers of 3 straight allowing 4+ each; Hockeynomist also backs Mammoth ML. FLAG: single-model leg (no numberFire found), VegasOdds lists Flyers +138 as value. Paper-only."
+      "reason": "numberFire 73.3% vs 56.3% no-vig implied = +17.0pp, clears the 6% non-NFL and 6% home-side bars. Line movement agrees (Magic -120 to -144). FLAG: single-model leg; 73% is rich for a -2.5 favorite. Paper-only."
     },
     {
       "rank": 3,
-      "sport": "NHL",
-      "matchup": "EDM @ NYR",
-      "pick": "New York Rangers ML",
+      "sport": "NBA",
+      "matchup": "LAC @ TOR",
+      "pick": "Los Angeles Clippers ML",
       "line": null,
-      "odds": -126,
-      "conf": 52,
-      "edge": 8.5,
+      "odds": 158,
+      "conf": 54,
+      "edge": 16.7,
       "staked": false,
       "qualified": true,
-      "reason": "numberFire 61.8% vs 53.3% no-vig implied = +8.5pp, clears the 6% home-side bar. FLAG: Rangers have allowed 18 goals in their last 3 and won 1 of 6; Hockeynomist/VegasOdds lean Oilers +105. Paper-only."
+      "reason": "numberFire 54.0% for the road dog vs 37.3% no-vig implied = +16.7pp, clears the 6% non-NFL bar. Market prices Toronto -5.5, model says coin-flip-or-better for LAC. FLAG: single-model leg, no second model found; Polymarket sits near market (65% TOR). Paper-only."
     },
     {
       "rank": 4,
-      "sport": "NHL",
-      "matchup": "MIN @ WSH",
-      "pick": "Minnesota Wild ML",
+      "sport": "NBA",
+      "matchup": "PHX @ GSW",
+      "pick": "Phoenix Suns ML",
       "line": null,
-      "odds": -110,
-      "conf": 57,
-      "edge": 7.3,
+      "odds": 152,
+      "conf": 53,
+      "edge": 14.7,
       "staked": false,
       "qualified": true,
-      "reason": "Ensemble fair 57.3% (numberFire 53.1% + rudebets 61.5%) vs 50.0% no-vig implied = +7.3pp, clears the 6% non-NFL bar. 9-3-3 Wild vs 8-4 Capitals; PickDawgz also backs Minnesota. FLAG: Bleacher Nation picks Washington 4-3. Paper-only."
+      "reason": "numberFire 52.8% vs 38.2% no-vig implied = +14.7pp, clears the 6% non-NFL bar; Covers analyst also prices Phoenix ~49% (vs Polymarket 40%). Warriors on a 4-game win streak but 3-3 overall; Suns catching +152 as a live dog. FLAG: model/market split is the edge itself. Paper-only."
+    },
+    {
+      "rank": 5,
+      "sport": "NBA",
+      "matchup": "OKC @ CLE",
+      "pick": "Oklahoma City Thunder ML",
+      "line": null,
+      "odds": 152,
+      "conf": 50,
+      "edge": 12.3,
+      "staked": false,
+      "qualified": true,
+      "reason": "numberFire 50.5% vs 38.2% no-vig implied = +12.3pp, clears the 6% non-NFL bar. Model calls a coin flip where the market prices Cleveland -180 (4-2 vs 4-2, both). FLAG: single-model leg; Polymarket (62% CLE) sits with the market, so this is a pure model-vs-market play. Paper-only."
+    },
+    {
+      "rank": 6,
+      "sport": "NBA",
+      "matchup": "POR @ DEN",
+      "pick": "Denver Nuggets ML",
+      "line": null,
+      "odds": -164,
+      "conf": 59,
+      "edge": 9.3,
+      "staked": false,
+      "qualified": true,
+      "reason": "numberFire 69.0% vs 59.7% no-vig implied = +9.3pp, clears the 6% non-NFL and 6% home-side bars. Nuggets -4.5 at home vs a Blazers side on the second leg of travel. FLAG: single-model leg. Paper-only."
+    },
+    {
+      "rank": 7,
+      "sport": "NHL",
+      "matchup": "VGK @ BOS",
+      "pick": "Boston Bruins ML",
+      "line": null,
+      "odds": 100,
+      "conf": 56,
+      "edge": 7.8,
+      "staked": false,
+      "qualified": true,
+      "reason": "Ensemble fair 55.6% (numberFire 57.9% + flyingmitts 53.3%) vs 47.8% no-vig implied = +7.8pp, clears the 6% non-NFL and 6% home-side bars. Bruins 10-4-1, 6-1-0 at home; VGK off a 5-2 loss at New Jersey. FLAG: flyingmitts' own sim predicts a 2-1 VGK win despite its 53.3% BOS prob. Paper-only."
     }
   ]
 }

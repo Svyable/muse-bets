@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "tickets": {
     "w": 36,
-    "l": 68
+    "l": 69
   },
   "legs": {
-    "w": 137,
-    "l": 142,
-    "n": 279,
-    "pct": 49.1
+    "w": 139,
+    "l": 147,
+    "n": 286,
+    "pct": 48.6
   },
   "equity": [
     {
@@ -138,20 +138,24 @@
     {
       "date": "2026-11-02",
       "units": -64.02
+    },
+    {
+      "date": "2026-11-03",
+      "units": -65.02
     }
   ],
   "by_sport": [
     {
       "k": "NHL",
-      "n": 78,
-      "w": 41,
-      "pct": 52.6
+      "n": 79,
+      "w": 42,
+      "pct": 53.2
     },
     {
       "k": "NFL",
-      "n": 60,
+      "n": 61,
       "w": 36,
-      "pct": 60.0
+      "pct": 59.0
     },
     {
       "k": "CFB",
@@ -167,9 +171,9 @@
     },
     {
       "k": "NBA",
-      "n": 19,
-      "w": 7,
-      "pct": 36.8
+      "n": 24,
+      "w": 8,
+      "pct": 33.3
     },
     {
       "k": "WNBA",
@@ -187,9 +191,9 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 139,
-      "w": 72,
-      "pct": 51.8
+      "n": 146,
+      "w": 74,
+      "pct": 50.7
     },
     {
       "k": "spread",
@@ -207,9 +211,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 163,
-      "w": 83,
-      "pct": 50.9
+      "n": 170,
+      "w": 85,
+      "pct": 50.0
     },
     {
       "k": "model-value (total)",
@@ -467,15 +471,15 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 38,
+      "n": 39,
       "stated": 63.7,
-      "actual": 34.2
+      "actual": 33.3
     },
     {
       "bucket": "50-59",
-      "n": 178,
+      "n": 184,
       "stated": 54.9,
-      "actual": 48.9
+      "actual": 48.4
     },
     {
       "bucket": "<50",
@@ -484,98 +488,59 @@
       "actual": 58.7
     }
   ],
-  "latest_date": "2026-11-02",
+  "latest_date": "2026-11-03",
   "card": [
     {
       "rank": 1,
-      "sport": "NFL",
-      "matchup": "CHI @ SEA",
-      "pick": "Seattle Seahawks ML",
+      "sport": "NHL",
+      "matchup": "STL @ NYR",
+      "pick": "St. Louis Blues ML",
       "line": null,
-      "odds": -175,
-      "conf": 59,
-      "edge": 8.1,
-      "staked": true,
+      "odds": -102,
+      "conf": 59.6,
+      "edge": 11.3,
+      "staked": false,
       "qualified": true,
-      "reason": "Agatha 69% vs 60.9% no-vig implied = +8.1pp, clears the 4% NFL bar AND the 6% home-side bar. Defending champs, NFL No.1 defense (233.9 yds/gm), 5-2 Bears off two Williams shootouts but 2-3-2 ATS Seattle at home vs a run-first Chicago attack. FLAG: single-model leg (Polymarket 62% SEA sits near market). STAKED (NFL-only rule; CLV gate clear: yesterday's staked MIN ML close backfilled, +165 vs +153 close = beat)."
+      "reason": "flyingmitts 59.6% vs 48.3% no-vig implied = +11.3pp, clears 6% bar; game-adjusted xGF edge 3.34-3.06 supports. FLAG: flyingmitts' own sim score predicts NYR 4-3 and Bleacher Nation picks NYR \u2014 single-model leg. Paper-only."
     },
     {
       "rank": 2,
-      "sport": "NBA",
-      "matchup": "WAS @ ORL",
-      "pick": "Orlando Magic ML",
+      "sport": "NHL",
+      "matchup": "MIN @ PHI",
+      "pick": "Philadelphia Flyers ML",
       "line": null,
-      "odds": -142,
-      "conf": 63,
-      "edge": 17.0,
+      "odds": 140,
+      "conf": 48.7,
+      "edge": 8.9,
       "staked": false,
       "qualified": true,
-      "reason": "numberFire 73.3% vs 56.3% no-vig implied = +17.0pp, clears the 6% non-NFL and 6% home-side bars. Line movement agrees (Magic -120 to -144). FLAG: single-model leg; 73% is rich for a -2.5 favorite. Paper-only."
+      "reason": "flyingmitts PHI win prob 48.7% (100-51.3 MIN) vs 39.8% no-vig implied = +8.9pp, clears 6% home bar; game-adjusted xGF leans PHI 3.47-2.85 and sim projects PHI 6-1 \u2014 three flyingmitts signals agree. FLAG: single-model; Bleacher Nation picks MIN 3-2 and the 10-3-3 vs 4-8-4 record gap argues the other way. Paper-only."
     },
     {
       "rank": 3,
-      "sport": "NBA",
-      "matchup": "LAC @ TOR",
-      "pick": "Los Angeles Clippers ML",
+      "sport": "NHL",
+      "matchup": "DAL @ WAS",
+      "pick": "Dallas Stars ML",
       "line": null,
-      "odds": 158,
-      "conf": 54,
-      "edge": 16.7,
+      "odds": -108,
+      "conf": 58.8,
+      "edge": 8.8,
       "staked": false,
       "qualified": true,
-      "reason": "numberFire 54.0% for the road dog vs 37.3% no-vig implied = +16.7pp, clears the 6% non-NFL bar. Market prices Toronto -5.5, model says coin-flip-or-better for LAC. FLAG: single-model leg, no second model found; Polymarket sits near market (65% TOR). Paper-only."
+      "reason": "flyingmitts 58.8% vs 50.0% no-vig implied = +8.8pp, clears 6% bar; sim projects DAL 4-0, xGF edge 3.25-2.69. FLAG: single-model; Bleacher Nation score pick is WAS 3-2. Paper-only."
     },
     {
       "rank": 4,
-      "sport": "NBA",
-      "matchup": "PHX @ GSW",
-      "pick": "Phoenix Suns ML",
-      "line": null,
-      "odds": 152,
-      "conf": 53,
-      "edge": 14.7,
-      "staked": false,
-      "qualified": true,
-      "reason": "numberFire 52.8% vs 38.2% no-vig implied = +14.7pp, clears the 6% non-NFL bar; Covers analyst also prices Phoenix ~49% (vs Polymarket 40%). Warriors on a 4-game win streak but 3-3 overall; Suns catching +152 as a live dog. FLAG: model/market split is the edge itself. Paper-only."
-    },
-    {
-      "rank": 5,
-      "sport": "NBA",
-      "matchup": "OKC @ CLE",
-      "pick": "Oklahoma City Thunder ML",
-      "line": null,
-      "odds": 152,
-      "conf": 50,
-      "edge": 12.3,
-      "staked": false,
-      "qualified": true,
-      "reason": "numberFire 50.5% vs 38.2% no-vig implied = +12.3pp, clears the 6% non-NFL bar. Model calls a coin flip where the market prices Cleveland -180 (4-2 vs 4-2, both). FLAG: single-model leg; Polymarket (62% CLE) sits with the market, so this is a pure model-vs-market play. Paper-only."
-    },
-    {
-      "rank": 6,
-      "sport": "NBA",
-      "matchup": "POR @ DEN",
-      "pick": "Denver Nuggets ML",
-      "line": null,
-      "odds": -164,
-      "conf": 59,
-      "edge": 9.3,
-      "staked": false,
-      "qualified": true,
-      "reason": "numberFire 69.0% vs 59.7% no-vig implied = +9.3pp, clears the 6% non-NFL and 6% home-side bars. Nuggets -4.5 at home vs a Blazers side on the second leg of travel. FLAG: single-model leg. Paper-only."
-    },
-    {
-      "rank": 7,
       "sport": "NHL",
-      "matchup": "VGK @ BOS",
-      "pick": "Boston Bruins ML",
+      "matchup": "UTA @ TOR",
+      "pick": "Utah Mammoth ML",
       "line": null,
-      "odds": 100,
-      "conf": 56,
-      "edge": 7.8,
+      "odds": -134,
+      "conf": 52.4,
+      "edge": 7.6,
       "staked": false,
       "qualified": true,
-      "reason": "Ensemble fair 55.6% (numberFire 57.9% + flyingmitts 53.3%) vs 47.8% no-vig implied = +7.8pp, clears the 6% non-NFL and 6% home-side bars. Bruins 10-4-1, 6-1-0 at home; VGK off a 5-2 loss at New Jersey. FLAG: flyingmitts' own sim predicts a 2-1 VGK win despite its 53.3% BOS prob. Paper-only."
+      "reason": "Ensemble 62.4% (flyingmitts 66.3 + rudebets 58.5) vs 54.8% no-vig implied = +7.6pp, clears 6% bar; both models' sims project a UTA win (4-2). FLAG: model spread 7.8pp. Paper-only."
     }
   ]
 }

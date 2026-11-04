@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "tickets": {
     "w": 36,
     "l": 69
   },
   "legs": {
-    "w": 139,
-    "l": 147,
-    "n": 286,
+    "w": 141,
+    "l": 149,
+    "n": 290,
     "pct": 48.6
   },
   "equity": [
@@ -147,9 +147,9 @@
   "by_sport": [
     {
       "k": "NHL",
-      "n": 79,
-      "w": 42,
-      "pct": 53.2
+      "n": 83,
+      "w": 44,
+      "pct": 53.0
     },
     {
       "k": "NFL",
@@ -191,8 +191,8 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 146,
-      "w": 74,
+      "n": 150,
+      "w": 76,
       "pct": 50.7
     },
     {
@@ -211,8 +211,8 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 170,
-      "w": 85,
+      "n": 174,
+      "w": 87,
       "pct": 50.0
     },
     {
@@ -477,70 +477,31 @@
     },
     {
       "bucket": "50-59",
-      "n": 184,
+      "n": 186,
       "stated": 54.9,
-      "actual": 48.4
+      "actual": 48.9
     },
     {
       "bucket": "<50",
-      "n": 63,
-      "stated": 46.8,
-      "actual": 58.7
+      "n": 65,
+      "stated": 47.0,
+      "actual": 56.9
     }
   ],
-  "latest_date": "2026-11-03",
+  "latest_date": "2026-11-04",
   "card": [
     {
       "rank": 1,
-      "sport": "NHL",
-      "matchup": "STL @ NYR",
-      "pick": "St. Louis Blues ML",
+      "sport": "NBA",
+      "matchup": "MIN @ HOU",
+      "pick": "Minnesota Timberwolves ML",
       "line": null,
-      "odds": -102,
-      "conf": 59.6,
-      "edge": 11.3,
+      "odds": 276,
+      "conf": 35.5,
+      "edge": 9.9,
       "staked": false,
       "qualified": true,
-      "reason": "flyingmitts 59.6% vs 48.3% no-vig implied = +11.3pp, clears 6% bar; game-adjusted xGF edge 3.34-3.06 supports. FLAG: flyingmitts' own sim score predicts NYR 4-3 and Bleacher Nation picks NYR \u2014 single-model leg. Paper-only."
-    },
-    {
-      "rank": 2,
-      "sport": "NHL",
-      "matchup": "MIN @ PHI",
-      "pick": "Philadelphia Flyers ML",
-      "line": null,
-      "odds": 140,
-      "conf": 48.7,
-      "edge": 8.9,
-      "staked": false,
-      "qualified": true,
-      "reason": "flyingmitts PHI win prob 48.7% (100-51.3 MIN) vs 39.8% no-vig implied = +8.9pp, clears 6% home bar; game-adjusted xGF leans PHI 3.47-2.85 and sim projects PHI 6-1 \u2014 three flyingmitts signals agree. FLAG: single-model; Bleacher Nation picks MIN 3-2 and the 10-3-3 vs 4-8-4 record gap argues the other way. Paper-only."
-    },
-    {
-      "rank": 3,
-      "sport": "NHL",
-      "matchup": "DAL @ WAS",
-      "pick": "Dallas Stars ML",
-      "line": null,
-      "odds": -108,
-      "conf": 58.8,
-      "edge": 8.8,
-      "staked": false,
-      "qualified": true,
-      "reason": "flyingmitts 58.8% vs 50.0% no-vig implied = +8.8pp, clears 6% bar; sim projects DAL 4-0, xGF edge 3.25-2.69. FLAG: single-model; Bleacher Nation score pick is WAS 3-2. Paper-only."
-    },
-    {
-      "rank": 4,
-      "sport": "NHL",
-      "matchup": "UTA @ TOR",
-      "pick": "Utah Mammoth ML",
-      "line": null,
-      "odds": -134,
-      "conf": 52.4,
-      "edge": 7.6,
-      "staked": false,
-      "qualified": true,
-      "reason": "Ensemble 62.4% (flyingmitts 66.3 + rudebets 58.5) vs 54.8% no-vig implied = +7.6pp, clears 6% bar; both models' sims project a UTA win (4-2). FLAG: model spread 7.8pp. Paper-only."
+      "reason": "numberFire 36.1% + DRatings 34.8% ensemble 35.5% vs 25.6% no-vig implied = +9.9pp, clears 6% bar. FLAG: Edwards out (knee surgery) + DiVincenzo out - models may already price this; Polymarket prices MIN at 28% (tempering, 8.1pp gap under the 10pp reject line); Covers takes the other side (~77% HOU). Paper-only."
     }
   ]
 }

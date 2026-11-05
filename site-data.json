@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "tickets": {
-    "w": 36,
+    "w": 37,
     "l": 69
   },
   "legs": {
-    "w": 141,
+    "w": 142,
     "l": 149,
-    "n": 290,
-    "pct": 48.6
+    "n": 291,
+    "pct": 48.8
   },
   "equity": [
     {
@@ -171,9 +171,9 @@
     },
     {
       "k": "NBA",
-      "n": 24,
-      "w": 8,
-      "pct": 33.3
+      "n": 25,
+      "w": 9,
+      "pct": 36.0
     },
     {
       "k": "WNBA",
@@ -191,9 +191,9 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 150,
-      "w": 76,
-      "pct": 50.7
+      "n": 151,
+      "w": 77,
+      "pct": 51.0
     },
     {
       "k": "spread",
@@ -211,9 +211,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 174,
-      "w": 87,
-      "pct": 50.0
+      "n": 175,
+      "w": 88,
+      "pct": 50.3
     },
     {
       "k": "model-value (total)",
@@ -483,25 +483,25 @@
     },
     {
       "bucket": "<50",
-      "n": 65,
-      "stated": 47.0,
-      "actual": 56.9
+      "n": 66,
+      "stated": 46.8,
+      "actual": 57.6
     }
   ],
-  "latest_date": "2026-11-04",
+  "latest_date": "2026-11-05",
   "card": [
     {
       "rank": 1,
-      "sport": "NBA",
-      "matchup": "MIN @ HOU",
-      "pick": "Minnesota Timberwolves ML",
-      "line": null,
-      "odds": 276,
-      "conf": 35.5,
-      "edge": 9.9,
+      "sport": "NFL",
+      "matchup": "JAX @ BAL",
+      "pick": "Baltimore Ravens +10",
+      "line": 10,
+      "odds": -110,
+      "conf": 59.1,
+      "edge": 8.9,
       "staked": false,
       "qualified": true,
-      "reason": "numberFire 36.1% + DRatings 34.8% ensemble 35.5% vs 25.6% no-vig implied = +9.9pp, clears 6% bar. FLAG: Edwards out (knee surgery) + DiVincenzo out - models may already price this; Polymarket prices MIN at 28% (tempering, 8.1pp gap under the 10pp reject line); Covers takes the other side (~77% HOU). Paper-only."
+      "reason": "SBD 24.8-18.1, Dimers 24-17, EatWatchBet 23-16 all project ~7-pt JAX margin vs 10-pt market; cover prob ~59.1% (SD 13.5) vs 50.2% no-vig implied = +8.9pp, clears 6% home bar. Overreaction read: line moved 14.5 pts off open (BAL -4.5) on QB news; Fagnano/Henry ground game + JAX short-week road spot keep it inside 10. Paper-only (home side; slice-first staking admits NFL away/totals only)."
     }
   ]
 }

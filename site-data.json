@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "tickets": {
     "w": 38,
     "l": 70
   },
   "legs": {
-    "w": 145,
-    "l": 150,
-    "n": 295,
+    "w": 146,
+    "l": 151,
+    "n": 297,
     "pct": 49.2
   },
   "equity": [
@@ -175,9 +175,9 @@
     },
     {
       "k": "NBA",
-      "n": 27,
-      "w": 11,
-      "pct": 40.7
+      "n": 29,
+      "w": 12,
+      "pct": 41.4
     },
     {
       "k": "WNBA",
@@ -195,8 +195,8 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 154,
-      "w": 80,
+      "n": 156,
+      "w": 81,
       "pct": 51.9
     },
     {
@@ -215,8 +215,8 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 179,
-      "w": 91,
+      "n": 181,
+      "w": 92,
       "pct": 50.8
     },
     {
@@ -487,38 +487,77 @@
     },
     {
       "bucket": "<50",
-      "n": 67,
+      "n": 69,
       "stated": 47.0,
-      "actual": 56.7
+      "actual": 56.5
     }
   ],
-  "latest_date": "2026-11-07",
+  "latest_date": "2026-11-08",
   "card": [
     {
       "rank": 1,
-      "sport": "NBA",
-      "matchup": "HOU @ PHX",
-      "pick": "Phoenix Suns ML",
-      "line": null,
-      "odds": 249,
-      "conf": 47.5,
-      "edge": 20.0,
+      "sport": "NFL",
+      "matchup": "LV @ SF",
+      "pick": "San Francisco 49ers -9.5",
+      "line": -9.5,
+      "odds": -115,
+      "conf": 50.4,
+      "edge": 9.3,
       "staked": false,
       "qualified": true,
-      "reason": "nF 46.4 + DRatings 48.6 (mean 47.5) vs DK no-vig 27.5% = +20.0pp; Covers/Polymarket 32-34% dissent, but edge survives a dissenting third model (+15.5pp). HOU +15.5 net rating + 8-0 H2H is the market's case; no injury driver found (HOU Adams/Capela out, PHX Williams out). PHX home on 7-game homestand, beat ORL 117-104 Thu."
+      "reason": "nF win prob 84.2% implies ~13.5-pt margin; DR proj 31.4-18.8 = 12.6 margin; mean cover prob 60.4% vs 51.1% no-vig implied = +9.3pp, clears 6% home bar. CAVEAT: SF top-3 WRs all OUT (Evans Achilles, Samuel hamstring, Kirk IR) + Aiyuk out - McCaffrey-dependent offense; edge is model-driven, not injury-adjusted. PAPER (home side, not staked slice)."
     },
     {
       "rank": 2,
-      "sport": "NBA",
-      "matchup": "NYK @ CLE",
-      "pick": "Cleveland Cavaliers ML",
-      "line": null,
-      "odds": 160,
-      "conf": 46.2,
-      "edge": 9.2,
+      "sport": "NFL",
+      "matchup": "LAR @ WAS",
+      "pick": "Under 47.5",
+      "line": 47.5,
+      "odds": -108,
+      "conf": 57.6,
+      "edge": 8.1,
       "staked": false,
       "qualified": true,
-      "reason": "nF 45.4 + DRatings 47.0 (mean 46.2) vs DK no-vig 37.0% = +9.2pp; two models agree within 1.6pp. CLE on B2B after 119-95 win over PHI last night; NYK 4-4."
+      "reason": "DR proj total 45.0 vs market 47.5 -> P(under) 57.6% vs 49.6% no-vig = +8.1pp. Market steamed 50.5->47.5 toward under, confirming direction; both teams low-scoring last week (LAR 24-9, WAS 27-10). Single totals model + SD-sensitive edge (7.5-8.6% across SD 12-14) straddling rule-2 band -> PAPER-ONLY, not staked despite NFL-total slice eligibility."
+    },
+    {
+      "rank": 3,
+      "sport": "NFL",
+      "matchup": "NYG @ PHI",
+      "pick": "New York Giants ML",
+      "line": null,
+      "odds": -162,
+      "conf": 53.9,
+      "edge": 4.5,
+      "staked": true,
+      "qualified": true,
+      "reason": "nF 63.4 + DR 64.3 (mean 63.9, split 0.9pp - tight agreement) vs DK no-vig 59.3% = +4.5pp, clears 4% away bar. PHI on backup QB Joe Milton III (first NFL start; Hurts out for season), DeVonta Smith OUT, 6-game skid, 30th in scoring (17.1 ppg); NYG off bye (13 days rest vs 7). STAKED - NFL away side, edge under the 8% band, two models agree."
+    },
+    {
+      "rank": 4,
+      "sport": "NBA",
+      "matchup": "PHI @ CHI",
+      "pick": "Chicago Bulls ML",
+      "line": null,
+      "odds": 312,
+      "conf": 33.9,
+      "edge": 10.5,
+      "staked": false,
+      "qualified": true,
+      "reason": "nF 36.0 + DR 31.7 (mean 33.9) vs DK no-vig 23.3% = +10.5pp, clears 6% home bar. Two models agree PHI should be ~-200, not -400 (PHI beat CHI 126-107 Nov 2, but Embiid probable on foot management and CHI is home). CHI 1-7 record is priced in - models say 32-36% vs market 23%. PAPER (non-NFL)."
+    },
+    {
+      "rank": 5,
+      "sport": "NHL",
+      "matchup": "FLA @ BOS",
+      "pick": "Boston Bruins ML",
+      "line": null,
+      "odds": -135,
+      "conf": 53.5,
+      "edge": 8.3,
+      "staked": false,
+      "qualified": true,
+      "reason": "TheyShoot 65.0 + DR 61.9 (mean 63.5, split 3.1pp) vs DK no-vig 55.1% = +8.3pp, clears 6% home bar. BOS 12-4-1 at home vs FLA 9-5-2; FLA missing Barkov + Marchand (IR) and Lundell OUT. PAPER (non-NFL)."
     }
   ]
 }

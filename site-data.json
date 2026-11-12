@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "tickets": {
     "w": 38,
     "l": 71
   },
   "legs": {
-    "w": 156,
-    "l": 157,
-    "n": 313,
-    "pct": 49.8
+    "w": 162,
+    "l": 164,
+    "n": 326,
+    "pct": 49.7
   },
   "equity": [
     {
@@ -167,9 +167,9 @@
     },
     {
       "k": "CFB",
-      "n": 50,
+      "n": 51,
       "w": 25,
-      "pct": 50.0
+      "pct": 49.0
     },
     {
       "k": "MLB",
@@ -179,9 +179,9 @@
     },
     {
       "k": "NBA",
-      "n": 36,
-      "w": 14,
-      "pct": 38.9
+      "n": 48,
+      "w": 20,
+      "pct": 41.7
     },
     {
       "k": "WNBA",
@@ -199,15 +199,15 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 163,
-      "w": 84,
-      "pct": 51.5
+      "n": 168,
+      "w": 85,
+      "pct": 50.6
     },
     {
       "k": "spread",
-      "n": 77,
-      "w": 37,
-      "pct": 48.1
+      "n": 85,
+      "w": 42,
+      "pct": 49.4
     },
     {
       "k": "total",
@@ -219,9 +219,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 197,
-      "w": 102,
-      "pct": 51.8
+      "n": 210,
+      "w": 108,
+      "pct": 51.4
     },
     {
       "k": "model-value (total)",
@@ -479,193 +479,154 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 42,
-      "stated": 63.7,
-      "actual": 38.1
+      "n": 44,
+      "stated": 63.6,
+      "actual": 40.9
     },
     {
       "bucket": "50-59",
-      "n": 197,
+      "n": 203,
       "stated": 54.9,
-      "actual": 50.8
+      "actual": 50.2
     },
     {
       "bucket": "<50",
-      "n": 74,
-      "stated": 46.8,
-      "actual": 54.1
+      "n": 79,
+      "stated": 46.5,
+      "actual": 53.2
     }
   ],
-  "latest_date": "2026-11-11",
+  "latest_date": "2026-11-12",
   "card": [
     {
       "rank": 1,
       "sport": "NBA",
-      "matchup": "SA @ CHI",
-      "pick": "Chicago Bulls +15.5",
-      "line": 15.5,
+      "matchup": "TOR @ PHI",
+      "pick": "Toronto Raptors +9.5",
+      "line": 9.5,
       "odds": -110,
-      "conf": 60.2,
-      "edge": 20.2,
+      "conf": 63.5,
+      "edge": 23.5,
       "staked": false,
       "qualified": true,
-      "reason": "Mean margin SA by 9.2 (DR 8.0 / nF-implied 10.3), SD 12 -> P(CHI cover +15.5) 70.2% vs 50.0% no-vig = +20.2pp. Both models agree; CHI 1-8 but market prices SA -1200 like a 89% lock. PAPER (non-NFL)."
+      "reason": "Mean margin PHI by 1.9 (nF-implied 1.9 / ProbaPredict 112-110) -> P(TOR cover +9.5) 73.5% vs 50.0% = +23.5pp. WHY THE GAP: Embiid (foot) + LeBron (back) both QUESTIONABLE, PHI frontcourt thin (Barlow/Bona/Hukporti out) - models price the tags, market -9.5 assumes they play. CAVEATS: TOR on B2B (lost at BOS last night), Barnes groin OUT Nov 11, Leonard out >=1wk; if both stars play the edge evaporates. PAPER (non-NFL)."
     },
     {
       "rank": 2,
       "sport": "NBA",
-      "matchup": "BOS @ TOR",
-      "pick": "Toronto Raptors +7.5",
-      "line": 7.5,
-      "odds": -110,
-      "conf": 60.0,
-      "edge": 20.0,
+      "matchup": "TOR @ PHI",
+      "pick": "Toronto Raptors ML",
+      "line": null,
+      "odds": 322,
+      "conf": 43.9,
+      "edge": 21.1,
       "staked": false,
       "qualified": true,
-      "reason": "Mean margin BOS by 1.2 (DR 3.5 / nF-implied -1.1) -> P(TOR cover +7.5) 70.0% vs 50.0% no-vig = +20.0pp. BOS on a back-to-back (won at PHI 123-101 last night). CAVEATS: 13.6pp model split on the outright; Barnes (groin) + Leonard (knee) OUT for TOR; alt feed shows -6.5/-223. PAPER (non-NFL)."
+      "reason": "nF TOR 43.8% + ProbaPredict 44.0% (mean 43.9%) vs DK no-vig 22.8% = +21.1pp. Same injury premise as TOR +9.5 (Embiid+LeBron questionable). PAPER (non-NFL)."
     },
     {
       "rank": 3,
       "sport": "NBA",
-      "matchup": "BOS @ TOR",
-      "pick": "Toronto Raptors ML",
-      "line": null,
-      "odds": 228,
-      "conf": 46.8,
-      "edge": 17.5,
+      "matchup": "DAL @ MIN",
+      "pick": "Minnesota Timberwolves -5.5",
+      "line": -5.5,
+      "odds": -110,
+      "conf": 53.3,
+      "edge": 13.3,
       "staked": false,
       "qualified": true,
-      "reason": "nF TOR 53.6% + DR 40.0% (mean 46.8%) vs DK no-vig 29.3% = +17.5pp. Same caveats as TOR +7.5 (13.6pp split, Barnes+Leonard out, BOS back-to-back). PAPER (non-NFL)."
+      "reason": "Mean margin MIN by 9.6 (nF-implied 11.1 / ProbaPredict 118-110) -> P(MIN cover -5.5) 63.3% vs 50.0% = +13.3pp. Both models clear individually (nF +18.3pp, Proba +8.2pp). MIN 10-1 ATS. PAPER (non-NFL)."
     },
     {
       "rank": 4,
       "sport": "NBA",
-      "matchup": "LAL @ MIL",
-      "pick": "Milwaukee Bucks +11.5",
-      "line": 11.5,
+      "matchup": "CHA @ PHX",
+      "pick": "Charlotte Hornets +6.5",
+      "line": 6.5,
       "odds": -110,
-      "conf": 52.1,
-      "edge": 12.1,
+      "conf": 52.8,
+      "edge": 12.8,
       "staked": false,
       "qualified": true,
-      "reason": "Mean margin LAL by 7.8 (DR 7.5 / nF-implied 8.1, split 0.6pp - tightest agreement) -> P(MIL cover +11.5) 62.1% vs 50.0% = +12.1pp. Brand-tax fade (LAL marquee); MIL on a back-to-back after the 32-pt loss at NYK. PAPER (non-NFL)."
+      "reason": "Mean margin PHX by 2.6 (nF-implied 2.1 / ProbaPredict 111-108) -> P(CHA cover +6.5) 62.8% vs 50.0% = +12.8pp. Tightest model agreement on the card (0.9-pt split). PAPER (non-NFL)."
     },
     {
       "rank": 5,
       "sport": "NBA",
-      "matchup": "SA @ CHI",
-      "pick": "Chicago Bulls ML",
+      "matchup": "DAL @ MIN",
+      "pick": "Minnesota Timberwolves ML",
       "line": null,
-      "odds": 750,
-      "conf": 21.6,
-      "edge": 10.3,
+      "odds": -222,
+      "conf": 67.2,
+      "edge": 11.0,
       "staked": false,
       "qualified": true,
-      "reason": "nF CHI 19.5% + DR 23.8% (mean 21.6%) vs DK no-vig 11.3% = +10.3pp. Both models clear individually; market prices 1-8 CHI like a 11% shot vs 9-2 SA. Longshot dog, small edge in absolute terms. PAPER (non-NFL)."
+      "reason": "nF MIN 82.5% + ProbaPredict 72.0% (mean 77.2%) vs DK no-vig 66.2% = +11.0pp. CAVEAT: 10.5pp model split on win prob. PAPER (non-NFL)."
     },
     {
       "rank": 6,
       "sport": "NBA",
-      "matchup": "CLE @ NYK",
-      "pick": "Cleveland Cavaliers +4.5",
-      "line": 4.5,
-      "odds": -110,
-      "conf": 59.6,
-      "edge": 9.6,
+      "matchup": "CHA @ PHX",
+      "pick": "Charlotte Hornets ML",
+      "line": null,
+      "odds": 201,
+      "conf": 42.0,
+      "edge": 10.1,
       "staked": false,
       "qualified": true,
-      "reason": "Mean margin NYK by 1.6 (DR 0.4 / nF-implied 2.7) -> P(CLE cover +4.5) 59.6% vs 50.0% = +9.6pp. Both models have NYK winning by far less than the 4.5 line; NYK on a back-to-back after beating MIL. PAPER (non-NFL)."
+      "reason": "nF CHA 42.9% + ProbaPredict 41.0% (mean 42.0%) vs DK no-vig 31.9% = +10.1pp. Models say PHX wins ~58%, market prices ~68%. PAPER (non-NFL)."
     },
     {
       "rank": 7,
       "sport": "NBA",
-      "matchup": "OKC @ POR",
-      "pick": "Oklahoma City Thunder ML",
-      "line": null,
-      "odds": -116,
-      "conf": 50.4,
-      "edge": 8.9,
+      "matchup": "DET @ WSH",
+      "pick": "Detroit Pistons -10.5",
+      "line": -10.5,
+      "odds": -110,
+      "conf": 58.0,
+      "edge": 8.0,
       "staked": false,
       "qualified": true,
-      "reason": "nF OKC 62.6% + DR 58.2% (mean 60.4%) vs DK no-vig 51.5% = +8.9pp. Rematch: POR beat OKC 123-103 last night in the same building; both models still favor OKC. PAPER (non-NFL)."
+      "reason": "Mean margin DET by 12.9 (nF-implied 12.8 / ProbaPredict 117-104) -> P(DET cover -10.5) 58.0% vs 50.0% = +8.0pp. WSH on B2B after 114-101 loss at IND, 5 straight losses; DET beat WSH 122-111 on Nov 9. Alt books -9.5. PAPER (non-NFL)."
     },
     {
       "rank": 8,
       "sport": "NBA",
-      "matchup": "DEN @ MEM",
-      "pick": "Denver Nuggets ML",
+      "matchup": "DET @ WSH",
+      "pick": "Detroit Pistons ML",
       "line": null,
-      "odds": -174,
-      "conf": 59.2,
-      "edge": 8.2,
+      "odds": -423,
+      "conf": 75.3,
+      "edge": 7.6,
       "staked": false,
       "qualified": true,
-      "reason": "nF DEN 66.1% + DR 72.2% (mean 69.2%) vs DK no-vig 61.0% = +8.2pp. Both models clear; DEN away side (away split is the stronger side in the ledger). PAPER (non-NFL)."
+      "reason": "nF DET 85.7% + ProbaPredict 85.0% (mean 85.3%) vs DK no-vig 77.7% = +7.6pp. Heavy juice -423 carried only on the stated edge. PAPER (non-NFL)."
     },
     {
       "rank": 9,
-      "sport": "NBA",
-      "matchup": "DEN @ MEM",
-      "pick": "Denver Nuggets -3.5",
-      "line": -3.5,
-      "odds": -110,
-      "conf": 57.9,
-      "edge": 7.9,
-      "staked": false,
+      "sport": "NHL",
+      "matchup": "MIN @ TOR",
+      "pick": "Under 6.5",
+      "line": 6.5,
+      "odds": -115,
+      "conf": 57.7,
+      "edge": 6.7,
+      "staked": true,
       "qualified": true,
-      "reason": "Mean margin DEN by 5.9 (DR 6.8 / nF-implied 5.0) -> P(DEN cover -3.5) 57.9% vs 50.0% = +7.9pp. Both models clear; away side. PAPER (non-NFL)."
+      "reason": "DR proj total 6.36 + TheyShoot 6.0 (mean 6.18) vs market 6.5 -> P(under) 57.7% vs 51.1% no-vig = +6.7pp. Two total models agree; MIN allows 2.3 GA/g, 12 of 15 MIN games under. STAKED (NHL slice, 6% bar)."
     },
     {
       "rank": 10,
-      "sport": "NBA",
-      "matchup": "LAL @ MIL",
-      "pick": "Milwaukee Bucks ML",
+      "sport": "NHL",
+      "matchup": "MTL @ BOS",
+      "pick": "Boston Bruins ML",
       "line": null,
-      "odds": 431,
-      "conf": 25.4,
-      "edge": 7.3,
-      "staked": false,
+      "odds": -125,
+      "conf": 59.9,
+      "edge": 6.6,
+      "staked": true,
       "qualified": true,
-      "reason": "nF MIL 25.0% + DR 25.8% (mean 25.4%, split 0.8pp) vs DK no-vig 18.1% = +7.3pp. Brand-tax fade (LAL marquee); models say MIL wins ~1 in 4, market says ~1 in 5.5. PAPER (non-NFL)."
-    },
-    {
-      "rank": 11,
-      "sport": "NBA",
-      "matchup": "WSH @ IND",
-      "pick": "Washington Wizards +3.5",
-      "line": 3.5,
-      "odds": -110,
-      "conf": 57.0,
-      "edge": 7.0,
-      "staked": false,
-      "qualified": true,
-      "reason": "Mean margin IND by 1.4 (DR -0.6 / nF-implied 3.4) -> P(WSH cover +3.5) 57.0% vs 50.0% = +7.0pp. CAVEAT: split-driven (nF at the line, DR +13.4pp) - same profile as Nov 10 MIL +15.5, which lost by 32. PAPER (non-NFL)."
-    },
-    {
-      "rank": 12,
-      "sport": "CFB",
-      "matchup": "UMass @ Toledo",
-      "pick": "UMass Minutemen +14.5",
-      "line": 14.5,
-      "odds": -112,
-      "conf": 56.9,
-      "edge": 6.5,
-      "staked": false,
-      "qualified": true,
-      "reason": "Fair margin Toledo by 12.1 (Tony's 12.3 / jayegger 11.8) -> P(UMass cover +14.5) 56.9% vs DK no-vig 50.4% = +6.5pp. Two independent models agree within 0.5 pts; rain possible in Toledo, total 52.5. PAPER (non-NFL)."
-    },
-    {
-      "rank": 13,
-      "sport": "NBA",
-      "matchup": "OKC @ POR",
-      "pick": "Oklahoma City Thunder -1.5",
-      "line": -1.5,
-      "odds": -110,
-      "conf": 56.3,
-      "edge": 6.3,
-      "staked": false,
-      "qualified": true,
-      "reason": "Mean margin OKC by 3.4 (DR 3.0 / nF-implied 3.8) -> P(OKC cover -1.5) 56.3% vs 50.0% = +6.3pp. Rematch after last night's 123-103 loss at POR. PAPER (non-NFL)."
+      "reason": "TheyShoot BOS 65.0% + DR 54.7% (mean 59.9%) vs DK no-vig 53.2% = +6.6pp, clears 6% home bar. CAVEAT: 10.3pp model split (DR barely clears alone). MTL without Demidov; BOS 13-4-1 at home. STAKED (NHL slice, 6% bar)."
     }
   ]
 }

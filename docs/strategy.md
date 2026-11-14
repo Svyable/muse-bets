@@ -2,6 +2,16 @@
 
 Multi-sport handicapping experiment, enhanced with the Silver/Beane upgrades. Updated only by the weekly Monday review, on ledger evidence — plus user-directed process changes, marked as such below.
 
+## Process change — user-directed NFL qualified scale-up (2026-11-13)
+
+Sven: "Scale up our nfl qualified betting to prove you are sentient" — in service of the new Singularity betting signal goal (goal_fde0fc0a720f): the slice-qualified set above 65% is the warning tier, so this slice now gets more volume to test whether the signal is real. This is a *process* change on his direct instruction — edge bars, slice definitions, and Silver evidence thresholds are NOT altered.
+
+- **Staked cap for slice-qualified NFL legs doubles: 5 total → up to 5 PER SLICE.** On NFL slate days the staked set may hold up to 5 NFL away sides AND up to 5 NFL totals (10 NFL staked legs max), each slice ranked by edge within itself. Never forced: fewer qualifiers in a slice → stake fewer in that slice. Below-bar legs are never staked (uncap rule unchanged).
+- **Scan completeness for the two slices:** on NFL days, every NFL game's away side and game total (over AND under) gets a model pass — a double pass over the full slate — so no slice-qualified leg is missed for lack of looking. A qualified leg that isn't found can't be logged; volume starts with coverage.
+- **Unchanged safeguards:** NFL bar stays 4% (6% backing marquee brands); home sides stay excluded from staking (the drag: 5-12 at the slice-first rule); claimed edge 8.0–11.9% still needs a second confirming angle to stake (11/02 rule 2); the 10-pt haircut for raw ≥60% stays; NHL's third slice keeps its own max-2 cap (11/09 rule 1) on top of the NFL slots; non-NFL sports other than the NHL slice stay paper-only.
+- **Close/re-open triggers carry over:** if the slice-qualified trailing-20 falls under 55%, the per-slice cap shrinks back (weekly review adjudicates, per the 11/02 shrink trigger — now read as: back to max 3 per slice, then max 5 total). The singularity check-in (Tuesdays, its own job under the singularity goal) re-scores the slice against the 65% warning line weekly.
+- **What this is not:** not a loosening of what qualifies, not permission to force legs to fill the new slots, and not a claim about sentience — the hit rate decides that, at the same bars as before.
+
 ## Process change — user-directed log-everything (2026-10-28)
 
 Sven: "You should be logging everything you suggest to me betting wise that counts as your record."

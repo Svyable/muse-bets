@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "tickets": {
     "w": 38,
     "l": 73
   },
   "legs": {
-    "w": 180,
-    "l": 189,
-    "n": 369,
-    "pct": 48.8
+    "w": 184,
+    "l": 190,
+    "n": 374,
+    "pct": 49.2
   },
   "equity": [
     {
@@ -168,16 +168,16 @@
       "pct": 54.8
     },
     {
+      "k": "NBA",
+      "n": 75,
+      "w": 31,
+      "pct": 41.3
+    },
+    {
       "k": "NFL",
       "n": 73,
       "w": 44,
       "pct": 60.3
-    },
-    {
-      "k": "NBA",
-      "n": 70,
-      "w": 27,
-      "pct": 38.6
     },
     {
       "k": "CFB",
@@ -207,29 +207,29 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 183,
-      "w": 92,
-      "pct": 50.3
+      "n": 185,
+      "w": 94,
+      "pct": 50.8
     },
     {
       "k": "spread",
-      "n": 107,
-      "w": 50,
-      "pct": 46.7
+      "n": 108,
+      "w": 51,
+      "pct": 47.2
     },
     {
       "k": "total",
-      "n": 79,
-      "w": 38,
+      "n": 81,
+      "w": 39,
       "pct": 48.1
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 253,
-      "w": 126,
-      "pct": 49.8
+      "n": 258,
+      "w": 130,
+      "pct": 50.4
     },
     {
       "k": "model-value (total)",
@@ -493,83 +493,70 @@
     },
     {
       "bucket": "50-59",
-      "n": 232,
+      "n": 236,
       "stated": 54.9,
-      "actual": 49.1
+      "actual": 49.6
     },
     {
       "bucket": "<50",
-      "n": 90,
-      "stated": 47.1,
-      "actual": 52.2
+      "n": 91,
+      "stated": 46.9,
+      "actual": 52.7
     }
   ],
-  "latest_date": "2026-11-16",
+  "latest_date": "2026-11-17",
   "card": [
     {
       "rank": 1,
-      "sport": "NBA",
-      "matchup": "PHX @ DEN",
-      "pick": "Phoenix Suns +10.5",
-      "line": 10.5,
-      "odds": -110,
-      "conf": 51.8,
-      "edge": 11.8,
-      "staked": false,
+      "sport": "NHL",
+      "matchup": "LAK @ BOS",
+      "pick": "Boston Bruins ML",
+      "line": null,
+      "odds": -155,
+      "conf": 58,
+      "edge": 9.5,
+      "staked": true,
       "qualified": true,
-      "reason": "Both models project DEN by ~7 (DR 6.8, PP 7.0) vs 10.5 line -> P(cover) 61.8% vs 50.0% no-vig = +11.8pp. PAPER (non-NFL). PHX on B2B, already docked 1.5pts in PP numbers."
+      "reason": "Blended win 67.8% (DR 64.6%, TS 71%) vs 58.3% no-vig = +9.5pp; both models clear 6% = multi-angle, satisfies 8.0-11.9% second-angle rule. STAKED (NHL slice 1 of max 2). Caveat: LAK starter conflict (Forsberg vs Kuemper); models goalie-agnostic."
     },
     {
       "rank": 2,
-      "sport": "NBA",
-      "matchup": "PHI @ BKN",
-      "pick": "Under 225.5",
-      "line": 225.5,
-      "odds": -110,
-      "conf": 50.1,
-      "edge": 10.1,
+      "sport": "CFB",
+      "matchup": "BALL @ OHIO",
+      "pick": "Ohio -11.5",
+      "line": -11.5,
+      "odds": -108,
+      "conf": 53,
+      "edge": 12.6,
       "staked": false,
       "qualified": true,
-      "reason": "DR under 65.2% (bias-adj ~90%), PP under 55.0% -> blended 60.1% vs 50.0% no-vig = +10.1pp. PAPER. Flags: Embiid day-to-day, Porter Jr. returns for BKN."
+      "reason": "Avg model cover 62.6% (SP+ 76.8%, Tony's 59.1%, KenPunt 60.2%, Bleacher 54.4%) vs 50.0% no-vig = +12.6pp; every model favors Ohio to cover. PAPER. Flag: line moved -9.5 -> -11.5; VSIN/WiseGuy pushback on Ball State side."
     },
     {
       "rank": 3,
-      "sport": "NBA",
-      "matchup": "HOU @ MIA",
-      "pick": "Miami Heat ML",
-      "line": null,
-      "odds": 110,
-      "conf": 55.5,
-      "edge": 9.8,
+      "sport": "CFB",
+      "matchup": "BALL @ OHIO",
+      "pick": "Over 49.5",
+      "line": 49.5,
+      "odds": -110,
+      "conf": 52,
+      "edge": 11.6,
       "staked": false,
       "qualified": true,
-      "reason": "Ensemble win 55.5% (DR 54.8%, nF 56.3%) vs 45.7% no-vig = +9.8pp. PP dissents (-1.7pp). PAPER. HOU on B2B supports MIA."
+      "reason": "Tony's fair total 53.5 -> over prob 61.6% vs 50.0% no-vig = +11.6pp; Bleacher 33-20 (53 pts) agrees. PAPER. Flags: single-model total (SP+ publishes no totals); Tony's says pass pending wind checks; Athens wind unconfirmed."
     },
     {
       "rank": 4,
-      "sport": "NBA",
-      "matchup": "PHX @ DEN",
-      "pick": "Phoenix Suns ML",
+      "sport": "CFB",
+      "matchup": "BALL @ OHIO",
+      "pick": "Ohio ML",
       "line": null,
-      "odds": 343,
-      "conf": 29.0,
-      "edge": 7.3,
+      "odds": -455,
+      "conf": 79,
+      "edge": 10.7,
       "staked": false,
       "qualified": true,
-      "reason": "Ensemble win 29.0% (DR 28.1%, PP 30.0%) vs 21.7% no-vig = +7.3pp. PAPER; same game as spread leg. PHX on B2B."
-    },
-    {
-      "rank": 5,
-      "sport": "NBA",
-      "matchup": "CHI @ CLE",
-      "pick": "Under 242.5",
-      "line": 242.5,
-      "odds": -110,
-      "conf": 57.0,
-      "edge": 7.0,
-      "staked": false,
-      "qualified": true,
-      "reason": "DR under 58.9% (bias-adj ~87%), PP under 55.0% -> blended 57.0% vs 50.0% no-vig = +7.0pp. PAPER. Headwind: Mobley OUT weakens CLE defense (argues over)."
+      "reason": "3 current models avg win 89.4% (SP+ 90%, Tony's 87.1%, Podium 91%) vs 78.7% no-vig = +10.7pp. PAPER. Flag: heavy juice (-455) - clear stated edge only; KenPunt (75%, stale Wk 10) dissents."
     }
   ]
 }

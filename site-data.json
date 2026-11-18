@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "tickets": {
     "w": 38,
     "l": 73
   },
   "legs": {
-    "w": 184,
-    "l": 190,
-    "n": 374,
+    "w": 186,
+    "l": 192,
+    "n": 378,
     "pct": 49.2
   },
   "equity": [
@@ -163,9 +163,9 @@
   "by_sport": [
     {
       "k": "NHL",
-      "n": 93,
+      "n": 94,
       "w": 51,
-      "pct": 54.8
+      "pct": 54.3
     },
     {
       "k": "NBA",
@@ -181,9 +181,9 @@
     },
     {
       "k": "CFB",
-      "n": 61,
-      "w": 30,
-      "pct": 49.2
+      "n": 64,
+      "w": 32,
+      "pct": 50.0
     },
     {
       "k": "MLB",
@@ -207,28 +207,28 @@
   "by_market": [
     {
       "k": "moneyline",
-      "n": 185,
-      "w": 94,
+      "n": 187,
+      "w": 95,
       "pct": 50.8
     },
     {
       "k": "spread",
-      "n": 108,
+      "n": 109,
       "w": 51,
-      "pct": 47.2
+      "pct": 46.8
     },
     {
       "k": "total",
-      "n": 81,
-      "w": 39,
-      "pct": 48.1
+      "n": 82,
+      "w": 40,
+      "pct": 48.8
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 258,
-      "w": 130,
+      "n": 262,
+      "w": 132,
       "pct": 50.4
     },
     {
@@ -493,70 +493,31 @@
     },
     {
       "bucket": "50-59",
-      "n": 236,
+      "n": 239,
       "stated": 54.9,
-      "actual": 49.6
+      "actual": 49.4
     },
     {
       "bucket": "<50",
-      "n": 91,
-      "stated": 46.9,
-      "actual": 52.7
+      "n": 92,
+      "stated": 47.3,
+      "actual": 53.3
     }
   ],
-  "latest_date": "2026-11-17",
+  "latest_date": "2026-11-18",
   "card": [
     {
       "rank": 1,
-      "sport": "NHL",
-      "matchup": "LAK @ BOS",
-      "pick": "Boston Bruins ML",
-      "line": null,
-      "odds": -155,
-      "conf": 58,
-      "edge": 9.5,
-      "staked": true,
-      "qualified": true,
-      "reason": "Blended win 67.8% (DR 64.6%, TS 71%) vs 58.3% no-vig = +9.5pp; both models clear 6% = multi-angle, satisfies 8.0-11.9% second-angle rule. STAKED (NHL slice 1 of max 2). Caveat: LAK starter conflict (Forsberg vs Kuemper); models goalie-agnostic."
-    },
-    {
-      "rank": 2,
       "sport": "CFB",
-      "matchup": "BALL @ OHIO",
-      "pick": "Ohio -11.5",
-      "line": -11.5,
-      "odds": -108,
-      "conf": 53,
-      "edge": 12.6,
+      "matchup": "AKR @ MASS",
+      "pick": "UMass -3",
+      "line": -3,
+      "odds": -118,
+      "conf": 55,
+      "edge": 13.3,
       "staked": false,
       "qualified": true,
-      "reason": "Avg model cover 62.6% (SP+ 76.8%, Tony's 59.1%, KenPunt 60.2%, Bleacher 54.4%) vs 50.0% no-vig = +12.6pp; every model favors Ohio to cover. PAPER. Flag: line moved -9.5 -> -11.5; VSIN/WiseGuy pushback on Ball State side."
-    },
-    {
-      "rank": 3,
-      "sport": "CFB",
-      "matchup": "BALL @ OHIO",
-      "pick": "Over 49.5",
-      "line": 49.5,
-      "odds": -110,
-      "conf": 52,
-      "edge": 11.6,
-      "staked": false,
-      "qualified": true,
-      "reason": "Tony's fair total 53.5 -> over prob 61.6% vs 50.0% no-vig = +11.6pp; Bleacher 33-20 (53 pts) agrees. PAPER. Flags: single-model total (SP+ publishes no totals); Tony's says pass pending wind checks; Athens wind unconfirmed."
-    },
-    {
-      "rank": 4,
-      "sport": "CFB",
-      "matchup": "BALL @ OHIO",
-      "pick": "Ohio ML",
-      "line": null,
-      "odds": -455,
-      "conf": 79,
-      "edge": 10.7,
-      "staked": false,
-      "qualified": true,
-      "reason": "3 current models avg win 89.4% (SP+ 90%, Tony's 87.1%, Podium 91%) vs 78.7% no-vig = +10.7pp. PAPER. Flag: heavy juice (-455) - clear stated edge only; KenPunt (75%, stale Wk 10) dissents."
+      "reason": "Blended cover ~65% (KenPunt margin 7 -> ~62%, Bleacher 30-18 margin 12 -> ~72%, Makinen -11.4 -> ~72%) vs 51.7% no-vig = +13.3pp; every model favors UMass to cover, VSIN picks UMass -3. PAPER (CFB paper-only). Flags: KenPunt stale through Wk 10; UMass starting QB + leading receiver injury concerns (VSIN); line moved -3.5 -> -3 (Akron resistance)."
     }
   ]
 }

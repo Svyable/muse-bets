@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "tickets": {
     "w": 38,
-    "l": 73
+    "l": 74
   },
   "legs": {
     "w": 186,
-    "l": 192,
-    "n": 378,
-    "pct": 49.2
+    "l": 193,
+    "n": 379,
+    "pct": 49.1
   },
   "equity": [
     {
@@ -158,6 +158,10 @@
     {
       "date": "2026-11-14",
       "units": -69.02
+    },
+    {
+      "date": "2026-11-18",
+      "units": -70.02
     }
   ],
   "by_sport": [
@@ -181,9 +185,9 @@
     },
     {
       "k": "CFB",
-      "n": 64,
+      "n": 65,
       "w": 32,
-      "pct": 50.0
+      "pct": 49.2
     },
     {
       "k": "MLB",
@@ -213,9 +217,9 @@
     },
     {
       "k": "spread",
-      "n": 109,
+      "n": 110,
       "w": 51,
-      "pct": 46.8
+      "pct": 46.4
     },
     {
       "k": "total",
@@ -227,9 +231,9 @@
   "by_approach": [
     {
       "k": "model-value",
-      "n": 262,
+      "n": 263,
       "w": 132,
-      "pct": 50.4
+      "pct": 50.2
     },
     {
       "k": "model-value (total)",
@@ -493,9 +497,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 239,
+      "n": 240,
       "stated": 54.9,
-      "actual": 49.4
+      "actual": 49.2
     },
     {
       "bucket": "<50",
@@ -504,20 +508,46 @@
       "actual": 53.3
     }
   ],
-  "latest_date": "2026-11-18",
+  "latest_date": "2026-11-19",
   "card": [
     {
       "rank": 1,
-      "sport": "CFB",
-      "matchup": "AKR @ MASS",
-      "pick": "UMass -3",
-      "line": -3,
-      "odds": -118,
-      "conf": 55,
-      "edge": 13.3,
-      "staked": false,
+      "sport": "NFL",
+      "matchup": "IND @ HOU",
+      "pick": "Colts +12.5",
+      "line": 12.5,
+      "odds": -112,
+      "conf": 54,
+      "edge": 13.1,
+      "staked": true,
       "qualified": true,
-      "reason": "Blended cover ~65% (KenPunt margin 7 -> ~62%, Bleacher 30-18 margin 12 -> ~72%, Makinen -11.4 -> ~72%) vs 51.7% no-vig = +13.3pp; every model favors UMass to cover, VSIN picks UMass -3. PAPER (CFB paper-only). Flags: KenPunt stale through Wk 10; UMass starting QB + leading receiver injury concerns (VSIN); line moved -3.5 -> -3 (Akron resistance)."
+      "reason": "Fair spread ~-8 (Tony's -7, NoPunt -7.2, ESPN 74.7% HOU win -> ~-8.3) vs market -12.5; cover prob ~63.5% vs 50.4% no-vig = +13.1pp. Second angles: two spread models agree; 7-pt swing off one 1.7-QBR Jones game is overreaction; HOU 0-4 at home; Colts won first meeting 19-17. STAKED (NFL away slice 1/5). Flags: both IND starting tackles OUT (Raimann concussion, Travis knee), Ward OUT, Gardner questionable; Jones NFL-worst 12 INT; HOU pass rush (Anderson 10.5 sacks) vs backup tackles is the blowout path."
+    },
+    {
+      "rank": 2,
+      "sport": "NHL",
+      "matchup": "ANA @ COL",
+      "pick": "Over 6.5",
+      "line": 6.5,
+      "odds": -122,
+      "conf": 52,
+      "edge": 9.0,
+      "staked": true,
+      "qualified": true,
+      "reason": "Model totals 7.09 (DR) / 7.8 (TS) -> blended lambda 7.45, P(over 6.5) ~61.6% vs 52.6% no-vig = +9.0pp. Second angles: both total models >7.0; HockeyOra modal 4-3; COL top home offense vs leaky ANA. STAKED (NHL slice 1/2). Flag: models goalie-agnostic; DR/TS total gap 0.7 goals."
+    },
+    {
+      "rank": 3,
+      "sport": "NHL",
+      "matchup": "MTL @ CAR",
+      "pick": "Under 6.5",
+      "line": 6.5,
+      "odds": 102,
+      "conf": 56,
+      "edge": 8.4,
+      "staked": true,
+      "qualified": true,
+      "reason": "Model totals 6.27 (DR) / 6.3 (TS) agree within 0.03 -> P(under 6.5) ~55.8% vs 47.4% no-vig = +8.4pp. Second angles: two total models agree; HockeyOra modal 3-2; CAR 16-3-2 elite defense at home. STAKED (NHL slice 2/2). Flag: MTL 12-5-4 offense can spike; models goalie-agnostic."
     }
   ]
 }

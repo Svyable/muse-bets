@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "tickets": {
     "w": 38,
     "l": 74
   },
   "legs": {
-    "w": 186,
-    "l": 193,
-    "n": 379,
-    "pct": 49.1
+    "w": 187,
+    "l": 195,
+    "n": 382,
+    "pct": 49.0
   },
   "equity": [
     {
@@ -167,9 +167,9 @@
   "by_sport": [
     {
       "k": "NHL",
-      "n": 94,
-      "w": 51,
-      "pct": 54.3
+      "n": 96,
+      "w": 52,
+      "pct": 54.2
     },
     {
       "k": "NBA",
@@ -179,9 +179,9 @@
     },
     {
       "k": "NFL",
-      "n": 73,
+      "n": 74,
       "w": 44,
-      "pct": 60.3
+      "pct": 59.5
     },
     {
       "k": "CFB",
@@ -217,23 +217,23 @@
     },
     {
       "k": "spread",
-      "n": 110,
+      "n": 111,
       "w": 51,
-      "pct": 46.4
+      "pct": 45.9
     },
     {
       "k": "total",
-      "n": 82,
-      "w": 40,
+      "n": 84,
+      "w": 41,
       "pct": 48.8
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 263,
-      "w": 132,
-      "pct": 50.2
+      "n": 266,
+      "w": 133,
+      "pct": 50.0
     },
     {
       "k": "model-value (total)",
@@ -497,9 +497,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 240,
+      "n": 243,
       "stated": 54.9,
-      "actual": 49.2
+      "actual": 49.0
     },
     {
       "bucket": "<50",
@@ -508,46 +508,59 @@
       "actual": 53.3
     }
   ],
-  "latest_date": "2026-11-19",
+  "latest_date": "2026-11-20",
   "card": [
     {
       "rank": 1,
-      "sport": "NFL",
-      "matchup": "IND @ HOU",
-      "pick": "Colts +12.5",
-      "line": 12.5,
-      "odds": -112,
-      "conf": 54,
-      "edge": 13.1,
-      "staked": true,
+      "sport": "CFB",
+      "matchup": "CLEM @ DUKE",
+      "pick": "Under 41.5",
+      "line": 41.5,
+      "odds": -118,
+      "conf": 53,
+      "edge": 11.3,
+      "staked": false,
       "qualified": true,
-      "reason": "Fair spread ~-8 (Tony's -7, NoPunt -7.2, ESPN 74.7% HOU win -> ~-8.3) vs market -12.5; cover prob ~63.5% vs 50.4% no-vig = +13.1pp. Second angles: two spread models agree; 7-pt swing off one 1.7-QBR Jones game is overreaction; HOU 0-4 at home; Colts won first meeting 19-17. STAKED (NFL away slice 1/5). Flags: both IND starting tackles OUT (Raimann concussion, Travis knee), Ward OUT, Gardner questionable; Jones NFL-worst 12 INT; HOU pass rush (Anderson 10.5 sacks) vs backup tackles is the blowout path."
+      "reason": "Fair total 38 (writer-projection median 33 shrunk toward market 41.5; SP+ 46 is stale - it does not reflect Clemson down to 3rd-string QB Trent Pearman, first career start). P(under 41.5) ~63.1% vs 51.7% no-vig = +11.3pp. Clemson offense SP+ 110th (worst in Power Four), scored 6 vs Georgia Tech; Duke defense 31st. Total already moved 44.5->41.5 on the QB news but projections still cluster 27-34. PAPER (CFB paper-only). Flags: 51F, calm wind - no weather help; Duke could run up the score vs a walk-on QB (short fields)."
     },
     {
       "rank": 2,
-      "sport": "NHL",
-      "matchup": "ANA @ COL",
-      "pick": "Over 6.5",
-      "line": 6.5,
-      "odds": -122,
+      "sport": "CFB",
+      "matchup": "ISU @ UCF",
+      "pick": "Over 47.5",
+      "line": 47.5,
+      "odds": -115,
       "conf": 52,
-      "edge": 9.0,
-      "staked": true,
+      "edge": 10.5,
+      "staked": false,
       "qualified": true,
-      "reason": "Model totals 7.09 (DR) / 7.8 (TS) -> blended lambda 7.45, P(over 6.5) ~61.6% vs 52.6% no-vig = +9.0pp. Second angles: both total models >7.0; HockeyOra modal 4-3; COL top home offense vs leaky ANA. STAKED (NHL slice 1/2). Flag: models goalie-agnostic; DR/TS total gap 0.7 goals."
+      "reason": "Fair total 50.75 (6 projections median 54 - USA Today 52, Bleacher 56, iHeart 56, getarbs 60, Lineups 48, SpookyExpress 51 - shrunk toward market 47.5 for rain + ~10mph wind). P(over 47.5) ~61.6% vs 51.1% no-vig = +10.5pp. Both offenses ~30 ppg vs defenses allowing ~26-27; UCF 4-2 O/U at home averaging ~60 ppg in Orlando. PAPER (CFB paper-only). Flags: total crashed 54.5->47.5 (7 pts) on weather/sharp under money - the move itself is the counter-case; if rain suppresses >4.5 pts this loses its edge."
     },
     {
       "rank": 3,
-      "sport": "NHL",
-      "matchup": "MTL @ CAR",
-      "pick": "Under 6.5",
-      "line": 6.5,
-      "odds": 102,
-      "conf": 56,
-      "edge": 8.4,
-      "staked": true,
+      "sport": "CFB",
+      "matchup": "UTEP @ AF",
+      "pick": "Air Force -21.5",
+      "line": -21.5,
+      "odds": -108,
+      "conf": 59,
+      "edge": 9.2,
+      "staked": false,
       "qualified": true,
-      "reason": "Model totals 6.27 (DR) / 6.3 (TS) agree within 0.03 -> P(under 6.5) ~55.8% vs 47.4% no-vig = +8.4pp. Second angles: two total models agree; HockeyOra modal 3-2; CAR 16-3-2 elite defense at home. STAKED (NHL slice 2/2). Flag: MTL 12-5-4 offense can spike; models goalie-agnostic."
+      "reason": "Fair margin 24.5 (model median 27.5 - Bleacher 28, CFB News 27, WiseGuy 28, Bet Better 21 - shrunk toward market 21.5). P(AF covers -21.5) ~58.8% vs 49.6% no-vig = +9.2pp. Second angles: UTEP 1-9 with interim coach (Walden dismissed Nov 16), AF 8-2 at altitude at home. PAPER (CFB paper-only). Flags: Bet Better sim is the dissenter (21-pt margin, leans UTEP +22.5); service-academy big numbers can backdoor."
+    },
+    {
+      "rank": 4,
+      "sport": "CFB",
+      "matchup": "BGSU @ TOL",
+      "pick": "Over 47.5",
+      "line": 47.5,
+      "odds": -110,
+      "conf": 58,
+      "edge": 7.5,
+      "staked": false,
+      "qualified": true,
+      "reason": "Fair total 49.75 (4 projections median 52 - Bet Better 54, CFB News 50, WiseGuy 48, AccuScore 56.25 - shrunk toward market 47.5). P(over 47.5) ~58.1% vs 50.6% no-vig = +7.5pp. Toledo scores 34.3 ppg; BGSU leaks big plays (20+ yds on 8.1% of snaps vs 6.5% avg). PAPER (CFB paper-only). Flags: AccuScore/Bet Better sims run hot on totals - the two writer projections (48, 50) are closer to market; edge is the thinnest on the card."
     }
   ]
 }

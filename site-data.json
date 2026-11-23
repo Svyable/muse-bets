@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "tickets": {
     "w": 38,
     "l": 74
   },
   "legs": {
-    "w": 199,
-    "l": 209,
-    "n": 408,
-    "pct": 48.8
+    "w": 201,
+    "l": 215,
+    "n": 416,
+    "pct": 48.3
   },
   "equity": [
     {
@@ -167,9 +167,9 @@
   "by_sport": [
     {
       "k": "NHL",
-      "n": 99,
+      "n": 100,
       "w": 54,
-      "pct": 54.5
+      "pct": 54.0
     },
     {
       "k": "CFB",
@@ -178,16 +178,16 @@
       "pct": 47.7
     },
     {
+      "k": "NFL",
+      "n": 81,
+      "w": 46,
+      "pct": 56.8
+    },
+    {
       "k": "NBA",
       "n": 75,
       "w": 31,
       "pct": 41.3
-    },
-    {
-      "k": "NFL",
-      "n": 74,
-      "w": 44,
-      "pct": 59.5
     },
     {
       "k": "MLB",
@@ -217,23 +217,23 @@
     },
     {
       "k": "spread",
-      "n": 116,
+      "n": 117,
       "w": 54,
-      "pct": 46.6
+      "pct": 46.2
     },
     {
       "k": "total",
-      "n": 102,
-      "w": 48,
-      "pct": 47.1
+      "n": 109,
+      "w": 50,
+      "pct": 45.9
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 292,
+      "n": 294,
       "w": 145,
-      "pct": 49.7
+      "pct": 49.3
     },
     {
       "k": "model-value (total)",
@@ -278,6 +278,12 @@
       "pct": 33.3
     },
     {
+      "k": "model-value + situational (multi-angle)",
+      "n": 4,
+      "w": 1,
+      "pct": 25.0
+    },
+    {
       "k": "fpi-chalk",
       "n": 3,
       "w": 0,
@@ -315,6 +321,12 @@
     },
     {
       "k": "mild-value",
+      "n": 2,
+      "w": 1,
+      "pct": 50.0
+    },
+    {
+      "k": "model-value + situational",
       "n": 2,
       "w": 1,
       "pct": 50.0
@@ -491,15 +503,15 @@
   "calibration": [
     {
       "bucket": "60-69",
-      "n": 49,
-      "stated": 63.6,
-      "actual": 42.9
+      "n": 50,
+      "stated": 63.5,
+      "actual": 42.0
     },
     {
       "bucket": "50-59",
-      "n": 267,
+      "n": 274,
       "stated": 55.0,
-      "actual": 48.3
+      "actual": 47.8
     },
     {
       "bucket": "<50",
@@ -508,111 +520,20 @@
       "actual": 53.3
     }
   ],
-  "latest_date": "2026-11-22",
+  "latest_date": "2026-11-23",
   "card": [
     {
       "rank": 1,
       "sport": "NFL",
-      "matchup": "PIT @ PHI",
-      "pick": "Steelers -3.5",
-      "line": -3.5,
-      "odds": -111,
-      "conf": 50,
-      "edge": 9.8,
-      "staked": true,
-      "qualified": true,
-      "reason": "Model PIT by ~7 (60% cover) vs 50.2% no-vig = +9.8pp. Second angle: PHI dead-last offense (260 ypg, 16.4 ppg), Joe Milton at QB (Hurts out for season), 1-8 ATS, 5 straight losses. Flag: PHI off bye (14 days rest vs PIT 6); Rodgers 52% completions L2; PIT OL missing McCormick. Marquee bar 6% cleared."
-    },
-    {
-      "rank": 2,
-      "sport": "NFL",
-      "matchup": "BAL @ CAR",
-      "pick": "Under 43.5",
-      "line": 43.5,
-      "odds": -106,
-      "conf": 58,
-      "edge": 8.8,
-      "staked": true,
-      "qualified": true,
-      "reason": "Fair total ~42 (BAL ~20 w/ Brissett, CAR ~21-22) -> P(under 43.5) 58% vs 49.2% no-vig = +8.8pp. Second angle: backup-QB game under (Lamar on IR, thumb) + both offenses bottom-half. Flag: BAL defense depleted (Madubuike/Humphrey/Hawkins out) helps the over; CAR off bye."
-    },
-    {
-      "rank": 3,
-      "sport": "NFL",
-      "matchup": "PIT @ PHI",
-      "pick": "Under 37.5",
-      "line": 37.5,
-      "odds": -111,
-      "conf": 59,
-      "edge": 8.7,
-      "staked": true,
-      "qualified": true,
-      "reason": "Fair total ~35 (PIT ~21, PHI ~14) -> P(under 37.5) 59% vs 50.3% no-vig = +8.7pp. Second angle: PHI worst offense in football (16.4 ppg) + PIT scores 1.55 pts/drive on the road vs 2.36 at home. Flag: total is very low; one defensive TD breaks it."
-    },
-    {
-      "rank": 4,
-      "sport": "NFL",
-      "matchup": "NYJ @ LAC",
-      "pick": "Under 42.5",
-      "line": 42.5,
-      "odds": -122,
-      "conf": 59,
-      "edge": 7.7,
-      "staked": true,
-      "qualified": true,
-      "reason": "Fair total ~40 (LAC ~21, NYJ ~19) -> P(under 42.5) 59% vs 51.3% no-vig = +7.7pp. Second angle: Herbert 6 TD/11 INT + NYJ run-heavy clock control; both passing games bottom-tier. Flag: total moved 41.5->42.5 (sharp money toward over); McConkey questionable."
-    },
-    {
-      "rank": 5,
-      "sport": "NFL",
-      "matchup": "TEN @ DAL",
+      "matchup": "CIN @ WAS",
       "pick": "Under 54.5",
       "line": 54.5,
-      "odds": -104,
-      "conf": 55,
-      "edge": 6.2,
+      "odds": -103,
+      "conf": 58,
+      "edge": 9.0,
       "staked": true,
       "qualified": true,
-      "reason": "Blended projection DAL 31.2-22.1 = 53.3 total -> P(under 54.5) 55% vs 48.8% no-vig = +6.2pp. Flag: DAL defense gives up 28.2 ppg and TEN's Ward is improving (535 yds, 4 TD, 1 INT L2) - the over case is live; DAL lost 6 of last 7 at home."
-    },
-    {
-      "rank": 6,
-      "sport": "NFL",
-      "matchup": "MIN @ SF",
-      "pick": "Under 46.5",
-      "line": 46.5,
-      "odds": -110,
-      "conf": 56,
-      "edge": 5.9,
-      "staked": true,
-      "qualified": true,
-      "reason": "Fair total ~45 (SF ~24.5 vs MIN #1 scoring D 14.0 ppg allowed, MIN ~20.5) -> P(under 46.5) 56% vs 50.1% no-vig = +5.9pp. Second angle: SF off a 46-pt game vs the league's worst defense - regression spot. Flag: Mexico City altitude (7,352 ft) is a known over factor; SF spent the week acclimating in Colorado Springs."
-    },
-    {
-      "rank": 7,
-      "sport": "NFL",
-      "matchup": "ARI @ KC",
-      "pick": "Under 40.5",
-      "line": 40.5,
-      "odds": -105,
-      "conf": 53,
-      "edge": 4.0,
-      "staked": false,
-      "qualified": true,
-      "reason": "Blended projection KC 28.3-11.3 = 39.6 total -> P(under 40.5) 53% vs 49.0% no-vig = +4.0pp. ARI starts Josh Johnson (Beck out, back); KC may pull starters late. PAPER: 6th in the totals slice (cap 5). Flag: edge sits exactly on the 4% bar - thinnest leg on the card."
-    },
-    {
-      "rank": 8,
-      "sport": "NHL",
-      "matchup": "CAR @ NYR",
-      "pick": "Under 6.5",
-      "line": 6.5,
-      "odds": -125,
-      "conf": 60,
-      "edge": 6.5,
-      "staked": true,
-      "qualified": true,
-      "reason": "Fair total ~5.96 (CAR 4.0 GF / 2.23 GA; NYR 3.05 GF / 2.64 GA) -> P(under 6.5) ~60% vs 53.2% no-vig = +6.5pp. Second angle: total moved 6.5->6 at several books; CAR on B2B (3rd game in 4 nights) with Ehlers out. Flag: NYR rested (6 days off, 5 straight home wins); Korpisalo hot (.940, 1.67 L3). NHL slice #1 of max 2."
+      "reason": "Fair total 52.5 (3 projections shrunk 50% to market) -> P(under 54.5) 57.5% vs 48.6% no-vig = +9.0pp. Second angles: CIN games avg 47.7 total pts, WAS games 45.2 - both far under 54.5; WAS 32nd in 3rd-down conv (33.3%) + Daniels sacked 17x/7 games = stalled drives. Flag: total moved 52.5->54.5 toward the over; Burrow MVP form (409 yds, 4 TD last week), CIN scored 31+ in 5 straight; CIN pass O #1 vs WAS pass D 31st - the over case is live."
     }
   ]
 }

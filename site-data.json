@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "tickets": {
-    "w": 38,
+    "w": 39,
     "l": 74
   },
   "legs": {
-    "w": 201,
+    "w": 202,
     "l": 215,
-    "n": 416,
-    "pct": 48.3
+    "n": 417,
+    "pct": 48.4
   },
   "equity": [
     {
@@ -173,15 +173,15 @@
     },
     {
       "k": "CFB",
-      "n": 88,
-      "w": 42,
-      "pct": 47.7
+      "n": 96,
+      "w": 44,
+      "pct": 45.8
     },
     {
       "k": "NFL",
-      "n": 81,
-      "w": 46,
-      "pct": 56.8
+      "n": 82,
+      "w": 47,
+      "pct": 57.3
     },
     {
       "k": "NBA",
@@ -200,12 +200,6 @@
       "n": 14,
       "w": 6,
       "pct": 42.9
-    },
-    {
-      "k": "NCAAF",
-      "n": 8,
-      "w": 2,
-      "pct": 25.0
     }
   ],
   "by_market": [
@@ -223,9 +217,9 @@
     },
     {
       "k": "total",
-      "n": 109,
-      "w": 50,
-      "pct": 45.9
+      "n": 110,
+      "w": 51,
+      "pct": 46.4
     }
   ],
   "by_approach": [
@@ -279,9 +273,9 @@
     },
     {
       "k": "model-value + situational (multi-angle)",
-      "n": 4,
-      "w": 1,
-      "pct": 25.0
+      "n": 5,
+      "w": 2,
+      "pct": 40.0
     },
     {
       "k": "fpi-chalk",
@@ -509,9 +503,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 274,
+      "n": 275,
       "stated": 55.0,
-      "actual": 47.8
+      "actual": 48.0
     },
     {
       "bucket": "<50",
@@ -520,20 +514,20 @@
       "actual": 53.3
     }
   ],
-  "latest_date": "2026-11-23",
+  "latest_date": "2026-11-24",
   "card": [
     {
       "rank": 1,
-      "sport": "NFL",
-      "matchup": "CIN @ WAS",
-      "pick": "Under 54.5",
-      "line": 54.5,
-      "odds": -103,
-      "conf": 58,
-      "edge": 9.0,
-      "staked": true,
+      "sport": "CFB",
+      "matchup": "MIA-OH @ WMU",
+      "pick": "Over 45.5",
+      "line": 45.5,
+      "odds": -112,
+      "conf": 57,
+      "edge": 6.8,
+      "staked": false,
       "qualified": true,
-      "reason": "Fair total 52.5 (3 projections shrunk 50% to market) -> P(under 54.5) 57.5% vs 48.6% no-vig = +9.0pp. Second angles: CIN games avg 47.7 total pts, WAS games 45.2 - both far under 54.5; WAS 32nd in 3rd-down conv (33.3%) + Daniels sacked 17x/7 games = stalled drives. Flag: total moved 52.5->54.5 toward the over; Burrow MVP form (409 yds, 4 TD last week), CIN scored 31+ in 5 straight; CIN pass O #1 vs WAS pass D 31st - the over case is live."
+      "reason": "Ensemble fair total 49.3 (CFN 27-23=50, SBW 28-24=52, CFN alt 27-20=47, ESPN1530 28-21=49, Predictium 51.6, Dimers-implied ~46.7) shrunk 50% to market -> 47.4 -> P(over 45.5) 57.2% vs 50.4% no-vig = +6.8pp, clears the 6% non-NFL bar. Flags: scores24 picks Under on H2H (36, 43 pts last two meetings); Miami D improved (3 pts allowed last game); 31F kickoff in Kalamazoo. Spread rejected: Predictium Miami +6.5 at 60% is an outlier vs the score-projection ensemble (mean margin 5.5, shrunk 6.0 -> +1.7pp, below bar)."
     }
   ]
 }

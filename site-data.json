@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "tickets": {
-    "w": 39,
+    "w": 40,
     "l": 74
   },
   "legs": {
-    "w": 202,
+    "w": 203,
     "l": 215,
-    "n": 417,
-    "pct": 48.4
+    "n": 418,
+    "pct": 48.6
   },
   "equity": [
     {
@@ -173,9 +173,9 @@
     },
     {
       "k": "CFB",
-      "n": 96,
-      "w": 44,
-      "pct": 45.8
+      "n": 97,
+      "w": 45,
+      "pct": 46.4
     },
     {
       "k": "NFL",
@@ -217,17 +217,17 @@
     },
     {
       "k": "total",
-      "n": 110,
-      "w": 51,
-      "pct": 46.4
+      "n": 111,
+      "w": 52,
+      "pct": 46.8
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 294,
-      "w": 145,
-      "pct": 49.3
+      "n": 295,
+      "w": 146,
+      "pct": 49.5
     },
     {
       "k": "model-value (total)",
@@ -503,9 +503,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 275,
+      "n": 276,
       "stated": 55.0,
-      "actual": 48.0
+      "actual": 48.2
     },
     {
       "bucket": "<50",
@@ -514,20 +514,6 @@
       "actual": 53.3
     }
   ],
-  "latest_date": "2026-11-24",
-  "card": [
-    {
-      "rank": 1,
-      "sport": "CFB",
-      "matchup": "MIA-OH @ WMU",
-      "pick": "Over 45.5",
-      "line": 45.5,
-      "odds": -112,
-      "conf": 57,
-      "edge": 6.8,
-      "staked": false,
-      "qualified": true,
-      "reason": "Ensemble fair total 49.3 (CFN 27-23=50, SBW 28-24=52, CFN alt 27-20=47, ESPN1530 28-21=49, Predictium 51.6, Dimers-implied ~46.7) shrunk 50% to market -> 47.4 -> P(over 45.5) 57.2% vs 50.4% no-vig = +6.8pp, clears the 6% non-NFL bar. Flags: scores24 picks Under on H2H (36, 43 pts last two meetings); Miami D improved (3 pts allowed last game); 31F kickoff in Kalamazoo. Spread rejected: Predictium Miami +6.5 at 60% is an outlier vs the score-projection ensemble (mean margin 5.5, shrunk 6.0 -> +1.7pp, below bar)."
-    }
-  ]
+  "latest_date": "2026-11-25",
+  "card": []
 }

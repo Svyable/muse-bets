@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "tickets": {
     "w": 40,
     "l": 74
@@ -514,6 +514,20 @@
       "actual": 53.3
     }
   ],
-  "latest_date": "2026-11-25",
-  "card": []
+  "latest_date": "2026-11-26",
+  "card": [
+    {
+      "rank": 1,
+      "sport": "NFL",
+      "matchup": "CHI @ DET",
+      "pick": "Under 55.5",
+      "line": 55.5,
+      "odds": -109,
+      "conf": 55,
+      "edge": 5.1,
+      "staked": true,
+      "qualified": true,
+      "reason": "Ensemble fair total 52.9 (Covers AI 27-24=51, ATS.io 31-28=59, Dimers 28-27=55, SBW 27-24=51, season-avg matchup 24.1-24.25=48.35 [CHI 26.2/19.7, DET 28.8/22.0 StatMuse]) shrunk 50% to market (55.5) -> 54.2 -> P(under 55.5) 55.0% vs 49.9% no-vig (DK O -110 / U -109) = +5.1pp, clears the 4% NFL bar. Totals slice (staked-eligible, 11/23 max-3 cap). Second angles: CHI games avg 45.9 total pts and DET games 50.8, both well under 55.5; CHI pass D since Simmons trade 194.7 yds/game allowed with 13 sacks. Flags: 4 of 5 projections at/below 55 (only ATS.io 59 over); sensitivity - dropping season-avg cuts edge to +3.0pp (below bar), sigma 9.5-11.5 keeps it +4.7 to +5.6pp; line flipped DET -2.5 open -> CHI -1.5 (move in price, sides show no edge: DET +1.5 +2.1pp, CHI -1.5 -2.1pp)."
+    }
+  ]
 }

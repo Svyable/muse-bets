@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "tickets": {
-    "w": 40,
+    "w": 41,
     "l": 75
   },
   "legs": {
-    "w": 203,
+    "w": 206,
     "l": 216,
-    "n": 419,
-    "pct": 48.4
+    "n": 422,
+    "pct": 48.8
   },
   "equity": [
     {
@@ -171,15 +171,15 @@
   "by_sport": [
     {
       "k": "NHL",
-      "n": 100,
-      "w": 54,
-      "pct": 54.0
+      "n": 101,
+      "w": 55,
+      "pct": 54.5
     },
     {
       "k": "CFB",
-      "n": 97,
-      "w": 45,
-      "pct": 46.4
+      "n": 99,
+      "w": 47,
+      "pct": 47.5
     },
     {
       "k": "NFL",
@@ -221,17 +221,17 @@
     },
     {
       "k": "total",
-      "n": 112,
-      "w": 52,
-      "pct": 46.4
+      "n": 115,
+      "w": 55,
+      "pct": 47.8
     }
   ],
   "by_approach": [
     {
       "k": "model-value",
-      "n": 296,
-      "w": 146,
-      "pct": 49.3
+      "n": 299,
+      "w": 149,
+      "pct": 49.8
     },
     {
       "k": "model-value (total)",
@@ -507,9 +507,9 @@
     },
     {
       "bucket": "50-59",
-      "n": 277,
+      "n": 280,
       "stated": 55.0,
-      "actual": 48.0
+      "actual": 48.6
     },
     {
       "bucket": "<50",
@@ -518,46 +518,33 @@
       "actual": 53.3
     }
   ],
-  "latest_date": "2026-11-27",
+  "latest_date": "2026-11-28",
   "card": [
     {
       "rank": 1,
       "sport": "CFB",
-      "matchup": "TEM @ MEM",
-      "pick": "Under 66.5",
-      "line": 66.5,
+      "matchup": "UAB @ UNT",
+      "pick": "Over 44.5",
+      "line": 44.5,
       "odds": -115,
-      "conf": 55,
-      "edge": 13.8,
+      "conf": 58,
+      "edge": 16.6,
       "staked": false,
       "qualified": true,
-      "reason": "Ensemble fair total 62.5 (DRatings 15.7-38.2=53.9, Dimers 22-41=63) shrunk 50% to market (66.5) -> P(under 66.5) 64.9% raw vs 51.1% no-vig (DK O -105 / U -115) = +13.8pp, clears the 6% non-NFL bar. Both models under market; DRatings ran high vs market in 8 of 11 CFB totals today, so its 53.9 here cuts against its own bias. Flags: total steamed 62.5 open -> 66.5 (move in price, fighting it); Dimers-only cut +5.5pp sits just under the bar; edge >=12% band is paper-only per 11/23 rule 4 (CFB paper-only regardless). Haircut: raw 64.9% -> logged 55."
+      "reason": "Ensemble fair total 54.2 (DRatings 23.2-35.1=58.3, Dimers 23-27=50) shrunk 50% to market (44.5) -> 49.3 -> P(over 44.5) 67.7% raw vs 51.1% no-vig (DK O -115 / U -105) = +16.6pp, clears the 6% non-NFL bar. Dimers-only cut +9.2pp clears alone; Dimers sim Over 44.5 prob 57.6% also above no-vig; Marty 22-24=46 as third check (median 50). Flags: DRatings totals ran extreme vs market across today's slate (class-bias risk on overs); edge >=12% band is paper-only per 11/23 rule 4 (CFB paper-only regardless); total moved 47.5 open -> 44.5 DK (consensus 45.5, DK is low outlier - verify live). Haircut: raw 67.7% -> logged 58."
     },
     {
       "rank": 2,
-      "sport": "CFB",
-      "matchup": "AFA @ UNM",
-      "pick": "Over 42.5",
-      "line": 42.5,
-      "odds": -105,
-      "conf": 51,
-      "edge": 11.8,
-      "staked": false,
-      "qualified": true,
-      "reason": "Ensemble fair total 45.4 (DRatings 21.9-29.5=51.4, youwager 19-26=45) shrunk 50% to market (42.5) -> P(over 42.5) 60.7% raw vs 48.9% no-vig (DK O -105 / U -115) = +11.8pp, clears the 6% non-NFL bar. Both projections over market. Flags: DRatings totals ran high vs market in 8 of 11 CFB games today (class-bias risk on overs); youwager-only cut +5.8pp sits just under the bar; Air Force triple-option pace is the under case. Paper-only (CFB). Haircut: raw 60.7% -> logged 51."
-    },
-    {
-      "rank": 3,
       "sport": "NHL",
-      "matchup": "FLA @ WSH",
+      "matchup": "WSH @ STL",
       "pick": "Under 6.5",
       "line": 6.5,
-      "odds": -105,
-      "conf": 58,
-      "edge": 8.8,
+      "odds": 124,
+      "conf": 57,
+      "edge": 14.6,
       "staked": false,
       "qualified": true,
-      "reason": "DRatings goals FLA 2.80 + WSH 3.07 = 5.87, shrunk 50% to market (6.5) -> 6.18; Poisson P(under 6.5) 57.7% vs 48.9% no-vig (DK O -115 / U -105) = +8.8pp, clears the 6% non-NFL bar. Starters Markstrom vs Thompson. Flags: single goals model (PuckDelta gives win% only: FLA 56% vs DRatings 47.4% - MLs disagree, no ML leg); editorial counter-pick (W&W 4-3) noted. Paper-only per 11/23 NHL close. No haircut (raw 57.7% < 60)."
+      "reason": "DRatings goals WSH 2.69 + STL 3.21 = 5.90, shrunk 50% to market (6.5) -> 6.20; Poisson P(under 6.5) 57.4% vs 42.8% no-vig (DK O -148 / U +124) = +14.6pp, clears the 6% non-NFL bar. Goalies Logan Thompson vs Joel Hofer (DRatings); both teams on back-to-back (WSH lost 3-2 to FLA Nov 27, STL beat DAL 5-3 Nov 27). Sensitivity: alternate DRatings vintage 6.07 goals still gives ~+12.7pp. Flags: single goals model (PuckDelta win% WSH 50/STL 50 vs DRatings 45.1/54.9 - MLs disagree, no ML leg); counter-model BleacherNation projects 7.0 goals; WSH overs 16-7 season, 8-2 last 10 - in price (Over -148 juice). Paper-only per 11/23 NHL close; edge >=12% band paper-only. No haircut (raw 57.4% < 60)."
     }
   ]
 }
